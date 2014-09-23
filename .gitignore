@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+.codekit-cache
+config.codekit
+
+/components
