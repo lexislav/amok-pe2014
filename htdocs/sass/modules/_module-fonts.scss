@@ -1,0 +1,29 @@
+@mixin fnt-avenir() {
+    font-family: "Avenir Next";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fnt-avenir-light() {
+    font-family: "Avenir Next";
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fnt-avenir-demi-bold() {
+    font-family: "Avenir Next";
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fnt-purista() {
+    font-family: "Purista";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fnt-purista-light() {
+    font-family: "Purista";
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,59 @@
+@import "../../components/foundation/scss/normalize";
+
+
+// Foundation
+
+@import "settings";
+@import "foundation";
+
+// custom components
+@import "modules/module-fonts";
+
+@import "modules/module-navigation";
+@import "modules/angle-slider";
+@import "modules/schema";
+
+@import "modules/module-home-sections";
+@import "modules/module-progress-bar";
+@import "modules/module-page-footer";
+
+
+
+.l-section {
+    //border: 1px solid red;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    @include clearfix();
+}
+
+
+
+
+
+
+.tmp-bigimage {
+    background-color: darkgray;
+    height: 600px;
+}
+
+.tmp-header {
+    height: 800px;
+    width: 100%;
+
+    @media #{$small-up} {
+        background-color: darkblue;
+    }
+    @media #{$medium-up} {
+        background-color: pink;
+    }
+    @media #{$large-up} {
+        background-color: greenyellow;
+    }
+    @media #{$xlarge-up} {
+        background-color: orange;
+    }
+    @media #{$xxlarge-up} {
+        background-color: #800080;
+    }
+
+}

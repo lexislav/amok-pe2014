@@ -1,0 +1,38 @@
+.m-section_pavilon {
+
+    .padded {
+        padding-right: 60px;
+    }
+
+    h1, h2 {
+        @include fnt-avenir-light();
+        font-size: rem-calc(36);
+    }
+
+    h2 {
+        font-size: rem-calc(24);
+        line-height: 33px;
+    }
+
+    h3 {
+        @include fnt-avenir-demi-bold();
+        font-size: rem-calc(16);
+        text-transform: uppercase;
+    }
+}
+
+
+// text section
+
+.m-section_text {
+    h2 {
+        @include fnt-purista-light();
+        font-size: rem-calc(40);
+        margin-bottom: 60px;
+    }
+
+    &.mm-dark {
+        background: #D8D8D8;
+    }
+}
+

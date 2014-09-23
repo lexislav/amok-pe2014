@@ -1,0 +1,165 @@
+@mixin AGS-PreventJaggyEdges() {
+    -webkit-backface-visibility: hidden;
+    padding: 0 0px;
+}
+
+$ags-height:860px;
+
+
+.ags-slider {
+    width: 100%;
+    height: $ags-height;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+
+    * {
+        user-select: none;
+    }
+
+    .ags-slider--bounds {
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 0;
+        height: $ags-height;
+        margin: auto;
+        //z-index: 10000;
+        //background-color: red;
+
+    }
+
+    .cover {
+
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        z-index: 3;
+
+        top: 0;
+        width: 100%;
+        height: $ags-height;
+
+        transform: scale(1);
+    }
+
+    .title-box {
+        position: absolute;
+        bottom: 90px;
+        font-size: rem-calc(40);
+        line-height: 1.2em;
+
+        span {
+            font-weight: bold;
+            display: block;
+        }
+    }
+
+    .ags-bg--content {
+        // IMPORTANT: W/H is set by JS
+        position: absolute;
+        background-image: url("/assets/sky.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+
+        .title-box {
+            right: 60px;
+            text-align: right;
+        }
+
+
+    }
+
+    .ags-front--content {
+        position: relative;
+        width: 100%;
+        height: 160%;
+        background-image: url("/assets/pavilon-theme.png");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+
+
+
+        .title-box {
+            left: 60px;
+            text-align: left;
+        }
+
+    }
+
+    .ags-bg--content,
+    .ags-front--content {
+        .overlay {
+            position: absolute;
+            top: 0;
+            background-color: #A0000B;
+            height: 100%;
+            width: 100%;
+            //opacity: 0.88;
+           // -webkit-filter: hue-rotate(240deg) saturate(3.3);
+        }
+    }
+
+
+
+    .inner {
+        //transform: skew(-20deg);
+        transform: skew(0deg);
+
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-right: 3px solid white;
+
+        @include AGS-PreventJaggyEdges();
+
+
+        .content {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            //transform: skew(20deg);
+            transform: skew(0deg);
+            @include AGS-PreventJaggyEdges();
+        }
+    }
+
+    .dragger {
+        position: absolute;
+        top: 0;
+        height: $ags-height;
+        width: 300px;
+        margin-left: -110px;
+        text-align: center;
+       // background-color: rgba(255,255,255,.04);
+
+        .drag-button {
+            position: absolute;
+            bottom: 90px;
+            margin: auto;
+            margin-left: -94px;
+        }
+    }
+
+}
+
+// ags content
+
+.infobox,
+.infobox2 {
+    @include fnt-purista-light();
+    font-size: rem-calc(90);
+    color: white;
+
+    position: relative;
+    width: 1280px;
+    height: $ags-height;
+
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 240px;
+
+    text-shadow: 0 2px 1px rgba(0,0,0,0.4);
+}
+

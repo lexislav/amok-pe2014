@@ -1,0 +1,1 @@
+$(function(){Draggable.create("#drg-progress-bar",{type:"scrollLeft",edgeResistance:.5,throwProps:!0,bounds:"#drg-progress-bar-bounds",onThrowUpdate:function(){},onDrag:function(){}})});

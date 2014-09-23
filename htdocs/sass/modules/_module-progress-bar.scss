@@ -1,0 +1,81 @@
+
+.l-section.m-progress-bar {
+    padding-bottom: 60px;
+}
+
+.m-progress-bar {
+    background: #22D3D3;
+
+
+    h2 {
+        @include fnt-purista-light();
+        font-size: rem-calc(64);
+        color: white;
+        line-height: 1em;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .m-progress-bar--container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .m-progress-bar--bar-bg {
+        height: 20px;
+        width: 2400px;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+    .m-progress-bar--bar {
+        height: 20px;
+        width: 30%;
+        background-color: #000;
+        //border: 1px solid #000;
+    }
+
+    .m-progress-bar--items {
+        position: relative;
+        display: block;
+        width: 1600px;
+        height: 217px;
+        margin: 0;
+        padding: 0;
+        li {
+            display: block;
+            position: absolute;
+            width: 120px;
+            height: 200px;
+            color: $oil;
+
+            text-align: center;
+
+            span {
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+            }
+
+            &:after {
+                display: block;
+                content: " ";
+                width: 120px;
+                height: 28px;
+                position: absolute;
+                bottom: -28px;
+                text-align: center;
+                background-image: url("/assets/triangle-empty.png");
+                background-repeat: no-repeat;
+                background-position: center top;
+            }
+
+            &.mm-full {
+                &:after {
+                    background-image: url("/assets/triangle-full.png");
+                }
+            }
+        }
+    }
+
+}

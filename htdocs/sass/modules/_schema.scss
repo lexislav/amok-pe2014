@@ -1,0 +1,56 @@
+.l-schema {
+
+    @include grid-row();
+
+    position: fixed;
+    z-index: 1;
+    //transform: scale(2);
+    transform-origin: 0 0;
+
+    //background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+
+}
+
+
+.m-schema {
+
+    .np1 { background-image: url("/assets/slider/pavilon_komplet-2n1.png")}
+    .np2 { background-image: url("/assets/slider/pavilon_komplet-2n2.png")}
+    .np3 { background-image: url("/assets/slider/pavilon_komplet-2n3.png")}
+    .np4 { background-image: url("/assets/slider/pavilon_komplet-2n4.png")}
+
+    .m-schema--image {
+
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        //background-size: contain;
+
+        border: 1px solid red;
+        position: absolute;
+        top: 100px;
+    }
+
+}
+
+.m-schema-control {
+    width: 100%;
+    height: 500px;
+}
+
+#skrollr-body {
+    position: relative;
+    z-index: 50;
+}
+.skrollr-wrap {
+    background-color: white;
+
+}

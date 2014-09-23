@@ -1,0 +1,19 @@
+.m-page-footer {
+
+    @include fnt-purista-light();
+
+
+    background: #2D2D2D;
+    color: white;
+    height: 94px;
+
+    .m-page-footer--content {
+        text-align: center;
+        font-size: rem-calc(32);
+        line-height: 94px;
+
+        strong {
+            @include fnt-purista();
+        }
+    }
+}
