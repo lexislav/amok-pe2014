@@ -7,14 +7,13 @@
     z-index: 200;
     margin: auto;
 
-    pointer-events: none;
-
     .m-nav--button {
         line-height: 80px;
         text-align: center;
         width: 80px;
         height: 80px;
         background-color: white;
+        cursor: pointer;
     }
 
     .m-nav--lang {
@@ -25,14 +24,40 @@
         top: 0;
         color: white;
 
-        text-shadow: 0 2px 1px rgba(0,0,0,.5);
+        text-shadow: 0 2px 1px rgba(0, 0, 0, .5);
 
+    }
+
+    .m-nav--menu {
+        position: fixed;
+        z-index: 210;
+
+        width: 300px;
+        height: 400px;
+        overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        & > li a {
+            @include fnt-purista-light();
+            text-align: center;
+            display: block;
+            font-size: rem-calc(30);
+            color: #000;
+
+            &:hover {
+                color: $color-koma-red;
+            }
+        }
     }
 
     .m-nav--overlay {
 
         display: none;
-
         position: fixed;
         z-index: 201;
         top: 0;
@@ -40,13 +65,10 @@
         right: 0;
         bottom: 0;
         margin: auto;
-
         background-color: #f5f5f5;
-
-        border: 5px solid red;
     }
 
-    &.mm-open {
+    &.is-opened {
         .m-nav--overlay {
             display: block;
         }

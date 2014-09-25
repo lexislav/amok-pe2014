@@ -10,6 +10,8 @@
     <title>Koma micro</title>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
     <script src="/components/snap-svg/dist/snap.svg-min.js"></script>
 
     <!-- drag support -->
@@ -22,4 +24,5 @@
     <script type="text/javascript" src="/components/skrollr/skrollr.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="components/slick/slick/slick.css"/>
 </head>

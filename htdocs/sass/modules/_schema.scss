@@ -21,29 +21,56 @@
 
 .m-schema {
 
-    .np1 { background-image: url("/assets/slider/pavilon_komplet-2n1.png")}
-    .np2 { background-image: url("/assets/slider/pavilon_komplet-2n2.png")}
-    .np3 { background-image: url("/assets/slider/pavilon_komplet-2n3.png")}
-    .np4 { background-image: url("/assets/slider/pavilon_komplet-2n4.png")}
+    .np1 { background-image: url("/assets/pavilon-sm/p0-1.png")}
+    .np2 { background-image: url("/assets/pavilon-sm/p0-2.png")}
+    .np3 { background-image: url("/assets/pavilon-sm/p1-1.png")}
+    .np4 { background-image: url("/assets/pavilon-sm/p1-2.png")}
+    .np5 { background-image: url("/assets/pavilon-sm/p2-1.png")}
+    .np6 { background-image: url("/assets/pavilon-sm/p2-2.png")}
+    .np7 { background-image: url("/assets/pavilon-sm/p3-1.png")}
 
     .m-schema--image {
 
-        width: 100%;
-        height: 600px;
+        width: 840px;
+        height: 637px;
         background-repeat: no-repeat;
         background-position: bottom right;
-        //background-size: contain;
+        background-size: 100% auto;
 
-        border: 1px solid red;
         position: absolute;
-        top: 100px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    .m-schema--label {
+
+        width: 30%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 70% auto;
+
+        //border: 1px solid red;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
     }
 
 }
 
 .m-schema-control {
+    text-align: center;
+        border: 1px solid red;
     width: 100%;
-    height: 500px;
+    height: 100px;
+}
+.m-schema-spacer {
+    border: 1px solid greenyellow;
+    width: 100%;
+    height: 400px;
 }
 
 #skrollr-body {
@@ -53,4 +80,17 @@
 .skrollr-wrap {
     background-color: white;
 
+}
+
+.to-fix {
+    height: 900px;
+    border: 2px solid orange;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }

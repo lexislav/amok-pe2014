@@ -1,31 +1,31 @@
 <?php include "templates/html-header.php"; ?>
 <body class="l-page_home">
-    <?php include "templates/inc-topbar.php"; ?>
-    <div id="ags-slider" class="ags-slider">
-        <div id="ags-slider-bounds" class="ags-slider--bounds"></div>
-        <div class="ags-bg--content">
-            <div class="infobox">
-                <strong>Školka</strong><br />EXPO 2015
-                <div class="title-box"><span>2015</span>Školka</div>
-            </div>
-            <div class="overlay"></div>
+<?php include "templates/inc-topbar.php"; ?>
+<div id="ags-slider" class="ags-slider">
+    <div id="ags-slider-bounds" class="ags-slider--bounds"></div>
+    <div class="ags-bg--content">
+        <div class="infobox">
+            <strong>Školka</strong><br />EXPO 2015
+            <div class="title-box"><span>2015</span>Školka</div>
         </div>
-        <div class="inner">
-            <div class="content">
-                <div class="ags-front--content">
-                    <div class="infobox2">
-                        <strong>Český Pavilon</strong><br />EXPO 2015
-                        <div class="title-box"><span>2015</span>Výstavní pavilon v Miláně</div>
-                    </div>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-        </div>
-        <div class="dragger">
-            <img src="/assets/dragger.png" alt="" class="drag-button" />
-        </div>
-        <div class="cover"></div>
+        <div class="overlay"></div>
     </div>
+    <div class="inner">
+        <div class="content">
+            <div class="ags-front--content">
+                <div class="infobox2">
+                    <strong>Český Pavilon</strong><br />EXPO 2015
+                    <div class="title-box"><span>2015</span>Výstavní pavilon v Miláně</div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </div>
+    <div class="dragger">
+        <img src="/assets/dragger.png" alt="" class="drag-button" />
+    </div>
+    <div class="cover"></div>
+</div>
 
 <div class="row l-section">
     <div class="m-section_pavilon">
@@ -158,5 +158,7 @@
 <!-- angle slider -->
 <script src="/js/progress-bar-scroll.js"></script>
 <!-- time line-->
+<script src="/js/app.js"></script>
+
 </body>
 <?php include "templates/html-footer.php"; ?>
