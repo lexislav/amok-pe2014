@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="52px" viewBox="0 0 42 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>stopky</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-233.000000, -4841.000000)" id="Výhody-modulární-výstavby" fill="#4A4A4A">
+            <g sketch:type="MSLayerGroup" transform="translate(0.000000, 4529.000000)">
+                <g id="Výhody-modulární-výstavby-2" transform="translate(233.000000, 308.000000)" sketch:type="MSShapeGroup">
+                    <g id="Stopky" transform="translate(0.000000, 4.000000)">
+                        <path d="M23.5609606,29.4366502 C23.8394759,29.8919191 24,30.4272133 24,31 C24,32.6568542 22.6568542,34 21,34 C19.3431458,34 18,32.6568542 18,31 C18,29.3431458 19.3431458,28 21,28 C21.3395884,28 21.6659984,28.0564235 21.9703665,28.1604071 L27.1118066,18.2730223 C27.3666047,17.783026 27.9703799,17.5923601 28.4603762,17.8471582 C28.9503725,18.1019563 29.1410383,18.7057314 28.8862402,19.1957277 L23.5609606,29.4366502 Z" id="Oval-13"></path>
+                        <path d="M19,6 L16.0058587,6 C14.8970601,6 14,5.10550383 14,4.00208688 L14,1.99791312 C14,0.898260623 14.8980535,0 16.0058587,0 L25.9941413,0 C27.1029399,0 28,0.894496173 28,1.99791312 L28,4.00208688 C28,5.10173938 27.1019465,6 25.9941413,6 L23,6 L23,8 L19,8 L19,6 Z" id="Rectangle-27"></path>
+                        <path d="M1.23653372,14.925 L7.00023232,14.925 C7.00023232,14.925 8.0260074,12 4.15758635,12 C0.289165296,12 1.23653372,14.925 1.23653372,14.925 Z" id="Path-147" transform="translate(4.000000, 13.500000) rotate(-46.000000) translate(-4.000000, -13.500000) "></path>
+                        <path d="M36.2365337,14.925 L42.0002323,14.925 C42.0002323,14.925 43.0260074,12 39.1575863,12 C35.2891653,12 36.2365337,14.925 36.2365337,14.925 Z" id="Path-147" transform="translate(39.000000, 13.500000) scale(-1, 1) rotate(-46.000000) translate(-39.000000, -13.500000) "></path>
+                        <path d="M42,31 C42,19.4020203 32.5979797,10 21,10 C9.40202025,10 0,19.4020203 0,31 C0,42.5979797 9.40202025,52 21,52 C32.5979797,52 42,42.5979797 42,31 Z M4,31 C4,21.6111593 11.6111593,14 21,14 C30.3888407,14 38,21.6111593 38,31 C38,40.3888407 30.3888407,48 21,48 C11.6111593,48 4,40.3888407 4,31 Z" id="Oval-12"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

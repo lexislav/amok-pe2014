@@ -15,6 +15,8 @@
 
     margin: auto;
 
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -29,19 +31,30 @@
     .np6 { background-image: url("/assets/pavilon-sm/p2-2.png")}
     .np7 { background-image: url("/assets/pavilon-sm/p3-1.png")}
 
+    overflow: hidden;
+
+    .m-schema--slides {
+        width: 840px;
+        height: 737px;
+
+        border: 1px solid orange;
+        overflow: hidden;
+        position: absolute;
+        right: 10%;
+        top: 20%;
+        margin: auto;
+    }
     .m-schema--image {
 
         width: 840px;
         height: 637px;
+
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 100% auto;
 
         position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-
+        top: 100px;
     }
 
     .m-schema--label {
@@ -59,18 +72,27 @@
         margin: auto;
     }
 
+    .m-schema--overlay {
+        position: absolute;
+        top: 0;
+
+      //  border: 3px solid orange;
+        height: 300px;
+        width: 100%;
+        @include linear-gradient(to top, rgba(255,255,255,0), white, $fallback: transparent);
+    }
+
 }
 
 .m-schema-control {
     text-align: center;
-        border: 1px solid red;
+    background-color: rgba(200,200,200,.5);
     width: 100%;
-    height: 100px;
+    height: 20px;
 }
 .m-schema-spacer {
-    border: 1px solid greenyellow;
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 
 #skrollr-body {

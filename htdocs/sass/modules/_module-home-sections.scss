@@ -1,3 +1,7 @@
+
+
+
+
 .m-section_pavilon {
 
     .padded {
@@ -13,26 +17,46 @@
         font-size: rem-calc(24);
         line-height: 33px;
     }
-
     h3 {
-        @include fnt-avenir-demi-bold();
-        font-size: rem-calc(16);
-        text-transform: uppercase;
+        @include paragraph-mid-light();
     }
+
 }
 
 
 // text section
 
 .m-section_text {
-    h2 {
-        @include fnt-purista-light();
-        font-size: rem-calc(40);
-        margin-bottom: 60px;
-    }
-
     &.mm-dark {
         background: #D8D8D8;
     }
 }
 
+
+.m-data-table {
+    text-align: center;
+    @include fnt-purista();
+
+    li {
+        margin-top: 30px;
+
+        @include box-sizing(border-box);
+        border-right: 2px dotted lighten($koma, 30%);
+        padding: 0 20px;
+        padding-top: 10px;
+        min-height: 100px;
+        &:last-of-type {
+            border: none;
+        }
+    }
+
+    span {
+        font-size: rem-calc(24);
+        display: block;
+        line-height: 1.1em;
+        margin-bottom: 10px;
+        sup {
+            font-size: rem-calc(14);
+        }
+    }
+}

@@ -1,15 +1,17 @@
 
 .l-section.m-progress-bar {
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .m-progress-bar {
     background: #22D3D3;
+    height: 470px;
 
 
     h2 {
         @include fnt-purista-light();
-        font-size: rem-calc(64);
+        font-size: rem-calc(40);
         color: white;
         line-height: 1em;
         margin: 0;
@@ -42,6 +44,7 @@
         height: 217px;
         margin: 0;
         padding: 0;
+
         li {
             display: block;
             position: absolute;
@@ -50,6 +53,12 @@
             color: $oil;
 
             text-align: center;
+            line-height: 1.3em;
+
+            img {
+                width: 84px;
+                height: 84px;
+            }
 
             span {
                 position: absolute;

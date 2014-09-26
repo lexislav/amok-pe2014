@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="66px" viewBox="0 0 68 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>elegantne</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-1073.000000, -4836.000000)" id="Výhody-modulární-výstavby" stroke="#4A4A4A" stroke-width="3">
+            <g sketch:type="MSLayerGroup" transform="translate(0.000000, 4529.000000)">
+                <g id="ikona" transform="translate(1074.000000, 308.000000)" sketch:type="MSShapeGroup">
+                    <path d="M5.74951172,13.5241099 L28.7498514,13.5241099 L32.4995117,27.6687372 L1.74951172,27.791688 L5.74951172,13.5241099 Z" id="Path-167"></path>
+                    <path d="M34.6245117,6.02410989 L57.6248514,6.02410989 L61.3745117,20.1687372 L30.6245117,20.291688 L34.6245117,6.02410989 Z" id="Path-167" transform="translate(45.875000, 13.155738) rotate(-31.000000) translate(-45.875000, -13.155738) "></path>
+                    <path d="M10.4995117,37.2536181 L33.4998514,37.2536181 L37.2495117,51.3982454 L6.49951172,51.5211962 L10.4995117,37.2536181 Z" id="Path-167" transform="translate(21.750000, 44.385246) rotate(-75.000000) translate(-21.750000, -44.385246) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

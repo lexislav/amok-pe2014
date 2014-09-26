@@ -6,50 +6,18 @@
     <div class="medium-12 columns">
         <div class="l-schema m-schema">
             <h1>patra</h1>
-            <div class="m-schema--image np1"></div>
 
-            <div class="m-schema--image np2" data-anchor-target="#animAnchor2" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;"></div>
-            <!--<div class="m-schema--label"     data-anchor-target="#animAnchor2" data-bottom="opacity:0;transform:translate(100px,0px);" data-center="opacity:1;transform:translate(0px,0px);" data-top="opacity:0;transform:translate(0px,0px);">
-                popis 1
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>-->
-            <div class="m-schema--image np3" data-anchor-target="#animAnchor3" data-bottom="display:none" data-center="opacity:0;display:block" data-top="opacity:1;"></div>
-
-            <div class="m-schema--image np4" data-anchor-target="#animAnchor3" data-bottom="opacity:0;transform:translate(0px,-100px)" data-center="opacity:1;transform:translate(0px,0px)" data-top="opacity:0;transform:translate(0px,0px)"></div>
-
-            <div class="m-schema--image np6" data-anchor-target="#animAnchor4" data-bottom="opacity:0;transform:translate(0px,-100px)" data-center="opacity:1;transform:translate(0px,0px)"></div>
-
-            <div class="m-schema--image np5" data-anchor-target="#animAnchor4" data-center="opacity:0;" data-top="opacity:1"></div>
-
-            <div class="m-schema--image np7" data-anchor-target="#animAnchor5" data-bottom="opacity:0;" data-center="opacity:1;"></div>
-
-            <!-- <div class="m-schema--label"     data-anchor-target="#animAnchor4" data-bottom="opacity:0;transform:translate(100px,0px);" data-center="opacity:1;transform:translate(0px,0px);" data-top="opacity:0;transform:translate(0px,0px);">
-                popis 2
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>-->
+            <div class="m-schema--slides">
+                <div class="m-schema--image np1"></div>
+                <div class="m-schema--image np2" data-anchor-target="#animAnchor2" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;"></div>
+                <div class="m-schema--image np3" data-anchor-target="#animAnchor3" data-bottom="display:none" data-center="opacity:0;display:block" data-top="opacity:1;"></div>
+                <div class="m-schema--image np4" data-anchor-target="#animAnchor3" data-bottom="transform:translate(0px,-600px)" data-center="opacity:1;transform:translate(0px,0px)" data-top="opacity:0;transform:translate(0px,0px)"></div>
+                <div class="m-schema--image np6" data-anchor-target="#animAnchor4" data-bottom="transform:translate(0px,-600px)" data-center="opacity:1;transform:translate(0px,0px)"></div>
+                <div class="m-schema--image np7" data-anchor-target="#animAnchor5" data-bottom="transform:translate(0px,-600px)" data-center="transform:translate(0px,0px)"></div>
+                <div class="m-schema--overlay"></div>
+            </div>
 
 
-            <!--<div class="m-schema--label"     data-anchor-target="#animAnchor6" data-bottom="opacity:0;transform:translate(100px,0px);" data-center="opacity:1;transform:translate(0px,0px);" data-top="opacity:0;transform:translate(0px,0px);">
-                popis 3
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>-->
-
-           <!-- <div class="m-schema--label"     data-anchor-target="#animAnchor7" data-bottom="opacity:0;transform:translate(100px,0px);" data-center="opacity:1;transform:translate(0px,0px);">
-                popis 4
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>-->
         </div>
     </div>
 </div>
@@ -87,6 +55,7 @@
     <div class="m-schema-control" id="animAnchor4">a4</div>
     <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor5">a4</div>
+    <div class="m-schema-spacer" style="height: 384px;"></div>
     <div class="m-schema-spacer" style="height: 384px;"></div>
 
     <div class="skrollr-wrap">
@@ -166,8 +135,8 @@
 
 <script type="text/javascript">
     var s = skrollr.init({
-            smoothScrolling:false,
-            mobileDeceleration:0.01
+        smoothScrolling: false,
+        mobileDeceleration: 0.01
     });
 
 

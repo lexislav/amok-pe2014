@@ -5,9 +5,8 @@
             <strong>Český pavilon</strong> EXPO2015
         </div>
     </div>
-
-
-
 </footer>
 
+<script src="/components/foundation/js/foundation/foundation.js"></script>
+<script src="/components/foundation/js/foundation/foundation.equalizer.js"></script>
 

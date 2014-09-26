@@ -1,0 +1,75 @@
+@mixin paragraph-mid-light() {
+    @include fnt-avenir-demi-bold();
+    font-size: rem-calc(16);
+    text-transform: uppercase;
+}
+
+// headlines
+
+.fnt-primary-headline {
+    // section headline
+    @include fnt-purista-light();
+    font-size: rem-calc(40);
+    margin-bottom: 60px;
+}
+
+.fnt-secondary-headline {
+    @include fnt-avenir-light();
+    font-size: rem-calc(24);
+
+    &.fnt-white {
+        font-weight: 400;
+    }
+}
+
+
+
+
+// body font modifications
+
+.fnt-primary-body-m {
+    @include fnt-purista();
+    font-size: rem-calc(18);
+}
+
+
+.fnt-white {
+    color: white;
+    a {
+        color: white;
+        &:hover {
+            color: $color-koma-red;
+        }
+    }
+}
+
+.fnt-shadow {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.fnt-boxed-white,
+.fnt-boxed-black {
+    @include fnt-purista();
+    font-size: rem-calc(24);
+    line-height: 1em;
+    display: inline-block;
+    padding: 6px 12px;
+    padding-bottom: 8px;
+    border: 1px solid #000;
+    vertical-align: middle;
+    margin: 10px;
+
+    // if inside
+    .text-left & {
+        margin-left: 0;
+    }
+    .text-right & {
+        margin-right: 0;
+    }
+}
+
+.fnt-boxed-black {
+    color: white;
+    background-color: #000;
+}
+

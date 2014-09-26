@@ -1,5 +1,5 @@
 @import "../components/foundation/scss/normalize";
-
+@import "../components/bourbon/bourbon";
 
 // Foundation
 $color-koma-red: #A0000B;
@@ -9,6 +9,7 @@ $color-koma-red: #A0000B;
 
 // custom components
 @import "modules/module-fonts";
+@import "modules/module-font-styles";
 
 @import "modules/module-navigation";
 @import "modules/angle-slider";
@@ -18,18 +19,14 @@ $color-koma-red: #A0000B;
 @import "modules/module-progress-bar";
 @import "modules/module-page-footer";
 
-
 .m-nav .m-nav--lang {
     display: none;
 }
 
-
-
-
 .l-section {
     //border: 1px solid red;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     @include clearfix();
 }
 
@@ -37,7 +34,6 @@ $color-koma-red: #A0000B;
     width: 100%;
     height: 800px;
     overflow: hidden;
-    background-color: red;
     .item {
         img {
             width: 100%;
@@ -46,8 +42,27 @@ $color-koma-red: #A0000B;
     }
 }
 
+.svg-button {
 
+    width: 54px;
+    height: 54px;
 
+    #button {
+        opacity: .5;
+    }
+
+    &.mm-white {
+        #button {
+            stroke: #fff;
+        }
+    }
+}
+
+a:hover {
+    .svg-button #button {
+        opacity: 1;
+    }
+}
 
 .tmp-bigimage {
     background-color: darkgray;
