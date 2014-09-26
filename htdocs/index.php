@@ -32,10 +32,10 @@
         <div class="small-12 large-6 columns">
             <h1>Vítejte na stránkách věnovaných českému pavilonu EXPO2015</h1>
         </div>
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 columns mgr-third">
             <h2>Český pavilon EXPO2015 představuje špičku české modulární architektury. Způsob výstavby umožní stavbě existovat na více místech a najít uplatnění i po skončení výstavy.</h2>
         </div>
-        <div class="small-12 columns">
+        <div class="small-12 columns mgr-half">
             <img src="/assets/pavilon-skica.png" alt="" />
         </div>
 
@@ -147,13 +147,13 @@
 
 </div>
 
-<div class="l-section m-section_text mm-dark" style="background-image: url(/assets/pavilon-theme-img2.png); height: 600px;">
+<div class="l-section m-section_text mm-dark" style="background-image: url(/assets/pavilon-theme-img2.png); height: 540px;">
     <div class="row">
         <article style="position: relative; " class="clearfix">
-            <header class="small-12 large-8 xlarge-6 columns mgr-half">
+            <header class="small-12 large-6 columns mgr-half">
                 <h2 class="fnt-primary-headline fnt-white">Nahlédněte do pavilonu</h2>
 
-                <div class="fnt-secondary-headline fnt-white fnt-shadow" style="padding-top: 280px">
+                <div class="fnt-secondary-headline fnt-white fnt-shadow" style="padding-top: 200px">
                     Prohlédněte si koncepci českého pavilonu,
                     jeho nejzajímavější části či fotogalerie z prostor pavilonu a expozic na následující straně
                 </div>
