@@ -29,17 +29,17 @@
 
 <div class="row l-section">
     <div class="m-section_pavilon">
-        <div class="medium-6 columns">
+        <div class="small-12 large-6 columns">
             <h1>Vítejte na stránkách věnovaných českému pavilonu EXPO2015</h1>
         </div>
-        <div class="medium-6 columns">
+        <div class="small-12 large-6 columns">
             <h2>Český pavilon EXPO2015 představuje špičku české modulární architektury. Způsob výstavby umožní stavbě existovat na více místech a najít uplatnění i po skončení výstavy.</h2>
         </div>
-        <div class="medium-12 columns">
+        <div class="small-12 columns">
             <img src="/assets/pavilon-skica.png" alt="" />
         </div>
 
-        <div class="medium-4 columns ">
+        <div class="small-12 small-12 large-4 columns ">
             <h3>Inteligent</h3>
 
             <p>Unikátní koncept architektonického řešení umožňují
@@ -47,12 +47,12 @@
                umožní recyklaci pavilonu v budoucnosti.</p>
         </div>
 
-        <div class="medium-4 columns ">
+        <div class="small-12 small-12 large-4 columns ">
             <h3>Green</h3>
 
             <p>Možnost rozebiratelnosti pavilonu umožňuje využít neobnovitelné zdroje mnohem efektivněji. Celý pavilon bude edukativně představovat možnosti obnovitelnosti, přečisťování a znovuvyužití bežných elementů jako je voda.</p>
         </div>
-        <div class="medium-4 columns ">
+        <div class="small-12 small-12 large-4 columns ">
             <h3>Inteligent</h3>
 
             <p>Návrh umožňuje pavilonu zastoupit několik funkcí. Po návratu do vlasti se tak bazén může stát plovoucím pontonem u pražských náplavek a pomoci rozvíjet koncepci oživovaní městských břehů. Modulární část se stane jednoduchým zásahem mateřskou školkou.</p>
@@ -62,7 +62,7 @@
 
 
 <div class="l-section m-progress-bar">
-    <div id="drg-progress-bar-bounds" class=" medium-12 columns">
+    <div id="drg-progress-bar-bounds" class=" small-12 columns">
         <div class="row">
             <article>
                 <header>
@@ -105,51 +105,54 @@
 </div>
 
 <div class="l-section m-section_text">
-    <header>
-        <article class="row">
-            <div class="medium-6 columns">
+    <article>
+        <header class="row mgr-half">
+            <div class="small-12 large-6 columns">
                 <h2 class="fnt-primary-headline">Pavilon v kostce</h2>
             </div>
-            <div class="medium-6 columns">
+            <div class="small-12 large-6 columns">
                 <h3 class="fnt-secondary-headline">Přehled nejzákladnějších údajů o budově pavilonu a jeho aktuálním provozu na výstavišti v Miláně. Statistické údaje budou / jsou průběžně aktualizovány.</h3>
             </div>
-        </article>
-    </header>
-    <div class="row">
-        <div class="medium-6 columns fnt-primary-body-m">
-            <div class="text-left"><span class="fnt-boxed-white">520</span> kapacita návštěvníků za hodinu</div>
-            <div class="text-left"><span class="fnt-boxed-white">700 m<sup>2</sup></span> celková plocha expozic</div>
-        </div>
-        <div class="medium-6 columns fnt-primary-body-m">
-            <div class="text-right">Počet návštěvníků za den: <span class="fnt-boxed-white">5200</span></div>
-            <div class="text-right">Celkový počet návštěvníků: <span class="fnt-boxed-black">1 000 000</span></div>
-        </div>
-    </div>
+        </header>
 
-    <div class="row">
-        <div class="medium-12 columns">
-            <img src="/assets/pavilon-2.png" alt="" />
+        <div class="row mgr-half m-data-stats">
+            <div class="small-12 large-6 columns fnt-primary-body-m">
+                <div class="lbox"><span class="fnt-boxed-white">520</span> kapacita návštěvníků za hodinu</div>
+                <div class="lbox"><span class="fnt-boxed-white">700 m<sup>2</sup></span> celková plocha expozic
+                </div>
+            </div>
+            <div class="small-12 large-6 columns fnt-primary-body-m">
+                <div class="rbox"><span class="fnt-boxed-white">5200</span>počet návštěvníků za den: </div>
+                <div class="rbox"><span class="fnt-boxed-black">1 000 000</span>celkový počet návštěvníků </div>
+            </div>
         </div>
-    </div>
 
-    <div class="row">
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-6 m-data-table" data-equalizer>
-            <li data-equalizer-watch><span>1360 m<sup>2</sup></span>plocha pozemku</li>
-            <li data-equalizer-watch><span>540 m<sup>2</sup></span>zastavěná plocha</li>
-            <li data-equalizer-watch><span>420 tun </span>váha pavilonu</li>
-            <li data-equalizer-watch><span>60 tun</span>podesta ocelové konstrukce</li>
-            <li data-equalizer-watch><span>37 m<sup>3</sup></span>objem bazénu</li>
-            <li data-equalizer-watch><span>135 dní</span>doba montáže pavilonu</li>
-        </ul>
-    </div>
+        <div class="row mgr-half">
+            <div class="small-12 columns">
+                <img src="/assets/pavilon-2.png" alt="" />
+            </div>
+        </div>
+
+        <div class="row">
+            <ul class="small-block-grid-2 small-block-grid-3 large-block-grid-6 m-data-table" data-equalizer>
+                <li data-equalizer-watch><span>1360 m<sup>2</sup></span>plocha pozemku</li>
+                <li data-equalizer-watch><span>540 m<sup>2</sup></span>zastavěná plocha</li>
+                <li data-equalizer-watch><span>420 tun </span>váha pavilonu</li>
+                <li data-equalizer-watch><span>60 tun</span>podesta ocelové konstrukce</li>
+                <li data-equalizer-watch><span>37 m<sup>3</sup></span>objem bazénu</li>
+                <li data-equalizer-watch><span>135 dní</span>doba montáže pavilonu</li>
+            </ul>
+        </div>
+    </article>
 
 </div>
 
 <div class="l-section m-section_text mm-dark" style="background-image: url(/assets/pavilon-theme-img2.png); height: 600px;">
-    <div class="row" >
+    <div class="row">
         <article style="position: relative; " class="clearfix">
-            <header class="medium-6 columns">
+            <header class="small-12 large-8 xlarge-6 columns mgr-half">
                 <h2 class="fnt-primary-headline fnt-white">Nahlédněte do pavilonu</h2>
+
                 <div class="fnt-secondary-headline fnt-white fnt-shadow" style="padding-top: 280px">
                     Prohlédněte si koncepci českého pavilonu,
                     jeho nejzajímavější části či fotogalerie z prostor pavilonu a expozic na následující straně
@@ -157,43 +160,45 @@
             </header>
 
             <footer style="position: absolute; right: 20px; bottom: 0">
-                <a href="/pavilon.php" title="Pavilon"><div class="svg-button mm-white">
-                        <svg width="54px" height="54px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-                                <g id="button" sketch:type="MSArtboardGroup" stroke="#000000" stroke-width="4">
-                                    <g sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
-                                        <circle id="Oval-10" sketch:type="MSShapeGroup" cx="25" cy="25" r="25" fill="none"></circle>
-                                        <path d="M10.7253085,25.5555554 L39.2851168,25.5555554" id="Line" fill="none"></path>
-                                        <path d="M26.5941654,10.8213824 L40.5320305,24.7102713 L26.5941654,38.6481364" fill="none"></path>
-                                    </g>
+                <a href="/pavilon.php" title="Pavilon">
+                    <div class="svg-button mm-white">
+                        <svg width="54px" height="54px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                            <g id="button" sketch:type="MSArtboardGroup" stroke="#000000" stroke-width="4">
+                                <g sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+                                    <circle id="Oval-10" sketch:type="MSShapeGroup" cx="25" cy="25" r="25" fill="none"></circle>
+                                    <path d="M10.7253085,25.5555554 L39.2851168,25.5555554" id="Line" fill="none"></path>
+                                    <path d="M26.5941654,10.8213824 L40.5320305,24.7102713 L26.5941654,38.6481364" fill="none"></path>
                                 </g>
+                            </g>
                         </svg>
-                </div></a>
+                    </div>
+                </a>
             </footer>
         </article>
     </div>
 </div>
 
 <div class="l-section m-section_text">
-    <article >
-        <header class="row">
-            <div class="medium-6 columns">
+    <article>
+        <header class="row mgr-half">
+            <div class="small-12 large-6 columns">
                 <h2 class="fnt-primary-headline">Za konceptem</h2>
             </div>
-            <div class="medium-6 columns">
-                <h3 class="fnt-secondary-headline">Koncept pavilonu přinesl přední výrobce modulární výstavby společnost KOMA Modular ve spolupráci s architektonickým atelierem CHYBIK KRISTOF AA. </h3>
+            <div class="small-12 large-6 columns">
+                <h3 class="fnt-secondary-headline text-right">Koncept pavilonu přinesl přední výrobce modulární výstavby společnost KOMA Modular ve spolupráci s architektonickým atelierem CHYBIK KRISTOF AA. </h3>
             </div>
         </header>
-    <div class="row">
-        <div class="medium-4 columns">
-            <img src="/assets/modul.png" alt="modul" />
+        <div class="row">
+            <div class="small-12 large-4 columns">
+                <img src="/assets/modul.png" alt="modul" />
+            </div>
+            <div class="small-12 large-4 columns">
+                <p>Původní česká firma KOMA MODULAR s.r.o. s více než 20-ti letou tradicí je specialistou na modulární výstavbu a má za sebou realizace po celém světě. Získala četná ocenění pro svůj inovativní přístup a technologie. V posledních letech se orientuje na vývoj nízkoenergetických modulů i architektonicky atraktivních návrhů.</p>
+            </div>
+            <div class="small-12 large-4 columns">
+                <p>V tomto oboru úzce spolupracuje s CHYBIK KRISTOF ASSOCIATED ARCHITECTS, progresivním mladým architektonickým ateliérem s řadou zajímavých realizací a ocenění.</p>
+            </div>
         </div>
-        <div class="medium-4 columns">
-            <p>Původní česká firma KOMA MODULAR s.r.o. s více než 20-ti letou tradicí je specialistou na modulární výstavbu a má za sebou realizace po celém světě. Získala četná ocenění pro svůj inovativní přístup a technologie. V posledních letech se orientuje na vývoj nízkoenergetických modulů i architektonicky atraktivních návrhů.</p>
-        </div>
-        <div class="medium-4 columns">
-            <p>V tomto oboru úzce spolupracuje s CHYBIK KRISTOF ASSOCIATED ARCHITECTS, progresivním mladým architektonickým ateliérem s řadou zajímavých realizací a ocenění.</p>
-        </div>
-    </div>
     </article>
 </div>
 

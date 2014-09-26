@@ -3,6 +3,7 @@
 
 // Foundation
 $color-koma-red: #A0000B;
+$base-spacing: 50px;
 
 @import "settings";
 @import "foundation";
@@ -19,15 +20,28 @@ $color-koma-red: #A0000B;
 @import "modules/module-progress-bar";
 @import "modules/module-page-footer";
 
+// spacing
+.mgr-full {
+    margin-bottom: $base-spacing;
+}
+
+.mgr-half {
+    margin-bottom: $base-spacing / 2;
+}
+
+.mgr-third {
+    margin-bottom: $base-spacing / 2;
+}
+
+
 .m-nav .m-nav--lang {
     display: none;
 }
 
 .l-section {
-    //border: 1px solid red;
-    padding-top: 50px;
-    padding-bottom: 50px;
     @include clearfix();
+    padding-top: $base-spacing;
+    padding-bottom: $base-spacing;
 }
 
 .m-carousel {
@@ -87,6 +101,20 @@ a:hover {
     }
     @media #{$xxlarge-up} {
         background-color: #800080;
+    }
+
+}
+body {
+    @media #{$small-up} {
+        .row {
+            width: 90%;
+            overflow: hidden;
+        }
+    }
+    @media #{$xxlarge-up} {
+        .row {
+            width: 100%;
+        }
     }
 
 }

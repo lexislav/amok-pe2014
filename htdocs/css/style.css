@@ -2480,8 +2480,7 @@ blockquote, blockquote p {
   font-family: "Purista";
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
-  font-size: 2.85714rem;
-  margin-bottom: 60px; }
+  font-size: 2.85714rem; }
 
 .fnt-secondary-headline {
   font-family: "Avenir Next";
@@ -2517,12 +2516,7 @@ blockquote, blockquote p {
   padding: 6px 12px;
   padding-bottom: 8px;
   border: 1px solid #000;
-  vertical-align: middle;
-  margin: 10px; }
-  .text-left .fnt-boxed-white, .text-left .fnt-boxed-black {
-    margin-left: 0; }
-  .text-right .fnt-boxed-white, .text-right .fnt-boxed-black {
-    margin-right: 0; }
+  vertical-align: middle; }
 
 .fnt-boxed-black {
   color: white;
@@ -2809,6 +2803,33 @@ blockquote, blockquote p {
 .m-section_text.mm-dark {
   background: #D8D8D8; }
 
+@media only screen {
+  .m-data-stats .rbox, .m-data-stats .lbox {
+    text-align: center;
+    margin-bottom: 20px; }
+    .m-data-stats .rbox span, .m-data-stats .lbox span {
+      text-align: center;
+      display: block; } }
+@media only screen and (min-width:40.063em) {
+  .m-data-stats .rbox, .m-data-stats .lbox {
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    vertical-align: middle; }
+    .m-data-stats .rbox span, .m-data-stats .lbox span {
+      margin: 0;
+      margin-top: 10px; }
+  .m-data-stats .rbox {
+    text-align: right; }
+    .m-data-stats .rbox span {
+      float: right;
+      margin-left: 10px; }
+  .m-data-stats .lbox {
+    text-align: left; }
+    .m-data-stats .lbox span {
+      float: left;
+      margin-right: 10px; } }
+
 .m-data-table {
   text-align: center;
   font-family: "Purista";
@@ -2914,6 +2935,15 @@ blockquote, blockquote p {
       font-weight: normal;
       -webkit-font-smoothing: antialiased; }
 
+.mgr-full {
+  margin-bottom: 50px; }
+
+.mgr-half {
+  margin-bottom: 25px; }
+
+.mgr-third {
+  margin-bottom: 25px; }
+
 .m-nav .m-nav--lang {
   display: none; }
 
@@ -2967,5 +2997,13 @@ a:hover .svg-button #button {
   @media only screen and (min-width:90.063em) {
     .tmp-header {
       background-color: #800080; } }
+
+@media only screen {
+  body .row {
+    width: 90%;
+    overflow: hidden; } }
+@media only screen and (min-width:90.063em) {
+  body .row {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.map */

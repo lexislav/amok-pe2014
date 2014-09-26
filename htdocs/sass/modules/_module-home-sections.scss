@@ -1,7 +1,4 @@
 
-
-
-
 .m-section_pavilon {
 
     .padded {
@@ -23,7 +20,6 @@
 
 }
 
-
 // text section
 
 .m-section_text {
@@ -32,6 +28,50 @@
     }
 }
 
+.m-data-stats {
+
+    @media #{$small-up} {
+        .rbox,
+        .lbox {
+            text-align: center;
+            margin-bottom: 20px;
+            span {
+                text-align: center;
+                display: block;
+            }
+        }
+    }
+
+    @media #{$large-up} {
+
+        .rbox,
+        .lbox {
+            height: 60px;
+            line-height: 60px;
+            display: block;
+            vertical-align: middle;
+            span {
+                margin: 0;
+                margin-top: 10px;
+            }
+        }
+        .rbox {
+            text-align: right;
+            span {
+                float: right;
+                margin-left: 10px;
+            }
+        }
+        .lbox {
+            text-align: left;
+            span {
+                float: left;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}
 
 .m-data-table {
     text-align: center;

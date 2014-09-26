@@ -10,7 +10,6 @@
     // section headline
     @include fnt-purista-light();
     font-size: rem-calc(40);
-    margin-bottom: 60px;
 }
 
 .fnt-secondary-headline {
@@ -57,15 +56,8 @@
     padding-bottom: 8px;
     border: 1px solid #000;
     vertical-align: middle;
-    margin: 10px;
 
-    // if inside
-    .text-left & {
-        margin-left: 0;
-    }
-    .text-right & {
-        margin-right: 0;
-    }
+
 }
 
 .fnt-boxed-black {
