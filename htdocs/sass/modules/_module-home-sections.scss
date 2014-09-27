@@ -15,16 +15,19 @@
         line-height: 33px;
     }
     h3 {
-        @include paragraph-mid-light();
+        @include fnt-secondary-headline-mid();
     }
 
 }
 
 // text section
 
-.m-section_text {
+.l-section {
     &.mm-dark {
         background: #D8D8D8;
+    }
+    &.m-bluish {
+        background: rgba(165,192,233,0.32);
     }
 }
 

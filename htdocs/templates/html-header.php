@@ -1,7 +1,35 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
 <head lang="en">
+
+    <!--[if lt IE 9]>
+    <script>
+        window.location = '/unsupportedBrowser.html';
+    </script>
+    <![endif]-->
+
     <meta charset="UTF-8">
+    <meta http-equiv="cleartype" content="on" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="640" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="/site/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/site/images/apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/site/images/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/site/images/apple-touch-icon-114x114-precomposed.png" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+
 
     <!--<link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css" />
     <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>

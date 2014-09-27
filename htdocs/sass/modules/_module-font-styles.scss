@@ -1,18 +1,31 @@
-@mixin paragraph-mid-light() {
-    @include fnt-avenir-demi-bold();
-    font-size: rem-calc(16);
-    text-transform: uppercase;
-}
+
+// font styles and mixins
 
 // headlines
 
-.fnt-primary-headline {
+@mixin fnt-primary-headline() {
     // section headline
     @include fnt-purista-light();
     font-size: rem-calc(40);
 }
+.fnt-primary-headline {
+    @include fnt-primary-headline();
+}
 
-.fnt-secondary-headline {
+
+
+@mixin fnt-primary-headline-small() {
+    @include fnt-purista-light();
+    font-size: rem-calc(20);
+}
+.fnt-primary-headline-small {
+    @include fnt-primary-headline-small();
+}
+
+
+
+
+@mixin fnt-secondary-headline() {
     @include fnt-avenir-light();
     font-size: rem-calc(24);
 
@@ -20,16 +33,36 @@
         font-weight: 400;
     }
 }
+.fnt-secondary-headline {
+    @include fnt-secondary-headline();
+}
 
 
 
+@mixin fnt-secondary-headline-mid () {
+    @include fnt-avenir-demi-bold();
+    font-size: rem-calc(16);
+    text-transform: uppercase;
+}
 
-// body font modifications
+.fnt-secondary-headline-mid {
+    @include fnt-secondary-headline-mid();
+}
 
-.fnt-primary-body-m {
+
+
+// body
+
+@mixin fnt-primary-body-m() {
     @include fnt-purista();
     font-size: rem-calc(18);
 }
+.fnt-primary-body-m {
+    @include fnt-primary-body-m();
+}
+
+
+
 
 
 .fnt-white {
