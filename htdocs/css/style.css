@@ -2679,9 +2679,7 @@ blockquote, blockquote p {
     text-align: center; }
     .ags-slider .dragger .drag-button {
       position: absolute;
-      bottom: 90px;
-      margin: auto;
-      margin-left: -94px; }
+      margin: auto; }
 
 .infobox, .infobox2 {
   font-family: "Purista";

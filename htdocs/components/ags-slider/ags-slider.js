@@ -8,6 +8,7 @@ Math.radians = function (deg) {
 
 var currentPos;
 var skewAngle = 10;
+var draggerButtonBottomOffset = 200;
 var root = $("#ags-slider");
 var inner = root.find(".inner");
 var bgcontent = root.find(".ags-bg--content");
@@ -16,6 +17,8 @@ var overlayLeft = bgcontent.find(".overlay");
 var overlayRight = content.find(".overlay");
 var contentImage = content.find("img");
 var dragger = root.find(".dragger");
+var dragButton = dragger.find(".drag-button");
+var dragButtonMidOffset = (dragButton.width() / 2);
 var cover = root.find(".cover");
 var rootWidth;
 var rootHeight;
@@ -32,6 +35,7 @@ function setSize() {
     rootWidth = root.width();
     rootHeight = root.height();
     skewOffset = Math.tan(Math.radians(skewAngle)) * rootHeight;
+    dragButtonOffset = Math.tan(Math.radians(skewAngle)) * 100;
 
     bgcontent.width(rootWidth);
     bgcontent.height(rootHeight);
@@ -41,27 +45,29 @@ function setSize() {
     dragger.css('top', (rootHeight / 2) - (dragger.height() / 2));
     dragger.css('margin-left', - (skewOffset / 2));
 
+    tb = ((draggerButtonBottomOffset / Math.sin(Math.radians(90 - skewAngle)))) * Math.cos(Math.radians(90 - skewAngle));
+
+    dragButton.css('top', (dragger.height() - draggerButtonBottomOffset));
+    dragButton.css('left', tb - dragButtonMidOffset);
+
     inner.width(rootWidth);
     inner.transition({ skewX: '-' + skewAngle + 'deg', delay: 100 });
+
     content.width(rootWidth + skewOffset);
     contentImage.width(rootWidth + skewOffset);
     content.transition({ skewX: skewAngle + 'deg', delay: 100 });
 
-    inner.css('margin-left', -(skewOffset / 2)); // skew compensate
+    inner.css('margin-left', - (skewOffset / 2)); // skew compensate
 }
 
 function setPos(dragPos) {
     var perc = ((dragPos + (skewOffset / 2)) / (rootWidth + skewOffset));
-    //var redLeft =
 
-    //bgcontent.css("filter", "grayscale("+(perc - 0.3)+")");
-    //content.css("filter", "grayscale("+((1 - perc) -0.3)+")");
 
-    overlayLeft.css("opacity", perc - 0.3);
-    overlayRight.css("opacity", (1 - perc) -0.3);
+    //overlayLeft.css("opacity", perc - 0.3);
+    //overlayRight.css("opacity", (1 - perc) -0.3);
     inner.width((rootWidth + skewOffset) * perc);
 
-    //-webkit-filter: hue-rotate(240deg) saturate(3.3);
 }
 
 function doneResizing() {
