@@ -1,31 +1,9 @@
 <?php include "templates/html-header.php"; ?>
 <body class="l-page_home">
+
 <?php include "templates/inc-topbar.php"; ?>
-<div id="ags-slider" class="ags-slider">
-    <div id="ags-slider-bounds" class="ags-slider--bounds"></div>
-    <div class="ags-bg--content">
-        <div class="infobox">
-            <strong>Školka</strong><br />EXPO 2015
-            <div class="title-box"><span>2015</span>Školka</div>
-        </div>
-        <div class="overlay"></div>
-    </div>
-    <div class="inner">
-        <div class="content">
-            <div class="ags-front--content">
-                <div class="infobox2">
-                    <strong>Český Pavilon</strong><br />EXPO 2015
-                    <div class="title-box"><span>2015</span>Výstavní pavilon v Miláně</div>
-                </div>
-                <div class="overlay"></div>
-            </div>
-        </div>
-    </div>
-    <div class="dragger">
-        <img src="/assets/dragger.png" alt="" class="drag-button" />
-    </div>
-    <div class="cover"></div>
-</div>
+
+<?php include("templates/inc-angle-slider.php"); ?>
 
 <div class="row l-section">
     <div class="m-section_pavilon">
@@ -210,7 +188,7 @@
     <article class="row">
         <header class="clearfix mgr-full">
             <div class="small-12 large-5 columns">
-                <h1 class="fnt-primary-headline">Výhody modulární výstavby</h1>
+                <h1 class="fnt-primary-headline">po("Výhody modulární výstavby")</h1>
             </div>
             <div class="small-12 large-7 columns">
                 <h3 class="fnt-secondary-headline">Modulární architektura je založena na třech základních principech, které vycházejí z potřeb lidí - prefabrikace, mobilita a variabilita.</h2>
@@ -265,79 +243,14 @@
     </article>
 </div>
 
-<!-- partners gold -->
-<div class="l-section mm-dark">
-    <article>
-        <header class="clearfix mgr-full row">
-            <div class="small-12 columns">
-                <h1 class="fnt-primary-headline">Hlavní partneři pavilonu (gold)</h1>
-            </div>
-        </header>
 
-        <div class="row l-partner_large">
+<?php include("templates/inc-footer-partner.php"); ?>
 
-            <article class="small-6 columns m-partner">
-                <header>
-                    <a href="pavilon.php">
-                        <img class="m-item--image" src="/assets/modul.png" />
-                        <h1 class="m-item--hed">Patner</h1>
-                        <div class="m-item--description">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</div>
-                    </a>
-                </header>
-            </article>
-
-            <article class="small-6 columns m-partner">
-                <header>
-                    <a href="pavilon.php">
-                        <img class="m-item--image" src="/assets/modul.png" />
-                        <h1 class="m-item--hed fnt-primary-body-m">Patner</h1>
-                        <div class="m-item--description">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</div>
-                    </a>
-                </header>
-            </article>
-
-        </div>
-    </article>
-</div>
-
-<!-- partners gold -->
-<div class="l-section ">
-    <article>
-        <header class="clearfix mgr-full row">
-            <div class="small-12 columns">
-                <h1 class="fnt-primary-headline">Další pratneři</h1>
-            </div>
-        </header>
-
-        <div class="row l-partner_xsmall">
-            <ul class="small-block-grid-6">
-
-                <?php for($i=0; $i<6; $i++) { ?>
-                <li>
-                    <article class="m-partner">
-                        <header>
-                            <img class="m-item--image" src="/assets/modul.png" />
-                            <h1 class="m-item--hed">firma</h1>
-                            <div class="m-item--description">firma</div>
-                        </header>
-                    </article>
-                </li>
-                <?php }  ?>
-
-            </ul>
-        </div>
-    </article>
-</div>
-
-
-
-<?php // include "templates/inc-footer-partner.php"; ?>
 <?php include "templates/inc-footer.php"; ?>
+
 <!-- page custom JS -->
 <script src="/components/ags-slider/ags-slider.js"></script>
-<!-- angle slider -->
 <script src="/js/progress-bar-scroll.js"></script>
-<!-- time line-->
 <script src="/js/app.js"></script>
 
 </body>
