@@ -2649,6 +2649,9 @@ blockquote, blockquote p {
     .ags-slider .ags-front--content .title-box {
       left: 60px;
       text-align: left; }
+  .ags-slider .ags-bg--content .title-box, .ags-slider .ags-front--content .title-box {
+    background-color: red;
+    bottom: 110px; }
   .ags-slider .ags-bg--content .overlay, .ags-slider .ags-front--content .overlay {
     position: absolute;
     top: 0;
@@ -2688,11 +2691,10 @@ blockquote, blockquote p {
   font-size: 6rem;
   color: white;
   position: relative;
-  width: 1280px;
-  height: 860px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 240px;
   text-shadow: 0 2px 1px rgba(0, 0, 0, 0.4); }
 
 .l-schema {

@@ -54,6 +54,8 @@ function setSize() {
     inner.transition({ skewX: '-' + skewAngle + 'deg', delay: 100 });
 
     content.width(rootWidth + skewOffset);
+    content.height(rootHeight);
+
     contentImage.width(rootWidth + skewOffset);
     content.transition({ skewX: skewAngle + 'deg', delay: 100 });
 

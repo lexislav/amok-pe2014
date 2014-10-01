@@ -90,6 +90,12 @@ $ags-height:860px;
 
     .ags-bg--content,
     .ags-front--content {
+
+        .title-box {
+            background-color: red;
+            bottom: 200px - 90px; // -dragger height
+        }
+
         .overlay {
             position: absolute;
             top: 0;
@@ -153,12 +159,12 @@ $ags-height:860px;
     color: white;
 
     position: relative;
-    width: 1280px;
-    height: $ags-height;
+    width: 100%;
+    height: 100%;
 
     margin: 0 auto;
     text-align: center;
-    padding-top: 240px;
+   // background-color: orange;
 
     text-shadow: 0 2px 1px rgba(0,0,0,0.4);
 }
