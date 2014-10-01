@@ -1,26 +1,63 @@
+<!-- partners gold -->
+<div class="l-section mm-dark">
+    <article>
+        <header class="clearfix mgr-full row">
+            <div class="small-12 columns">
+                <h1 class="fnt-primary-headline">Hlavní partneři pavilonu (gold)</h1>
+            </div>
+        </header>
 
-<div class="row">
-    <div class="medium-12 columns">
-        <h1>Vznik pavilonu umožnil GoldPartner</h1>
-    </div>
+        <div class="row l-partner_large">
+
+            <article class="small-6 columns m-partner">
+                <header>
+                    <a href="pavilon.php">
+                        <img class="m-item--image" src="/assets/modul.png" />
+                        <h1 class="m-item--hed">Patner</h1>
+                        <div class="m-item--description">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</div>
+                    </a>
+                </header>
+            </article>
+
+            <article class="small-6 columns m-partner">
+                <header>
+                    <a href="pavilon.php">
+                        <img class="m-item--image" src="/assets/modul.png" />
+                        <h1 class="m-item--hed fnt-primary-body-m">Patner</h1>
+                        <div class="m-item--description">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</div>
+                    </a>
+                </header>
+            </article>
+
+        </div>
+    </article>
 </div>
 
-<div class="row">
-    <div class="medium-6 columns">
-        <ul class="medium-block-grid-4">
-            <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-            <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-            <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-            <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-        </ul>
-    </div>
-    <div class="medium-6 columns">
-        <h2><a href="" >Více na blogu ...</a></h2>
-    </div>
-</div>
+<!-- partners gold -->
+<div class="l-section ">
+    <article>
+        <header class="clearfix mgr-full row">
+            <div class="small-12 columns">
+                <h1 class="fnt-primary-headline">Další pratneři</h1>
+            </div>
+        </header>
 
-<div class="row">
-    <div class="medium-12 columns">
-        <h1>Vznik pavilonu podpořil Silver</h1>
-    </div>
+        <div class="row l-partner_xsmall">
+            <ul class="small-block-grid-6">
+
+                <?php for($i=0; $i<6; $i++) { ?>
+                    <li>
+                        <article class="m-partner">
+                            <header>
+                                <img class="m-item--image" src="/assets/modul.png" />
+                                <h1 class="m-item--hed">firma</h1>
+                                <div class="m-item--description">firma</div>
+                            </header>
+                        </article>
+                    </li>
+                <?php }  ?>
+
+            </ul>
+        </div>
+    </article>
 </div>
