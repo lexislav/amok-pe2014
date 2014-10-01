@@ -57,8 +57,8 @@ function setPos(dragPos) {
     //bgcontent.css("filter", "grayscale("+(perc - 0.3)+")");
     //content.css("filter", "grayscale("+((1 - perc) -0.3)+")");
 
-    //overlayLeft.css("opacity", perc - 0.3);
-    //overlayRight.css("opacity", (1 - perc) -0.3);
+    overlayLeft.css("opacity", perc - 0.3);
+    overlayRight.css("opacity", (1 - perc) -0.3);
     inner.width((rootWidth + skewOffset) * perc);
 
     //-webkit-filter: hue-rotate(240deg) saturate(3.3);
