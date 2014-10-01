@@ -124,15 +124,14 @@ a:hover {
 
     margin-bottom: $base-spacing / 2;
 
-    h1 {
-        //@include fnt-secondary-headline-mid();
+    .m-item--hed {
         @include fnt-primary-body-m();
         padding: 8px 16px;
         padding-bottom: 12px;
         background: #F1F1F1;
     }
 
-    .m-blog-item--image {
+    .m-item--image {
         width: 100%;
         height: auto;
         background-repeat: no-repeat;
@@ -141,13 +140,47 @@ a:hover {
     }
 
     &:hover {
-        h1 {
+        .m-item--hed {
             background-color: $color-koma-red;
             color: white;
         }
     }
 }
 
+//
+
+
+.m-partner {
+
+    text-align: center;
+
+    .m-item--image {
+        margin-bottom: $base-spacing / 3;
+    }
+    .m-item--hed {
+        @include fnt-primary-body-m();
+        font-weight: bold;
+    }
+    .m-item--description {
+        color: #777;
+    }
+
+}
+
+.l-partner_large .m-partner {
+
+    .m-item--image {
+        margin-bottom:  $base-spacing / 2;
+    }
+
+    .m-item--hed {
+        @include fnt-primary-headline();
+    }
+
+    .m-item--description {
+        padding: 0 25%;
+    }
+}
 
 
 

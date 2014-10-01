@@ -246,43 +246,20 @@
         </header>
 
         <div class="row">
+
+           <?php
+           // 4x blog item
+           for($b = 0; $b < 4; $b++) { ?>
             <article class="small-12 medium-6 large-3 columns m-blog-item">
                 <header>
                     <a href="pavilon.php">
-                        <img class="m-blog-item--image" src="/assets/modul.png" />
+                        <img class="m-item--image" src="/assets/modul.png" />
 
-                        <h1>Normální náhled příspěvku s tak nějak decentně dlouhým názvem</h1>
+                        <h1 class="m-item--hed">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</h1>
                     </a>
                 </header>
             </article>
-            <article class="small-12 medium-6 large-3 columns m-blog-item">
-                <header>
-                    <a href="pavilon.php">
-                        <img class="m-blog-item--image" src="/assets/modul.png" />
-
-                        <h1>Normální náhled příspěvku s tak nějak decentně dlouhým názvem</h1>
-                    </a>
-                </header>
-            </article>
-            <article class="small-12 medium-6 large-3 columns m-blog-item">
-                <header>
-                    <a href="pavilon.php">
-                        <img class="m-blog-item--image" src="/assets/modul.png" />
-
-                        <h1>Normální náhled příspěvku s tak nějak decentně dlouhým názvem</h1>
-                    </a>
-                </header>
-            </article>
-            <article class="small-12 medium-6 large-3 columns m-blog-item">
-                <header>
-                    <a href="pavilon.php">
-                        <img class="m-blog-item--image" src="/assets/modul.png" />
-
-                        <h1>Normální náhled příspěvku s tak nějak decentně dlouhým názvem</h1>
-                    </a>
-                </header>
-            </article>
-
+           <?php } ?>
 
         </div>
     </article>
@@ -297,30 +274,28 @@
             </div>
         </header>
 
-        <div class="row">
-            <article class="small-6 columns">
+        <div class="row l-partner_large">
+
+            <article class="small-6 columns m-partner">
                 <header>
                     <a href="pavilon.php">
-                        <img class="m-blog-item--image" src="/assets/modul.png" />
-
-                        <h1 class="fnt-primary-body-m">Patner</h1>
-
-                        <p>Normální náhled příspěvku s tak nějak decentně dlouhým názvem</p>
+                        <img class="m-item--image" src="/assets/modul.png" />
+                        <h1 class="m-item--hed">Patner</h1>
+                        <div class="m-item--description">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</div>
                     </a>
                 </header>
             </article>
 
-            <article class="small-6 columns">
+            <article class="small-6 columns m-partner">
                 <header>
                     <a href="pavilon.php">
-                        <img class="m-blog-item--image" src="/assets/modul.png" />
-
-                        <h1 class="fnt-primary-body-m">Patner</h1>
-
-                        <p>Normální náhled příspěvku s tak nějak decentně dlouhým názvem</p>
+                        <img class="m-item--image" src="/assets/modul.png" />
+                        <h1 class="m-item--hed fnt-primary-body-m">Patner</h1>
+                        <div class="m-item--description">Normální náhled příspěvku s tak nějak decentně dlouhým názvem</div>
                     </a>
                 </header>
             </article>
+
         </div>
     </article>
 </div>
@@ -334,15 +309,16 @@
             </div>
         </header>
 
-        <div class="row">
+        <div class="row l-partner_xsmall">
             <ul class="small-block-grid-6">
 
                 <?php for($i=0; $i<6; $i++) { ?>
                 <li>
-                    <article>
+                    <article class="m-partner">
                         <header>
-                            <img src="/assets/modul.png" />
-                            <h1>firma</h1>
+                            <img class="m-item--image" src="/assets/modul.png" />
+                            <h1 class="m-item--hed">firma</h1>
+                            <div class="m-item--description">firma</div>
                         </header>
                     </article>
                 </li>

@@ -3021,7 +3021,7 @@ a:hover .svg-button #button {
 
 .m-blog-item {
   margin-bottom: 25px; }
-  .m-blog-item h1 {
+  .m-blog-item .m-item--hed {
     font-family: "Purista";
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
@@ -3029,15 +3029,38 @@ a:hover .svg-button #button {
     padding: 8px 16px;
     padding-bottom: 12px;
     background: #F1F1F1; }
-  .m-blog-item .m-blog-item--image {
+  .m-blog-item .m-item--image {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
-  .m-blog-item:hover h1 {
+  .m-blog-item:hover .m-item--hed {
     background-color: #A0000B;
     color: white; }
+
+.m-partner {
+  text-align: center; }
+  .m-partner .m-item--image {
+    margin-bottom: 16.66667px; }
+  .m-partner .m-item--hed {
+    font-family: "Purista";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.2rem;
+    font-weight: bold; }
+  .m-partner .m-item--description {
+    color: #777; }
+
+.l-partner_large .m-partner .m-item--image {
+  margin-bottom: 25px; }
+.l-partner_large .m-partner .m-item--hed {
+  font-family: "Purista";
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2.66667rem; }
+.l-partner_large .m-partner .m-item--description {
+  padding: 0 25%; }
 
 .tmp-bigimage {
   background-color: darkgray;
