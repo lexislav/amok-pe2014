@@ -2650,7 +2650,6 @@ blockquote, blockquote p {
       left: 60px;
       text-align: left; }
   .ags-slider .ags-bg--content .title-box, .ags-slider .ags-front--content .title-box {
-    background-color: red;
     bottom: 110px; }
   .ags-slider .ags-bg--content .overlay, .ags-slider .ags-front--content .overlay {
     position: absolute;

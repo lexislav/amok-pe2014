@@ -31,9 +31,6 @@
     <meta name="format-detection" content="address=no" />
 
 
-    <!--<link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css" />
-    <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
-    -->
 
     <title>Koma micro</title>
 
@@ -50,6 +47,12 @@
 
     <script src="http://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
     <script type="text/javascript" src="/components/skrollr/skrollr.min.js"></script>
+
+<!--
+<script src="//use.typekit.net/lvu2xcm.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+-->
+
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="components/slick/slick/slick.css"/>

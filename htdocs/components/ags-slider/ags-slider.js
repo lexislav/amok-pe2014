@@ -32,10 +32,12 @@ overlayRight.css("opacity", 0);
 
 
 function setSize() {
+    console.log("setsize");
+
     rootWidth = root.width();
     rootHeight = root.height();
     skewOffset = Math.tan(Math.radians(skewAngle)) * rootHeight;
-    dragButtonOffset = Math.tan(Math.radians(skewAngle)) * 100;
+    skewOffsetMid = skewOffset / 2;
 
     bgcontent.width(rootWidth);
     bgcontent.height(rootHeight);
@@ -43,37 +45,39 @@ function setSize() {
     dragger.height(rootHeight);
     dragger.width(skewOffset);
     dragger.css('top', (rootHeight / 2) - (dragger.height() / 2));
-    dragger.css('margin-left', - (skewOffset / 2));
+    dragger.css('margin-left', - skewOffsetMid);
 
+    // drag button positon
     tb = ((draggerButtonBottomOffset / Math.sin(Math.radians(90 - skewAngle)))) * Math.cos(Math.radians(90 - skewAngle));
-
     dragButton.css('top', (dragger.height() - draggerButtonBottomOffset));
     dragButton.css('left', tb - dragButtonMidOffset);
 
+    // inner content
     inner.width(rootWidth);
     inner.transition({ skewX: '-' + skewAngle + 'deg', delay: 100 });
+    inner.css('margin-left', - skewOffsetMid); // skew compensate
 
     content.width(rootWidth + skewOffset);
     content.height(rootHeight);
-
+    content.css('margin-left', skewOffsetMid); // skew compensate
     contentImage.width(rootWidth + skewOffset);
     content.transition({ skewX: skewAngle + 'deg', delay: 100 });
 
-    inner.css('margin-left', - (skewOffset / 2)); // skew compensate
 }
 
 function setPos(dragPos) {
+    currentPos = dragPos;
     var perc = ((dragPos + (skewOffset / 2)) / (rootWidth + skewOffset));
+    inner.width((rootWidth + skewOffset) * perc);
 
-
+    // background overlay transition
     //overlayLeft.css("opacity", perc - 0.3);
     //overlayRight.css("opacity", (1 - perc) -0.3);
-    inner.width((rootWidth + skewOffset) * perc);
 
 }
 
 function doneResizing() {
-    console.log("res");
+    console.log("res" + currentPos);
     setSize();
     setPos(currentPos);
     //$("#angle-slider > .dragger").css("left", currentPos);
@@ -82,10 +86,6 @@ function doneResizing() {
 $(function () {
     console.log("ready!");
     currentPos = $("#ags-slider").width() / 6 * 4.3;
-
-    /*cover.transition({
-        opacity: 0,
-    });*/
 
     cover.fadeOut(1000);
 
@@ -107,6 +107,7 @@ $(function () {
         }
     });
 
+    // set initial pos for dragger
     $("#ags-slider > .dragger").css("left", currentPos);
 
 
