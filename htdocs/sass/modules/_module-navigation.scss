@@ -41,7 +41,7 @@
         position: fixed;
         right: 30px;
         top: 0;
-        color: black;
+            color: $body-font-color;
 
         font-size: rem-calc(16);
         text-transform: uppercase;
@@ -49,6 +49,11 @@
         a {
             display: inline-block;
             padding: 0 .5em;
+            color: $body-font-color;
+            &:hover {
+                color: $color-koma-red;
+            }
+
         }
 
     }

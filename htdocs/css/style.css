@@ -2005,7 +2005,7 @@ select {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-out; }
   .th:hover, .th:focus {
-    box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(194, 14, 26, 0.5); }
   .th.radius {
     border-radius: 3px; }
 
@@ -2220,11 +2220,11 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
+  color: #c20e1a;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #007ba0; }
+    color: #a70c16; }
   a img {
     border: none; }
 
@@ -2577,12 +2577,15 @@ blockquote, blockquote p {
     position: fixed;
     right: 30px;
     top: 0;
-    color: black;
+    color: #4A4A4A;
     font-size: 1.06667rem;
     text-transform: uppercase; }
     .m-nav .m-nav--lang a {
       display: inline-block;
-      padding: 0 0.5em; }
+      padding: 0 0.5em;
+      color: #4A4A4A; }
+      .m-nav .m-nav--lang a:hover {
+        color: #c20e1a; }
   .m-nav .m-nav--overlay {
     display: none;
     position: fixed;

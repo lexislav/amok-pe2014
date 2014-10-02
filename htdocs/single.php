@@ -17,7 +17,7 @@
             <div class="medium-4 columns">
                 <h2>title 1</h2>
 
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
+                <p>Lorem ip<a href="" target="_blank" title="sum základní výhody modulární výstavby lorem ipsum Hendis al">sum základní výhody modulární výstavby lorem ipsum Hendis al</a>ition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
             </div>
         </div>
 
