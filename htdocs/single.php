@@ -2,74 +2,149 @@
 <body class="l-page l-page_single">
 <?php include "templates/inc-topbar.php"; ?>
 
+<div class="row">
+    <article class="m-story">
+        <div class="row">
+            <div class="small-12 columns">
+                <nav class="breadcrumbs">
+                    <a href="#">ZRAVODAJ PAVILONU</a>
+                    <a class="current" href="#">KATEGORIE</a>
+                </nav>
+            </div>
+            <header class="small-12 columns">
+                <h1 class="m-item--hed">Zpravodaj pavilonu a jeho jednotlivý článek, co může, ale nemusí mít ukrutně dlouhý název</h1>
+
+                <div class="m-item--meta">
+                    Datum vydání: 21. 12. 2112
+                </div>
+
+
+            </header>
+
+            <div class="large-6 columns visible-for-medium-down">
+                <div class="m-item--image">
+                    <img src="/assets/modul.png" alt="" />
+                </div>
+            </div>
+
+
+            <div class="large-6 columns m-item--copy">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+
+            <div class="large-6 columns visible-for-large-up">
+                <div class="m-item--image">
+                    <img src="/assets/modul.png" alt="" />
+                </div>
+            </div>
+
+            <aside class="large-6 large-offset-0 columns">
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h4>kategorie</h4>
+                        <a href="#">Link 1</a>,
+                        <a href="#">Link 2</a>,
+                        <a href="#">Link 3</a>,
+                        <a href="#">Link 4</a>,
+                        <a href="#">Link 5</a>,
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <h4 class="large-6 columns">Čtěte také:</h4>
+
+                    <div class="large-6 columns">
+                        <article>
+                            <header>
+                                <h1 class="m-item--hed">
+                                    <a href="" target="_blank" title="">Šíleně krátký název článku</a></h1>
+                            </header>
+                        </article>
+
+                        <article>
+                            <header>
+                                <h1 class="m-item--hed">
+                                    <a href="" target="_blank" title="">Šíleně přetažený a nejdelší název článku co by mohl případně překročit všechny meze slušnosti</a>
+                                </h1>
+                            </header>
+                        </article>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <h4 class="large-6 columns">Soubory ke stažení:</h4>
+
+                    <div class="large-6 columns">
+                        <article>
+                            <header>
+                                <h1 class="m-item--hed">
+                                    <a href="" target="_blank" title="">Šíleně krátký název článku</a>
+                                </h1>
+                            </header>
+                        </article>
+
+                        <article>
+                            <header>
+                                <h1 class="m-item--hed">
+                                    <a href="" target="_blank" title="">Šíleně přetažený a nejdelší název článku co by mohl případně překročit všechny meze slušnosti</a>
+                                </h1>
+                            </header>
+                        </article>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+
 
         <div class="row">
-            <div class="medium-4 columns">
-                <h2>title 1</h2>
-
-                <p>Unikátní koncept architektonického řešení umož- ňují principy modulární výstavby. Právě její využití umožní recyklaci pavilonu v budoucnosti. </p>
-            </div>
-            <div class="medium-4 columns">
-                <h2>title 1</h2>
-
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>
-            <div class="medium-4 columns">
-                <h2>title 1</h2>
-
-                <p>Lorem ip<a href="" target="_blank" title="sum základní výhody modulární výstavby lorem ipsum Hendis al">sum základní výhody modulární výstavby lorem ipsum Hendis al</a>ition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
+            <div class="large-12 columns">
+                <div>
+                    <a href=""><i>top</i></a>
+                    <a href=""><i>previous</i></a>
+                    <a href=""><i>next</i></a>
+                </div>
             </div>
         </div>
 
         <div class="row">
-            transition
+            <?php
+            $totalImages = 16;
+            for ($i = 1; $i <= $totalImages; $i++) {
+                $gridclass = '';
+                if ($i == $totalImages) {
+                    $gridclass = 'end';
+                }
+                ?>
+                <div class="small-6 medium-4 large-3 xlarge-2 columns <?php echo $gridclass; ?> ">
+                    <img src="/assets/modul.png" alt="" />
+                </div>
+            <?php } ?>
         </div>
-
 
         <div class="row">
-            <div class="medium-6 columns">
-                <h2>O výstavách</h2>
-            </div>
-
-            <div class="medium-6 columns">
-                <ul class="medium-block-grid-2">
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                </ul>
+            <div class="small-12 columns">
+                <div class="flex-video widescreen vimeo">
+                    <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
             </div>
         </div>
 
-
-        <div class="row">
-            <div class="medium-6 columns">
-                <h2>budoucnost pavilonu</h2>
-
-                <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
-            </div>
-
-            <div class="medium-6 columns">
-                <h2>Historie Českých pavilonů</h2>
-
-                <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="medium-12 columns"><h2>Za konceptem</h2></div>
-            <div class="medium-6 columns">
-                <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
-            </div>
-
-            <div class="medium-6 columns">
-                <p>text</p>
-            </div>
-        </div>
-
-
-
+    </article>
+</div>
 
 <?php include "templates/inc-footer-partner.php"; ?>
 <?php include "templates/inc-footer.php"; ?>
