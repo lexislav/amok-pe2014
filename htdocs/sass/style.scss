@@ -40,8 +40,13 @@ $navbar-height: 80px;
 }
 
 .l-page {
-    &.l-page_single {
-        padding-top: $navbar-height;
+
+    padding-top: $navbar-height;
+
+    &.l-page_home,
+    &.l-page_pavilon,
+    &.xl-page_blog {
+        padding-top: 0;
     }
 }
 
@@ -132,12 +137,19 @@ a:hover {
 .m-blog-item {
 
     margin-bottom: $base-spacing / 2;
+    position: relative;
 
     .m-item--hed {
         @include fnt-primary-body-m();
         padding: 8px 16px;
         padding-bottom: 12px;
-        background: #F1F1F1;
+        background: #FBFBFB;
+        margin: 0;
+
+        a {
+            display: block;
+            width: 100%;
+        }
     }
 
     .m-item--image {
@@ -146,18 +158,99 @@ a:hover {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .m-item--meta {}
+
+
+    .m-item--section {
+        position: absolute;
+        top: 14px;
+        left: 14px;
+
+        font-size: rem-calc(12);
+
+        display: block;
+        background-color: #000;
+        color: white;
+
+        text-transform: uppercase;
+        padding: 4px 8px;
+
+        &:hover {
+            background-color: $color-koma-red;
+        }
     }
 
     &:hover {
+        a {
+            color: white;
+        }
         .m-item--hed {
             background-color: $color-koma-red;
             color: white;
         }
     }
+
+
+    &.mm-subhero {
+
+        .m-item--hed {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+
+            font-size: rem-calc(20);
+            color: white;
+            background-color: rgba(0,0,0,.56);
+            a {
+                color: white;
+            }
+        }
+
+        .m-item--section {
+            font-size: rem-calc(15);
+        }
+
+
+        &:hover {
+            .m-item--hed {
+                background-color: $color-koma-red;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &.mm-featured {
+        .m-item--section {
+            background-color: $color-koma-red;
+            color: white;
+
+            &:hover {
+                background-color: $black;
+            }
+        }
+    }
+
 }
 
 //
 
+.m-theme {
+    background-image: url("/assets/file-a.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 472px;
+}
+
+
+//
 
 .m-partner {
 
@@ -201,6 +294,14 @@ a:hover {
         color: white;
 
         text-shadow: 0 1px 0 rgba(0,0,0,.5);
+
+        a {
+            color: white;
+            &:hover {
+             color: white;
+                text-decoration: underline;
+        }
+        }
     }
 }
 

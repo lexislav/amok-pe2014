@@ -19,8 +19,8 @@
         <?php for ($i = 1; $i <= 8; $i++) { ?>
             <article class="small-6 medium-4 large-2 columns m-partner">
                 <header>
-                    <div class="m-item--image"><img src="/assets/ikony/sipka.svg" alt="" /></div>
-                    <h1 class="m-item--hed">sponzor bronze</h1>
+                    <div class="m-item--image"><a href=""><img src="/assets/ikony/sipka.svg" alt="" /></a></div>
+                    <h1 class="m-item--hed"><a href="">sponzor bronze</a></h1>
                 </header>
             </article>
         <?php } ?>

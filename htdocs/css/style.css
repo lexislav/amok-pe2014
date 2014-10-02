@@ -4141,8 +4141,10 @@ th.hide-for-touch {
 .mgr-third {
   margin-bottom: 25px; }
 
-.l-page.l-page_single {
+.l-page {
   padding-top: 80px; }
+  .l-page.l-page_home, .l-page.l-page_pavilon, .l-page.xl-page_blog {
+    padding-top: 0; }
 
 .l-section {
   padding-top: 50px;
@@ -4197,7 +4199,8 @@ a:hover .svg-button #button {
   opacity: 1; }
 
 .m-blog-item {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  position: relative; }
   .m-blog-item .m-item--hed {
     font-family: "Purista";
     font-weight: normal;
@@ -4205,16 +4208,63 @@ a:hover .svg-button #button {
     font-size: 1.2rem;
     padding: 8px 16px;
     padding-bottom: 12px;
-    background: #F1F1F1; }
+    background: #FBFBFB;
+    margin: 0; }
+    .m-blog-item .m-item--hed a {
+      display: block;
+      width: 100%; }
   .m-blog-item .m-item--image {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
+    .m-blog-item .m-item--image img {
+      width: 100%; }
+  .m-blog-item .m-item--section {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 0.8rem;
+    display: block;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    padding: 4px 8px; }
+    .m-blog-item .m-item--section:hover {
+      background-color: #c20e1a; }
+  .m-blog-item:hover a {
+    color: white; }
   .m-blog-item:hover .m-item--hed {
     background-color: #c20e1a;
     color: white; }
+  .m-blog-item.mm-subhero .m-item--hed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 1.33333rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.56); }
+    .m-blog-item.mm-subhero .m-item--hed a {
+      color: white; }
+  .m-blog-item.mm-subhero .m-item--section {
+    font-size: 1rem; }
+  .m-blog-item.mm-subhero:hover .m-item--hed {
+    background-color: #c20e1a;
+    text-decoration: underline; }
+  .m-blog-item.mm-featured .m-item--section {
+    background-color: #c20e1a;
+    color: white; }
+    .m-blog-item.mm-featured .m-item--section:hover {
+      background-color: #000000; }
+
+.m-theme {
+  background-image: url("/assets/file-a.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 472px; }
 
 .m-partner {
   text-align: center; }
@@ -4246,6 +4296,11 @@ a:hover .svg-button #button {
     font-size: 1rem;
     color: white;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+    .m-page-footer .m-partner .m-item--hed a {
+      color: white; }
+      .m-page-footer .m-partner .m-item--hed a:hover {
+        color: white;
+        text-decoration: underline; }
 
 .tmp-bigimage {
   background-color: darkgray;
