@@ -191,6 +191,20 @@ a:hover {
     }
 }
 
+.m-page-footer .m-partner {
+
+    margin-bottom: $base-spacing / 2;
+
+    .m-item--hed {
+        font-weight: 300;
+        font-size: rem-calc(15);
+        color: white;
+
+        text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    }
+}
+
+
 
 
 

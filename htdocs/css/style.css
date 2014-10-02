@@ -4092,20 +4092,45 @@ th.hide-for-touch {
         background-image: url("/assets/triangle-full.png"); }
 
 .m-page-footer {
+  padding-top: 50px;
+  background-image: url("/assets/file-a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
   font-family: "Purista";
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
-  background: #2D2D2D;
-  color: white;
-  height: 94px; }
-  .m-page-footer .m-page-footer--content {
-    text-align: center;
-    font-size: 2.13333rem;
-    line-height: 94px; }
-    .m-page-footer .m-page-footer--content strong {
-      font-family: "Purista";
-      font-weight: normal;
-      -webkit-font-smoothing: antialiased; }
+  font-size: 1.06667rem;
+  color: white; }
+  .m-page-footer .m-page-footer--content strong {
+    font-family: "Purista";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased; }
+  .m-page-footer h5 {
+    color: white;
+    border-bottom: 1px dotted white;
+    font-size: 1rem;
+    padding-bottom: 4px;
+    font-weight: 300;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8); }
+  .m-page-footer .m-page-footer--copyright {
+    font-size: 0.93333rem;
+    font-weight: 400;
+    background-color: #000;
+    line-height: 30px;
+    padding: 16.66667px; }
+    .m-page-footer .m-page-footer--copyright .text-right {
+      text-align: center !important; }
+    .m-page-footer .m-page-footer--copyright .text-center {
+      text-align: right !important; }
+    @media only screen and (min-width:781px) {
+      .m-page-footer .m-page-footer--copyright {
+        font-size: 1.06667rem;
+        line-height: 40px; }
+        .m-page-footer .m-page-footer--copyright .text-right {
+          text-align: right !important; }
+        .m-page-footer .m-page-footer--copyright .text-center {
+          text-align: center !important; } }
 
 .mgr-full {
   margin-bottom: 50px; }
@@ -4213,6 +4238,14 @@ a:hover .svg-button #button {
   font-size: 2.66667rem; }
 .l-partner_large .m-partner .m-item--description {
   padding: 0 25%; }
+
+.m-page-footer .m-partner {
+  margin-bottom: 25px; }
+  .m-page-footer .m-partner .m-item--hed {
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
 
 .tmp-bigimage {
   background-color: darkgray;

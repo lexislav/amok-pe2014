@@ -1,19 +1,60 @@
 .m-page-footer {
 
+    padding-top: $base-spacing;
+    background-image: url("/assets/file-a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
     @include fnt-purista-light();
+    font-size: rem-calc(16);
 
-
-    background: #2D2D2D;
+    //background: #2D2D2D;
     color: white;
-    height: 94px;
 
     .m-page-footer--content {
-        text-align: center;
-        font-size: rem-calc(32);
-        line-height: 94px;
-
         strong {
             @include fnt-purista();
         }
     }
+
+    h5 {
+        color: white;
+        border-bottom: 1px dotted white;
+        font-size: rem-calc(15);
+        padding-bottom: 4px;
+        font-weight: 300;
+
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+
+    }
+
+    .m-page-footer--copyright {
+        font-size: rem-calc(14);
+        font-weight: 400;
+        background-color: #000;
+        line-height: 30px;
+        padding: $base-spacing/3;
+
+        .text-right {
+            text-align: center !important;
+        }
+        .text-center {
+            text-align: right !important;
+        }
+
+        @media #{$large-up} {
+            font-size: rem-calc(16);
+            line-height: 40px;
+            .text-right {
+                text-align: right !important;
+            }
+            .text-center {
+                text-align: center !important;
+            }
+        }
+    }
+
 }
+
+
