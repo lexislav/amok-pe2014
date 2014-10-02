@@ -28,33 +28,6 @@
 
     }
 
-    .m-nav--menu {
-        position: fixed;
-        z-index: 210;
-
-        width: 300px;
-        height: 400px;
-        overflow: auto;
-        margin: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-
-        & > li a {
-            @include fnt-purista-light();
-            text-align: center;
-            display: block;
-            font-size: rem-calc(30);
-            color: #000;
-
-            &:hover {
-                color: $color-koma-red;
-            }
-        }
-    }
-
     .m-nav--overlay {
 
         display: none;
@@ -72,6 +45,87 @@
         .m-nav--overlay {
             display: block;
         }
+    }
+
+    .m-nav--menu {
+
+        position: absolute;
+        z-index: 210;
+        width: 90%;
+        height: 840px;
+        overflow: auto;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        @media #{$medium-up} {
+            width: 80%;
+        }
+
+        @media #{$large-up} {
+            width: 600px;
+        }
+
+        @include fnt-purista();
+
+        ul {
+            @include clearfix();
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: $base-spacing / 2;
+
+            li {
+                display: block;
+                float: left;
+
+                &:before {
+                    content: "/";
+                    display: inline;
+                    padding: 0 0.6em;
+                }
+
+                &:first-of-type:before {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+}
+
+//
+
+.m-nav .m-item {
+
+    .m-item--hed {
+
+
+        a {
+
+            font-weight: 800;
+            font-size: rem-calc(30);
+
+            text-align: left;
+            display: block;
+            color: #000;
+
+            &:hover {
+                color: $color-koma-red;
+            }
+        }
+    }
+
+    .m-item--description p {
+        font-weight: 600;
+
+    }
+
+    .m-item--meta {
+
     }
 
 }

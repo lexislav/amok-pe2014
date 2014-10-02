@@ -79,8 +79,6 @@ $ags-height:860px;
         background-repeat: no-repeat;
         background-position: 50% 50%;
 
-
-
         .title-box {
             left: 60px;
             text-align: left;
@@ -90,27 +88,21 @@ $ags-height:860px;
 
     .ags-bg--content,
     .ags-front--content {
-
         .title-box {
-            //background-color: red;
             bottom: 200px - 90px; // -dragger height
         }
-
         .overlay {
             position: absolute;
             top: 0;
-            background-color: #A0000B;
+            background-color: $color-koma-red-slider;
             height: 100%;
             width: 100%;
-            //opacity: 0.88;
-           // -webkit-filter: hue-rotate(240deg) saturate(3.3);
         }
     }
 
 
 
     .inner {
-        //transform: skew(-20deg);
         transform: skew(0deg);
 
         width: 100%;
@@ -120,12 +112,10 @@ $ags-height:860px;
 
         @include AGS-PreventJaggyEdges();
 
-
         .content {
             width: 100%;
             height: 100%;
             overflow: hidden;
-            //transform: skew(20deg);
             transform: skew(0deg);
             @include AGS-PreventJaggyEdges();
         }

@@ -2519,7 +2519,7 @@ blockquote, blockquote p {
   .fnt-white a {
     color: white; }
     .fnt-white a:hover {
-      color: #A0000B; }
+      color: #c20e1a; }
 
 .fnt-shadow {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
@@ -2563,28 +2563,6 @@ blockquote, blockquote p {
     top: 0;
     color: white;
     text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); }
-  .m-nav .m-nav--menu {
-    position: fixed;
-    z-index: 210;
-    width: 300px;
-    height: 400px;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0; }
-    .m-nav .m-nav--menu > li a {
-      font-family: "Purista";
-      font-weight: 100;
-      -webkit-font-smoothing: antialiased;
-      text-align: center;
-      display: block;
-      font-size: 2rem;
-      color: #000; }
-      .m-nav .m-nav--menu > li a:hover {
-        color: #A0000B; }
   .m-nav .m-nav--overlay {
     display: none;
     position: fixed;
@@ -2597,6 +2575,56 @@ blockquote, blockquote p {
     background-color: #f5f5f5; }
   .m-nav.is-opened .m-nav--overlay {
     display: block; }
+  .m-nav .m-nav--menu {
+    position: absolute;
+    z-index: 210;
+    width: 90%;
+    height: 840px;
+    overflow: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family: "Purista";
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased; }
+    @media only screen and (min-width:641px) {
+      .m-nav .m-nav--menu {
+        width: 80%; } }
+    @media only screen and (min-width:781px) {
+      .m-nav .m-nav--menu {
+        width: 600px; } }
+    .m-nav .m-nav--menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 25px; }
+      .m-nav .m-nav--menu ul:before, .m-nav .m-nav--menu ul:after {
+        content: " ";
+        display: table; }
+      .m-nav .m-nav--menu ul:after {
+        clear: both; }
+      .m-nav .m-nav--menu ul li {
+        display: block;
+        float: left; }
+        .m-nav .m-nav--menu ul li:before {
+          content: "/";
+          display: inline;
+          padding: 0 0.6em; }
+        .m-nav .m-nav--menu ul li:first-of-type:before {
+          display: none; }
+
+.m-nav .m-item .m-item--hed a {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: left;
+  display: block;
+  color: #000; }
+  .m-nav .m-item .m-item--hed a:hover {
+    color: #c20e1a; }
+.m-nav .m-item .m-item--description p {
+  font-weight: 600; }
 
 .ags-slider {
   width: 100%;
@@ -3035,7 +3063,7 @@ a:hover .svg-button #button {
     background-size: cover;
     background-position: 50% 50%; }
   .m-blog-item:hover .m-item--hed {
-    background-color: #A0000B;
+    background-color: #c20e1a;
     color: white; }
 
 .m-partner {
