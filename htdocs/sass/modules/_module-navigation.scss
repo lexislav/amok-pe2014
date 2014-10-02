@@ -12,6 +12,16 @@
 
     @include fnt-purista();
 
+    color: $body-font-color;
+
+    a {
+        color: $body-font-color;
+        &:hover {
+            color: $color-koma-red;
+        }
+
+    }
+
     .m-nav--button {
         line-height: $navbar-height;
         text-align: center;
@@ -27,6 +37,7 @@
         font-size: rem-calc(32);
 
         line-height: $navbar-height;
+        line-height: 74px; // fix for Purista
         width: auto;
         float: left;
 
@@ -36,12 +47,13 @@
     }
 
     .m-nav--lang {
-        line-height:  $navbar-height;
-        height: $navbar-height;
+
         position: fixed;
         right: 30px;
         top: 0;
-            color: $body-font-color;
+
+        line-height: $navbar-height;
+        height: $navbar-height;
 
         font-size: rem-calc(16);
         text-transform: uppercase;
@@ -49,13 +61,7 @@
         a {
             display: inline-block;
             padding: 0 .5em;
-            color: $body-font-color;
-            &:hover {
-                color: $color-koma-red;
-            }
-
         }
-
     }
 
     .m-nav--overlay {

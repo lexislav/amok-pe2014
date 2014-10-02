@@ -2552,7 +2552,12 @@ blockquote, blockquote p {
   background-color: white;
   font-family: "Purista";
   font-weight: normal;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  color: #4A4A4A; }
+  .m-nav a {
+    color: #4A4A4A; }
+    .m-nav a:hover {
+      color: #c20e1a; }
   .m-nav .m-nav--button {
     line-height: 80px;
     text-align: center;
@@ -2567,25 +2572,22 @@ blockquote, blockquote p {
     -webkit-font-smoothing: antialiased;
     font-size: 2.13333rem;
     line-height: 80px;
+    line-height: 74px;
     width: auto;
     float: left; }
     .m-nav .m-nav--logo strong {
       font-weight: 400; }
   .m-nav .m-nav--lang {
-    line-height: 80px;
-    height: 80px;
     position: fixed;
     right: 30px;
     top: 0;
-    color: #4A4A4A;
+    line-height: 80px;
+    height: 80px;
     font-size: 1.06667rem;
     text-transform: uppercase; }
     .m-nav .m-nav--lang a {
       display: inline-block;
-      padding: 0 0.5em;
-      color: #4A4A4A; }
-      .m-nav .m-nav--lang a:hover {
-        color: #c20e1a; }
+      padding: 0 0.5em; }
   .m-nav .m-nav--overlay {
     display: none;
     position: fixed;
