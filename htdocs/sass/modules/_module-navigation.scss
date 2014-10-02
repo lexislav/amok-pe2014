@@ -7,7 +7,7 @@
     z-index: 200;
     margin: auto;
 
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $koma;
     background-color: white;
 
     @include fnt-purista();
@@ -19,7 +19,6 @@
         &:hover {
             color: $color-koma-red;
         }
-
     }
 
     .m-nav--button {
@@ -57,10 +56,18 @@
 
         font-size: rem-calc(16);
         text-transform: uppercase;
+        color: scale_color($koma, $lightness: 50%);
 
         a {
             display: inline-block;
             padding: 0 .5em;
+
+            color: scale_color($koma, $lightness: 50%);
+
+            &.is-active {
+                text-decoration: underline;
+                color: $koma;
+            }
         }
     }
 
