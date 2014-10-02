@@ -5,6 +5,7 @@
 $color-koma-red: #c20e1a;
 $color-koma-red-slider: #A0000B;
 $base-spacing: 50px;
+$navbar-height:80px;
 
 @import "settings";
 @import "foundation";
@@ -35,8 +36,15 @@ $base-spacing: 50px;
 }
 
 .m-nav .m-nav--lang {
-    display: none;
+ //   display: none;
 }
+
+.l-page {
+    &.l-page_single {
+        padding-top: $navbar-height;
+    }
+}
+
 
 .l-section {
     @include clearfix();

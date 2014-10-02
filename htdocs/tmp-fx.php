@@ -1,5 +1,5 @@
 <?php include "templates/html-header.php"; ?>
-<body class="l-page_home">
+<body class="l-page l-page_home">
 
 <?php include "templates/inc-topbar.php"; ?>
 

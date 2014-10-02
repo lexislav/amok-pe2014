@@ -1,6 +1,8 @@
 <nav id="top-nav" class="m-nav">
     <div class="m-nav--button"></div>
-    <div class="m-nav--lang"><i>CZ</i><i>EN</i><i>IT</i></div>
+    <div class="m-nav--logo"><strong>Český Pavilon</strong> Expo 2015</div>
+    <div class="m-nav--lang">
+        <a href="" class="is-active">cz</a>/<a href="">en</a>/<a href="">it</a></div>
     <div class="m-nav--overlay">
 
         <ul class="m-nav--menu">

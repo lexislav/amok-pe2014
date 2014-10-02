@@ -2547,22 +2547,42 @@ blockquote, blockquote p {
   left: 0;
   right: 0;
   z-index: 200;
-  margin: auto; }
+  margin: auto;
+  border-bottom: 1px solid #000;
+  background-color: white;
+  font-family: "Purista";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased; }
   .m-nav .m-nav--button {
     line-height: 80px;
     text-align: center;
     width: 80px;
     height: 80px;
-    background-color: white;
-    cursor: pointer; }
+    float: left;
+    cursor: pointer;
+    margin-right: 25px; }
+  .m-nav .m-nav--logo {
+    font-family: "Purista";
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.13333rem;
+    line-height: 80px;
+    width: auto;
+    float: left; }
+    .m-nav .m-nav--logo strong {
+      font-weight: 400; }
   .m-nav .m-nav--lang {
     line-height: 80px;
     height: 80px;
     position: fixed;
     right: 30px;
     top: 0;
-    color: white;
-    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); }
+    color: black;
+    font-size: 1.06667rem;
+    text-transform: uppercase; }
+    .m-nav .m-nav--lang a {
+      display: inline-block;
+      padding: 0 0.5em; }
   .m-nav .m-nav--overlay {
     display: none;
     position: fixed;
@@ -2585,10 +2605,7 @@ blockquote, blockquote p {
     top: 0;
     left: 0;
     bottom: 0;
-    right: 0;
-    font-family: "Purista";
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased; }
+    right: 0; }
     @media only screen and (min-width:641px) {
       .m-nav .m-nav--menu {
         width: 80%; } }
@@ -2991,8 +3008,8 @@ blockquote, blockquote p {
 .mgr-third {
   margin-bottom: 25px; }
 
-.m-nav .m-nav--lang {
-  display: none; }
+.l-page.l-page_single {
+  padding-top: 80px; }
 
 .l-section {
   padding-top: 50px;

@@ -7,24 +7,49 @@
     z-index: 200;
     margin: auto;
 
+    border-bottom: 1px solid #000;
+    background-color: white;
+
+    @include fnt-purista();
+
     .m-nav--button {
-        line-height: 80px;
+        line-height: $navbar-height;
         text-align: center;
-        width: 80px;
-        height: 80px;
-        background-color: white;
+        width: $navbar-height;
+        height: $navbar-height;
+        float: left;
         cursor: pointer;
+        margin-right: $base-spacing / 2;
+    }
+
+    .m-nav--logo {
+        @include fnt-purista-light();
+        font-size: rem-calc(32);
+
+        line-height: $navbar-height;
+        width: auto;
+        float: left;
+
+        strong {
+            font-weight: 400;
+        }
     }
 
     .m-nav--lang {
-        line-height: 80px;
-        height: 80px;
+        line-height:  $navbar-height;
+        height: $navbar-height;
         position: fixed;
         right: 30px;
         top: 0;
-        color: white;
+        color: black;
 
-        text-shadow: 0 2px 1px rgba(0, 0, 0, .5);
+        font-size: rem-calc(16);
+        text-transform: uppercase;
+
+        a {
+            display: inline-block;
+            padding: 0 .5em;
+        }
 
     }
 
@@ -68,8 +93,6 @@
             width: 600px;
         }
 
-        @include fnt-purista();
-
         ul {
             @include clearfix();
             list-style: none;
@@ -102,7 +125,6 @@
 .m-nav .m-item {
 
     .m-item--hed {
-
 
         a {
 
