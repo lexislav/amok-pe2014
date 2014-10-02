@@ -1,17 +1,17 @@
 @mixin fnt-avenir() {
-    font-family: "Avenir Next";
+    font-family: "Proxima Nova";
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
 
 @mixin fnt-avenir-light() {
-    font-family: "Avenir Next";
-    font-weight: 300;
+    font-family: "Proxima Nova";
+    font-weight: 200;
     -webkit-font-smoothing: antialiased;
 }
 
 @mixin fnt-avenir-demi-bold() {
-    font-family: "Avenir Next";
+    font-family: "Proxima Nova";
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
 }

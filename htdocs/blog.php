@@ -15,11 +15,11 @@
     <div class="small-12 large-6 columns">
         <article class="m-blog-item mm-subhero mm-featured">
             <header>
-                <a href="" target="_blank" title="">
+                <a href="/single.php" title="">
                     <div class="m-item--image"><img src="/assets/modul.png" alt="" /></div>
-                    <h1 class="m-item--hed"><a href="" target="_blank" title="">title</a></h1>
+                    <h1 class="m-item--hed"><a href="/single.php" title="">title</a></h1>
 
-                    <div class="m-item--meta"><a href="" target="_blank" class="m-item--section">kategorie</a></div>
+                    <div class="m-item--meta"><a href="/single.php" class="m-item--section">kategorie</a></div>
                 </a>
             </header>
         </article>
@@ -27,11 +27,11 @@
     <div class="small-12 large-6 columns">
         <article class="m-blog-item mm-subhero mm-featured">
             <header>
-                <a href="" target="_blank" title="">
+                <a href="/single.php" title="">
                     <div class="m-item--image"><img src="/assets/modul.png" alt="" /></div>
-                    <h1 class="m-item--hed"><a href="" target="_blank" title="">title</a></h1>
+                    <h1 class="m-item--hed"><a href="/single.php" title="">title</a></h1>
 
-                    <div class="m-item--meta"><a href="" target="_blank" class="m-item--section">kategorie</a></div>
+                    <div class="m-item--meta"><a href="/blog.php" class="m-item--section">kategorie</a></div>
                 </a>
             </header>
         </article>
@@ -43,11 +43,11 @@
         <div class="small-12 medium-6 large-4 xlarge-3 columns">
             <article class="m-blog-item">
                 <header>
-                    <a href="" target="_blank" title="">
+                    <a href="/single.php" title="">
                         <div class="m-item--image"><img src="/assets/modul.png" alt="" /></div>
-                        <h1 class="m-item--hed"><a href="" target="_blank" title="">title</a></h1>
+                        <h1 class="m-item--hed"><a href="/single.php" title="">title</a></h1>
 
-                        <div class="m-item--meta"><a href="" target="_blank" class="m-item--section">kategorie</a></div>
+                        <div class="m-item--meta"><a href="/blog.php" class="m-item--section">kategorie</a></div>
                     </a>
                 </header>
             </article>
@@ -57,11 +57,11 @@
     <div class="small-12 medium-6 large-4 xlarge-3 columns end">
         <article class="m-blog-item mm-featured">
             <header>
-                <a href="" target="_blank" title="">
+                <a href="/single.php" title="">
                     <div class="m-item--image"><img src="/assets/modul.png" alt="" /></div>
-                    <h1 class="m-item--hed"><a href="" target="_blank" title="">title</a></h1>
+                    <h1 class="m-item--hed"><a href="/single.php" title="">title</a></h1>
 
-                    <div class="m-item--meta"><a href="" target="_blank" class="m-item--section">kategorie</a></div>
+                    <div class="m-item--meta"><a href="/blog.php" class="m-item--section">kategorie</a></div>
                 </a>
             </header>
         </article>
@@ -83,30 +83,35 @@
 </div>
 
 
-<div class="row">
-    <div class="large-3 columns">ikona</div>
-    <div class="large-4 columns">
-
+<div class="row m-list">
+    <div class="small-12 medium-12 large-2 xlarge-3 columns">ikona</div>
+    <div class="small-12 medium-6 large-5 xlarge-4 columns">
+        <header>
         <h2>Další články o pavilonu & EXPO2015</h2>
+        </header>
         <?php for ($i = 1; $i <= 9; $i++) { ?>
-            <article class="mm-featured">
+            <article class="m-item">
                 <header>
-                    <h1 class="m-item--hed"><a href="" target="_blank" title="">title</a></h1>
+                    <h1 class="m-item--hed"><a href="/single.php" title="">sgjkhlsf fgkshdfgk gsd fgkjhsdfg sdfklgjhsd fgsd fgsd fgs dfgsd fgsdfgds</a></h1>
 
-                    <div class="m-item--meta">kategorie</div>
+                    <div class="m-item--meta">
+                        <div class="m-item--date">datum a dalsi</div>
+                    </div>
                 </header>
             </article>
         <?php } ?>
     </div>
 
-    <div class="large-4 large-offset-1 columns">
-        <h2>Další články o pavilonu & EXPO2015</h2>
+    <div class="small-12 medium-6 large-5 xlarge-4 xlarge-offset-1 columns">
+        <header>
+            <h2>Další články o pavilonu & EXPO2015</h2>
+        </header>
         <?php for ($i = 1; $i <= 3; $i++) { ?>
-            <article class="mm-featured">
+            <article class="m-item mm-featured">
                 <header>
-                    <h1 class="m-item--hed"><a href="" target="_blank" title="">title</a></h1>
+                    <h1 class="m-item--hed"><a href="/single.php" title="">title</a></h1>
 
-                    <div class="m-item--meta">kategorie</div>
+                    <div class="m-item--meta"><div class="m-item--date">datum a dalsi</div></div>
                 </header>
             </article>
         <?php } ?>

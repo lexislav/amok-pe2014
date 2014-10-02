@@ -29,7 +29,7 @@
             <li>
                 <article class="m-item">
                     <header>
-                        <h1 class="m-item--hed"><a href="/index.php" title="menu1">Home</a></h1>
+                        <h1 class="m-item--hed"><a href="/pavilon.php" title="menu1">Pavilon</a></h1>
                     </header>
                     <div class="m-item--description">
                         <p>Adding comment counts to compilation cards (full-width). Tested and merging now, just tagging to let you all know.</p>
@@ -41,7 +41,7 @@
             <li>
                 <article class="m-item">
                     <header>
-                        <h1 class="m-item--hed"><a href="/index.php" title="menu1">Home</a></h1>
+                        <h1 class="m-item--hed"><a href="/blog.php" title="menu1">Blog</a></h1>
                     </header>
                     <div class="m-item--description">
                         <p>Adding comment counts to compilation cards (full-width). Tested and merging now, just tagging to let you all know.</p>
@@ -60,7 +60,7 @@
             <li>
                 <article class="m-item">
                     <header>
-                        <h1 class="m-item--hed"><a href="/index.php" title="menu1">Home</a></h1>
+                        <h1 class="m-item--hed"><a href="/single.php" title="menu1">Blog detail</a></h1>
                     </header>
                     <div class="m-item--description">
                         <p>Adding comment counts to compilation cards (full-width). Tested and merging now, just tagging to let you all know.</p>

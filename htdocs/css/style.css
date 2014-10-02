@@ -3589,15 +3589,15 @@ th.hide-for-touch {
   font-size: 1.33333rem; }
 
 .fnt-secondary-headline {
-  font-family: "Avenir Next";
-  font-weight: 300;
+  font-family: "Proxima Nova";
+  font-weight: 200;
   -webkit-font-smoothing: antialiased;
   font-size: 1.6rem; }
   .fnt-secondary-headline.fnt-white {
     font-weight: 400; }
 
 .fnt-secondary-headline-mid {
-  font-family: "Avenir Next";
+  font-family: "Proxima Nova";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   font-size: 1.06667rem;
@@ -3956,15 +3956,15 @@ th.hide-for-touch {
 .m-section_pavilon .padded {
   padding-right: 60px; }
 .m-section_pavilon h1, .m-section_pavilon h2 {
-  font-family: "Avenir Next";
-  font-weight: 300;
+  font-family: "Proxima Nova";
+  font-weight: 200;
   -webkit-font-smoothing: antialiased;
   font-size: 2.4rem; }
 .m-section_pavilon h2 {
   font-size: 1.6rem;
   line-height: 33px; }
 .m-section_pavilon h3 {
-  font-family: "Avenir Next";
+  font-family: "Proxima Nova";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   font-size: 1.06667rem;
@@ -4259,6 +4259,40 @@ a:hover .svg-button #button {
     color: white; }
     .m-blog-item.mm-featured .m-item--section:hover {
       background-color: #000000; }
+
+.m-list header > h2 {
+  font-size: 1.33333rem;
+  margin-bottom: 25px; }
+.m-list .m-item {
+  font-size: 1.06667rem;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  padding-bottom: 8px; }
+  .m-list .m-item * {
+    display: inline; }
+  .m-list .m-item .m-item--hed {
+    line-height: 1.2em;
+    font-size: 1.06667rem; }
+    .m-list .m-item .m-item--hed a {
+      color: #4A4A4A; }
+      .m-list .m-item .m-item--hed a:hover {
+        color: #c20e1a; }
+  .m-list .m-item .m-item--meta {
+    font-family: "Purista";
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.66667rem;
+    line-height: 1.2em;
+    font-size: 1.06667rem;
+    display: inline;
+    color: #777; }
+    .m-list .m-item .m-item--meta > *:before {
+      display: inline;
+      content: "/";
+      padding-right: 0.22em; }
+  .m-list .m-item:last-of-type {
+    border-bottom: none;
+    margin-bottom: 50px; }
 
 .m-theme {
   background-image: url("/assets/file-a.jpg");
