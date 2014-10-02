@@ -1,10 +1,8 @@
 <?php include "templates/html-header.php"; ?>
-<body class="l-page l-page_single">
+<body class="l-page l-page_blog">
 <?php include "templates/inc-topbar.php"; ?>
 
 <div class="row">
-    <article class="m-story">
-
 
         <div class="row">
             <div class="large-6 columns">
@@ -90,31 +88,6 @@
             </div>
         </div>
 
-
-        <div class="row">
-            <?php
-            $totalImages = 16;
-            for ($i = 1; $i <= $totalImages; $i++) {
-                $gridclass = '';
-                if ($i == $totalImages) {
-                    $gridclass = 'end';
-                }
-                ?>
-                <div class="small-6 medium-4 large-3 xlarge-2 columns <?php echo $gridclass; ?> ">
-                    <img src="/assets/modul.png" alt="" />
-                </div>
-            <?php } ?>
-        </div>
-
-        <div class="row">
-            <div class="small-12 columns">
-                <div class="flex-video widescreen vimeo">
-                    <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                </div>
-            </div>
-        </div>
-
-    </article>
 </div>
 
 <?php include "templates/inc-footer-partner.php"; ?>
