@@ -4109,9 +4109,9 @@ th.hide-for-touch {
   .m-page-footer h5 {
     color: white;
     border-bottom: 1px dotted white;
-    font-size: 1rem;
+    font-size: 1.06667rem;
     padding-bottom: 4px;
-    font-weight: 300;
+    font-weight: 600;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8); }
   .m-page-footer .m-page-footer--copyright {
     font-size: 0.93333rem;
@@ -4242,7 +4242,7 @@ a:hover .svg-button #button {
 .m-page-footer .m-partner {
   margin-bottom: 25px; }
   .m-page-footer .m-partner .m-item--hed {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
     color: white;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }

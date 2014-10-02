@@ -9,6 +9,7 @@
     @include fnt-purista-light();
     font-size: rem-calc(16);
 
+
     //background: #2D2D2D;
     color: white;
 
@@ -21,9 +22,9 @@
     h5 {
         color: white;
         border-bottom: 1px dotted white;
-        font-size: rem-calc(15);
+        font-size: rem-calc(16);
         padding-bottom: 4px;
-        font-weight: 300;
+        font-weight: 600;
 
         text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
 
