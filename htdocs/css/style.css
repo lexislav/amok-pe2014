@@ -4261,7 +4261,8 @@ a:hover .svg-button #button {
       background-color: #000000; }
 
 .m-list header > h2 {
-  font-size: 1.33333rem;
+  font-size: 1.06667rem;
+  text-decoration: underline;
   margin-bottom: 25px; }
 .m-list .m-item {
   font-size: 1.06667rem;
@@ -4418,6 +4419,9 @@ aside h2 {
     background-image: url("/assets/ikony/nav-next.png"); }
   .m-light-nav.mm-big .m-icon.mm-prev {
     background-image: url("/assets/ikony/nav-prev.png"); }
+
+.l-page_blog .pagination {
+  padding: 0 50px; }
 
 .tmp-bigimage {
   background-color: darkgray;

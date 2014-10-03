@@ -246,7 +246,8 @@ a:hover {
 .m-list {
 
      header > h2 {
-         font-size: rem-calc(20);
+         font-size: rem-calc(16);
+         text-decoration: underline;
          margin-bottom: $base-spacing / 2;
      }
 
@@ -470,9 +471,11 @@ aside h2 {
 
 }
 
+//
 
-
-
+.l-page_blog .pagination {
+    padding: 0 50px;
+}
 
 //
 
