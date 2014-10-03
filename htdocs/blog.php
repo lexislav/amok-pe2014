@@ -40,7 +40,7 @@
 
 <div class="row">
 
-    <?php for ($i = 1; $i <= 8; $i++) { ?>
+        <?php for ($i = 1; $i <= 8; $i++) { ?>
         <div class="small-12 medium-6 large-4 xlarge-3 columns">
             <article class="m-blog-item">
                 <header>
