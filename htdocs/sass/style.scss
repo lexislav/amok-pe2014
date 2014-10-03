@@ -22,9 +22,6 @@ $navbar-height: 80px;
 @import "modules/module-progress-bar";
 @import "modules/module-page-footer";
 
-
-
-
 // html spacing classes
 .mgr-full {
     margin-bottom: $base-spacing;
@@ -41,7 +38,6 @@ $navbar-height: 80px;
 .mgr-third {
     margin-bottom: $base-spacing / 2;
 }
-
 
 .m-nav .m-nav--lang {
     //   display: none;
@@ -78,6 +74,21 @@ $navbar-height: 80px;
             width: 100%;
             height: auto;
         }
+    }
+
+    .orbit-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 230px;
+        width: 600px;
+        margin: auto;
+
+        color: white;
+        text-align: center;
+
+        font-size: rem-calc(60);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -166,7 +177,9 @@ a:hover {
         background-size: cover;
         background-position: 50% 50%;
 
-        img { width: 100%; }
+        img {
+            width: 100%;
+        }
     }
 
     .m-item--meta {
@@ -245,12 +258,11 @@ a:hover {
 
 .m-list {
 
-     header > h2 {
-         font-size: rem-calc(16);
-         text-decoration: underline;
-         margin-bottom: $base-spacing / 2;
-     }
-
+    header > h2 {
+        font-size: rem-calc(16);
+        text-decoration: underline;
+        margin-bottom: $base-spacing / 2;
+    }
 
     .m-item {
         font-size: rem-calc(16);
@@ -287,7 +299,6 @@ a:hover {
                 }
             }
         }
-
 
         &:last-of-type {
             border-bottom: none;
@@ -363,7 +374,6 @@ a:hover {
 
 //
 
-
 .m-story {
 
     .m-item--hed {
@@ -373,7 +383,7 @@ a:hover {
 
     .m-item--meta {
         color: #999;
-        margin-bottom: $base-spacing ;
+        margin-bottom: $base-spacing;
     }
 
     .m-item--image {
@@ -392,6 +402,74 @@ a:hover {
         font-weight: 400;
         margin-bottom: $base-spacing * .75;
     }
+
+}
+
+.m-story.mm-history {
+    position: relative;
+    margin-bottom: $base-spacing;
+    cursor: pointer;
+
+    .m-item--image {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            display: none;
+        }
+
+        @include transition(opacity 0.8s);
+    }
+
+    .m-item--summary {
+        pointer-events: none; // click thru summary
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #000;
+    }
+
+    .m-item--hed {
+        color: #000;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1em;
+
+        margin-top: 42px;
+    }
+
+    .m-item--description {
+        font-size: rem-calc(24);
+        text-align: center;
+        line-height: 1em;
+    }
+
+    &:hover {
+        .m-item--image {
+            @include transition(opacity 0.8s);
+            opacity: 1;
+        }
+
+        .m-item--summary,
+        .m-item--hed {
+            color: white;
+        }
+
+    }
+
 
 }
 
@@ -419,25 +497,24 @@ aside h2 {
     font-weight: 400;
 }
 
-
 .l-page_single .m-story {
-    margin-top: $base-spacing ;
+    margin-top: $base-spacing;
 }
+
 //
 
 .l-page_single .breadcrumbs {
     margin-top: $base-spacing;
 }
 
-
-
-
 //
 
 .m-light-nav {
 
     .m-icon {
-        & > i { display: none ;}
+        & > i {
+            display: none;
+        }
 
         background-repeat: no-repeat;
         background-position: top center;
@@ -447,10 +524,18 @@ aside h2 {
         width: 19px;
         margin: 0 2px;
 
-        &.mm-top { background-image: url("/assets/ikony/nav-small-top.png"); width: 21px; height: 21px; margin-right: 20px; }
-        &.mm-next { background-image: url("/assets/ikony/nav-small-next.png");}
-        &.mm-prev { background-image: url("/assets/ikony/nav-small-prev.png");}
-
+        &.mm-top {
+            background-image: url("/assets/ikony/nav-small-top.png");
+            width: 21px;
+            height: 21px;
+            margin-right: 20px;
+        }
+        &.mm-next {
+            background-image: url("/assets/ikony/nav-small-next.png");
+        }
+        &.mm-prev {
+            background-image: url("/assets/ikony/nav-small-prev.png");
+        }
 
         &:hover {
             background-position: bottom center;
@@ -463,9 +548,15 @@ aside h2 {
             width: 50px;
             margin: 0 8px;
 
-            &.mm-top { background-image: url("/assets/ikony/nav-top.png"); }
-            &.mm-next { background-image: url("/assets/ikony/nav-next.png");}
-            &.mm-prev { background-image: url("/assets/ikony/nav-prev.png");}
+            &.mm-top {
+                background-image: url("/assets/ikony/nav-top.png");
+            }
+            &.mm-next {
+                background-image: url("/assets/ikony/nav-next.png");
+            }
+            &.mm-prev {
+                background-image: url("/assets/ikony/nav-prev.png");
+            }
         }
     }
 

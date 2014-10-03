@@ -4164,6 +4164,17 @@ th.hide-for-touch {
   .m-carousel .item img {
     width: 100%;
     height: auto; }
+  .m-carousel .orbit-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 230px;
+    width: 600px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
 
 .svg-button {
   width: 54px;
@@ -4358,6 +4369,52 @@ a:hover .svg-button #button {
   font-size: 1.06667rem;
   font-weight: 400;
   margin-bottom: 37.5px; }
+
+.m-story.mm-history {
+  position: relative;
+  margin-bottom: 50px;
+  cursor: pointer; }
+  .m-story.mm-history .m-item--image {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    -webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    transition: opacity 0.8s; }
+    .m-story.mm-history .m-item--image a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    .m-story.mm-history .m-item--image img {
+      display: none; }
+  .m-story.mm-history .m-item--summary {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000; }
+  .m-story.mm-history .m-item--hed {
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 42px; }
+  .m-story.mm-history .m-item--description {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1em; }
+  .m-story.mm-history:hover .m-item--image {
+    -webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    transition: opacity 0.8s;
+    opacity: 1; }
+  .m-story.mm-history:hover .m-item--summary, .m-story.mm-history:hover .m-item--hed {
+    color: white; }
 
 aside .m-story {
   margin-top: 0 !important;
