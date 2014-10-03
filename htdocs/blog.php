@@ -84,7 +84,9 @@
 
 
 <div class="row m-list">
-    <div class="small-12 medium-12 large-2 xlarge-3 columns">ikona</div>
+    <div class="small-12 medium-12 large-2 xlarge-3 columns">
+        <img src="/assets/ikony/web-ikona.svg" alt="" />
+    </div>
     <div class="small-12 medium-6 large-5 xlarge-4 columns">
         <header>
         <h2>Další články o pavilonu & EXPO2015</h2>
