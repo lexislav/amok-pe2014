@@ -4132,6 +4132,9 @@ th.hide-for-touch {
 .mgr-full {
   margin-bottom: 50px; }
 
+.mgr-double {
+  margin-bottom: 100px; }
+
 .mgr-half {
   margin-bottom: 25px; }
 
@@ -4335,7 +4338,7 @@ a:hover .svg-button #button {
 
 .m-story .m-item--hed {
   margin-bottom: 16.66667px;
-  font-weight: 400; }
+  font-weight: 300; }
 .m-story .m-item--meta {
   color: #999;
   margin-bottom: 50px; }
@@ -4375,6 +4378,37 @@ aside h2 {
 
 .l-page_single .breadcrumbs {
   margin-top: 50px; }
+
+.m-light-nav .m-icon {
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: inline-block;
+  height: 19px;
+  width: 19px;
+  margin: 0 2px; }
+  .m-light-nav .m-icon > i {
+    display: none; }
+  .m-light-nav .m-icon.mm-top {
+    background-image: url("/assets/ikony/nav-small-top.png");
+    width: 21px;
+    height: 21px;
+    margin-right: 20px; }
+  .m-light-nav .m-icon.mm-next {
+    background-image: url("/assets/ikony/nav-small-next.png"); }
+  .m-light-nav .m-icon.mm-prev {
+    background-image: url("/assets/ikony/nav-small-prev.png"); }
+  .m-light-nav .m-icon:hover {
+    background-position: bottom center; }
+.m-light-nav.mm-big .m-icon {
+  height: 50px;
+  width: 50px;
+  margin: 0 8px; }
+  .m-light-nav.mm-big .m-icon.mm-top {
+    background-image: url("/assets/ikony/nav-top.png"); }
+  .m-light-nav.mm-big .m-icon.mm-next {
+    background-image: url("/assets/ikony/nav-next.png"); }
+  .m-light-nav.mm-big .m-icon.mm-prev {
+    background-image: url("/assets/ikony/nav-prev.png"); }
 
 .tmp-bigimage {
   background-color: darkgray;
