@@ -22,7 +22,10 @@ $navbar-height: 80px;
 @import "modules/module-progress-bar";
 @import "modules/module-page-footer";
 
-// spacing
+
+
+
+// html spacing classes
 .mgr-full {
     margin-bottom: $base-spacing;
 }
@@ -38,6 +41,7 @@ $navbar-height: 80px;
 .mgr-third {
     margin-bottom: $base-spacing / 2;
 }
+
 
 .m-nav .m-nav--lang {
     //   display: none;
