@@ -26,7 +26,8 @@ var id;
 
 var skewOffset;
 
-root.css('height', $(window).height() );
+root.css('height', Math.round($(window).height() * 0.72 )  );
+
 overlayLeft.css("opacity", 0);
 overlayRight.css("opacity", 0);
 
@@ -73,7 +74,6 @@ function setPos(dragPos) {
     // background overlay transition
     //overlayLeft.css("opacity", perc - 0.3);
     //overlayRight.css("opacity", (1 - perc) -0.3);
-
 }
 
 function doneResizing() {
