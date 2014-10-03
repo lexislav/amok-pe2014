@@ -45,9 +45,10 @@ $navbar-height: 80px;
 
     &.l-page_home,
     &.l-page_pavilon,
-    &.xl-page_blog {
+    &.l-page_blog {
         padding-top: 0;
     }
+
 }
 
 .l-section {
@@ -157,9 +158,7 @@ a:hover {
         background-size: cover;
         background-position: 50% 50%;
 
-        img {
-            width: 100%;
-        }
+        img { width: 100%; }
     }
 
     .m-item--meta {
@@ -355,6 +354,65 @@ a:hover {
 
 //
 
+
+.m-story {
+
+    .m-item--hed {
+        margin-bottom: $base-spacing / 3;
+        font-weight: 400;
+    }
+
+    .m-item--meta {
+        color: #999;
+        margin-bottom: $base-spacing ;
+    }
+
+    .m-item--image {
+        position: relative;
+        width: 100%;
+        > img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
+
+aside .m-story {
+    margin-top: 0 !important;
+    margin-bottom: $base-spacing / 3;
+
+    .m-item--hed {
+        @include fnt-primary-body-m();
+        font-size: rem-calc(16);
+        font-weight: 400;
+        margin: 0;
+        a {
+            color: #777;
+            &:hover {
+                color: $color-koma-red;
+            }
+        }
+    }
+}
+
+aside h2 {
+    @include fnt-primary-headline();
+    font-size: rem-calc(16);
+    font-weight: 400;
+}
+
+
+.l-page_single .m-story {
+    margin-top: $base-spacing ;
+}
+//
+
+.l-page_single .breadcrumbs {
+    margin-top: $base-spacing;
+}
+
+
 //
 
 .tmp-bigimage {
@@ -387,7 +445,7 @@ a:hover {
 body {
     @media #{$small-up} {
         .row {
-            width: 96%;
+            width: 90%;
             overflow: hidden;
         }
     }
