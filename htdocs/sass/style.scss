@@ -380,6 +380,14 @@ a:hover {
         }
     }
 
+    h5 {
+        @include fnt-primary-body-m();
+        text-decoration: underline;
+        font-size: rem-calc(16);
+        font-weight: 400;
+        margin-bottom: $base-spacing * .75;
+    }
+
 }
 
 aside .m-story {

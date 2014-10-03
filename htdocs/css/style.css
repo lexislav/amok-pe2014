@@ -4348,6 +4348,15 @@ a:hover .svg-button #button {
   .m-story .m-item--image > img {
     width: 100%;
     height: auto; }
+.m-story h5 {
+  font-family: "Purista";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-size: 1.06667rem;
+  font-weight: 400;
+  margin-bottom: 37.5px; }
 
 aside .m-story {
   margin-top: 0 !important;
