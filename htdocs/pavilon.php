@@ -123,16 +123,17 @@
                 <p>text</p>
             </div>
         </div>
+
+
+    <?php include "templates/inc-footer-partner.php"; ?>
+    <?php include "templates/inc-footer.php"; ?>
+
     </div>
 </div>
 
 
-<?php include "templates/inc-footer-partner.php"; ?>
-<?php include "templates/inc-footer.php"; ?>
 
 <script type="text/javascript" src="components/slick/slick/slick.min.js"></script>
-
-
 <script type="text/javascript">
     var s = skrollr.init({
         smoothScrolling: false,
