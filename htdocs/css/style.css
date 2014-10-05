@@ -3856,18 +3856,20 @@ th.hide-for-touch {
   position: fixed;
   z-index: 1;
   transform-origin: 0 0;
-  top: 0;
-  bottom: 0;
+  top: 5%;
+  bottom: 5%;
   left: 0;
   right: 0;
-  margin: auto;
-  width: 100%;
-  height: 100%; }
+  margin: auto; }
   .l-schema:before, .l-schema:after {
     content: " ";
     display: table; }
   .l-schema:after {
     clear: both; }
+  @media only screen and (min-width:641px) {
+    .l-schema {
+      width: 100%;
+      max-width: 1280px; } }
 
 .m-schema {
   overflow: hidden; }
@@ -3885,33 +3887,97 @@ th.hide-for-touch {
     background-image: url("/assets/pavilon-sm/p2-2.png"); }
   .m-schema .np7 {
     background-image: url("/assets/pavilon-sm/p3-1.png"); }
+  .m-schema .m-schema--frame {
+    width: 96%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto; }
+  .m-schema .m-schema--left, .m-schema .m-schema--right {
+    position: relative;
+    height: 100%;
+    float: left; }
+  .m-schema .m-schema--left {
+    width: 36%; }
+  .m-schema .m-schema--right {
+    width: 64%; }
   .m-schema .m-schema--slides {
-    width: 840px;
-    height: 737px;
-    border: 1px solid orange;
     overflow: hidden;
     position: absolute;
-    right: 10%;
-    top: 20%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
     margin: auto; }
   .m-schema .m-schema--image {
-    width: 840px;
-    height: 637px;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom left;
     background-size: 100% auto;
     position: absolute;
-    top: 100px; }
-  .m-schema .m-schema--label {
-    width: 30%;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 70% auto;
-    position: absolute;
+    left: 0;
+    right: 0;
     top: 0;
     bottom: 0;
     margin: auto; }
+  .m-schema .m-schema--label {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 200; }
+    .m-schema .m-schema--label .m-item--hed {
+      margin-right: -300px; }
+    .m-schema .m-schema--label .m-item--description {
+      font-family: "Proxima Nova";
+      font-weight: 200;
+      -webkit-font-smoothing: antialiased;
+      font-size: 1.6rem;
+      margin-right: -500px;
+      margin-bottom: 30px; }
+      .m-schema .m-schema--label .m-item--description.fnt-white {
+        font-weight: 400; }
+    .m-schema .m-schema--label ul, .m-schema .m-schema--label ol {
+      margin: 0 30px;
+      padding: 0;
+      list-style: none; }
+      .m-schema .m-schema--label ul li, .m-schema .m-schema--label ol li {
+        border-bottom: 1px dashed #ccc;
+        padding: 16px 0;
+        margin-bottom: 16px;
+        padding-top: 0; }
+        .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
+          font-size: 0.8rem;
+          margin: 0; }
+        .m-schema .m-schema--label ul li h3, .m-schema .m-schema--label ol li h3 {
+          font-family: "Proxima Nova";
+          font-weight: 600;
+          -webkit-font-smoothing: antialiased;
+          font-size: 1.06667rem;
+          text-transform: uppercase;
+          text-decoration: underline;
+          margin-bottom: 0.6em;
+          position: relative; }
+          .m-schema .m-schema--label ul li h3 span, .m-schema .m-schema--label ol li h3 span {
+            position: absolute;
+            width: 20px;
+            left: -30px;
+            z-index: 100;
+            text-align: center; }
+        .m-schema .m-schema--label ul li:last-of-type, .m-schema .m-schema--label ol li:last-of-type {
+          border-bottom: none; }
+      .m-schema .m-schema--label ul.mm-red li h3 span, .m-schema .m-schema--label ol.mm-red li h3 span {
+        background-color: #c00;
+        color: white; }
+      .m-schema .m-schema--label ul.mm-blue li h3 span, .m-schema .m-schema--label ol.mm-blue li h3 span {
+        background-color: #0323cc;
+        color: white; }
+      .m-schema .m-schema--label ul.mm-green li h3 span, .m-schema .m-schema--label ol.mm-green li h3 span {
+        background-color: #0d5b27;
+        color: white; }
+      .m-schema .m-schema--label ul.mm-yellow li h3 span, .m-schema .m-schema--label ol.mm-yellow li h3 span {
+        background-color: #cc8007;
+        color: white; }
   .m-schema .m-schema--overlay {
     position: absolute;
     top: 0;
@@ -3929,7 +3995,7 @@ th.hide-for-touch {
 
 .m-schema-spacer {
   width: 100%;
-  height: 300px; }
+  height: 600px; }
 
 #skrollr-body {
   position: relative;
