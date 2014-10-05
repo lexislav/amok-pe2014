@@ -7,26 +7,22 @@
         <img src="/assets/sky.jpg" alt="slide 1" />
 
         <div class="orbit-caption">
-            Seznamte se s historií
-            českých pavilonů EXPO
-        </div>
-    </div>
-    <div class="item">
-        <img src="/assets/pavilon-theme.png" alt="slide 1" />
+            <div>Seznamte se s historií
+                 českých pavilonů EXPO
+            </div>
+            <div class="fnt-primary-body-m">
+                Sestavili jsme pro vás historii
+                všech českých pavilonů expo od roku 1822.
+                Jsou zahrnuty i detaily o architektech a dobové fotografie!
+            </div>
 
-        <div class="orbit-caption">
-            Seznamte se s historií
-            českých pavilonů EXPO
+        </div>
+        <div class="m-carousel--arrow-down">
+            <img src="/assets/ikony/arrow-down.png" alt="" />
         </div>
     </div>
-    <div class="item">
-        <img src="/assets/file-a.jpg" alt="slide 1" />
 
-        <div class="orbit-caption">
-            Seznamte se s historií
-            českých pavilonů EXPO
-        </div>
-    </div>
+
 </div>
 
 
@@ -38,10 +34,9 @@
                     <div class="m-item--image" style="background-image: url('http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg')">
                         <a href="single.php"><img src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></a>
                     </div>
-
-
                     <div class="m-item--summary">
                         <h1 class="m-item--hed">1968</h1>
+
                         <div class="m-item--description">Paříž</div>
                     </div>
                 </header>
@@ -62,13 +57,13 @@
 <script type="text/javascript">
 
     $(document).ready(function () {
+
         $('.m-carousel').slick({
             autoplay: true,
             speed: 500,
             fade: true,
             cssEase: 'linear'
         });
-
     });
 
 </script>

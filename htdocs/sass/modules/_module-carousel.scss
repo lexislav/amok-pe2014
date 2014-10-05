@@ -1,0 +1,51 @@
+
+.m-carousel {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    .item {
+        max-height: 800px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .orbit-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 230px;
+        width: 600px;
+        margin: auto;
+
+        color: white;
+        text-align: center;
+
+        font-size: rem-calc(60);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .m-carousel--arrow-down {
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        background-color: white;
+        width: 160px;
+        height: 80px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+
+        img {
+            width: auto;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+}
