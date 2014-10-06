@@ -138,6 +138,24 @@ $ags-height:860px;
         }
     }
 
+
+    .ags-text-overlay {
+
+        pointer-events: none;
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding-top: 260px;
+        height: 300px;
+
+        color: white;
+        font-size: rem-calc(70);
+        line-height: 1.2em;
+    }
+
 }
 
 // ags content

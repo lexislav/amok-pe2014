@@ -3834,6 +3834,19 @@ th.hide-for-touch {
     .ags-slider .dragger .drag-button {
       position: absolute;
       margin: auto; }
+  .ags-slider .ags-text-overlay {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 260px;
+    height: 300px;
+    color: white;
+    font-size: 4.66667rem;
+    line-height: 1.2em; }
 
 .infobox, .infobox2 {
   font-family: "purista-web";
