@@ -241,10 +241,10 @@
 
         <div class="row l-section">
             <div class="medium-6 columns">
-                <article>
+                <article class="m-story">
                     <header>
                         <div class="small-12 columns">
-                            <h1 id="m-item--hed">Budoucnost pavilonu</h1>
+                            <h1 class="m-item--hed">Budoucnost pavilonu</h1>
                         </div>
                         <div class="small-4 columns">
                             <div class="m-item--image">
@@ -262,10 +262,10 @@
 
             <div class="medium-6 columns">
 
-                <article>
+                <article class="m-story" >
                     <header>
                         <div class="small-12 columns">
-                            <h1 id="m-item--hed">Historie českých EXPO pavilonů</h1>
+                            <h1 class="m-item--hed">Budoucnost pavilonu</h1>
                         </div>
                         <div class="small-4 columns">
                             <div class="m-item--image">
@@ -313,6 +313,10 @@
 
 
     $(document).ready(function () {
+        $(".m-carousel > .item").css('max-height',$(window).height());
+        $(".m-carousel").css('max-height',$(window).height());
+        $(".m-carousel").css('height',$(window).height());
+
         $('.m-carousel').slick({
             autoplay: true,
             speed: 500,

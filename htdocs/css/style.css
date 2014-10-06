@@ -4242,7 +4242,6 @@ th.hide-for-touch {
   height: 800px;
   overflow: hidden; }
   .m-carousel .item {
-    max-height: 800px;
     overflow: hidden; }
     .m-carousel .item img {
       width: 100%;
