@@ -313,7 +313,7 @@
         $(".m-carousel").css('height', $(window).height());
 
         $('.m-carousel').slick({
-            autoplay: true,
+            autoplay: false,
             speed: 500,
             fade: true,
             cssEase: 'linear'
@@ -321,7 +321,7 @@
 
         $(".m-schema-spacer").each(function () {
             var el = $(this);
-            el.css('height', $(window).height());
+            el.css('height', $(window).height() * 0.76);
         });
 
     });

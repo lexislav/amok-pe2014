@@ -3594,7 +3594,7 @@ th.hide-for-touch {
   -webkit-font-smoothing: antialiased;
   font-size: 1.6rem; }
   .fnt-secondary-headline.fnt-white {
-    font-weight: 200; }
+    font-weight: 300; }
 
 .fnt-secondary-headline-mid {
   font-family: "nudista-web";
@@ -3985,7 +3985,7 @@ th.hide-for-touch {
       margin-right: -500px;
       margin-bottom: 30px; }
       .m-schema .m-schema--label .m-item--description.fnt-white {
-        font-weight: 200; }
+        font-weight: 300; }
       @media only screen and (min-width:1411px) {
         .m-schema .m-schema--label .m-item--description {
           margin-right: -100px;
@@ -4085,7 +4085,7 @@ th.hide-for-touch {
   font-size: 1.6rem;
   font-size: 2.4rem; }
   .m-section_pavilon h1.fnt-white, .m-section_pavilon h2.fnt-white {
-    font-weight: 200; }
+    font-weight: 300; }
 .m-section_pavilon h2 {
   font-size: 1.6rem;
   line-height: 33px; }
