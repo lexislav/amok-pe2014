@@ -1,0 +1,127 @@
+.m-story {
+
+    .m-item--hed {
+        margin-bottom: $base-spacing / 3;
+        font-weight: 300;
+    }
+
+    .m-item--meta {
+        color: #999;
+        margin-bottom: $base-spacing;
+    }
+
+    .m-item--image {
+        position: relative;
+        width: 100%;
+        > img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    h5 {
+        @include fnt-primary-body-m();
+        text-decoration: underline;
+        font-size: rem-calc(16);
+        font-weight: 400;
+        margin-bottom: $base-spacing * .75;
+    }
+
+}
+
+.m-story.mm-history {
+    position: relative;
+    margin-bottom: $base-spacing;
+    cursor: pointer;
+
+    .m-item--image {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            display: none;
+        }
+
+        @include transition(opacity 0.8s);
+    }
+
+    .m-item--summary {
+        pointer-events: none; // click thru summary
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #000;
+    }
+
+    .m-item--hed {
+        color: #000;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1em;
+
+        margin-top: 42px;
+    }
+
+    .m-item--description {
+        font-size: rem-calc(24);
+        text-align: center;
+        line-height: 1em;
+    }
+
+    &:hover {
+        .m-item--image {
+            @include transition(opacity 0.8s);
+            opacity: 1;
+        }
+
+        .m-item--summary,
+        .m-item--hed {
+            color: white;
+        }
+
+    }
+
+}
+
+aside .m-story {
+    margin-top: 0 !important;
+    margin-bottom: $base-spacing / 3;
+
+    .m-item--hed {
+        @include fnt-primary-body-m();
+        font-size: rem-calc(16);
+        font-weight: 400;
+        margin: 0;
+        a {
+            color: #777;
+            &:hover {
+                color: $color-koma-red;
+            }
+        }
+    }
+}
+
+aside h2 {
+    @include fnt-primary-headline();
+    font-size: rem-calc(16);
+    font-weight: 400;
+}
+
+.l-page_single .m-story {
+    margin-top: $base-spacing;
+}
+
+//

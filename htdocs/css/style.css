@@ -3580,40 +3580,28 @@ th.hide-for-touch {
   font-family: "purista-web";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.86667rem; }
-  @media only screen and (min-width:781px) {
-    .fnt-primary-headline {
-      font-size: 2.66667rem; } }
+  font-size: 2.66667rem; }
 
 .fnt-primary-headline-small {
   font-family: "purista-web";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 1.33333rem; }
-  @media only screen and (min-width:781px) {
-    .fnt-primary-headline-small {
-      font-size: 1.6rem; } }
 
 .fnt-secondary-headline {
   font-family: "nudista-web";
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.2rem; }
+  font-size: 1.6rem; }
   .fnt-secondary-headline.fnt-white {
     font-weight: 300; }
-  @media only screen and (min-width:781px) {
-    .fnt-secondary-headline {
-      font-size: 1.6rem; } }
 
 .fnt-secondary-headline-mid {
   font-family: "nudista-web";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
-  font-size: 0.93333rem;
+  font-size: 1.06667rem;
   text-transform: uppercase; }
-  @media only screen and (min-width:781px) {
-    .fnt-secondary-headline-mid {
-      font-size: 1.06667rem; } }
 
 .fnt-primary-body-m {
   font-family: "purista-web";
@@ -3658,10 +3646,7 @@ th.hide-for-touch {
   font-family: "purista-web";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.86667rem; }
-  @media only screen and (min-width:781px) {
-    .m-nav {
-      font-size: 2.66667rem; } }
+  font-size: 2.66667rem; }
   .m-nav .m-nav--panel > row {
     width: 100%;
     padding: 0;
@@ -4040,14 +4025,11 @@ th.hide-for-touch {
       font-family: "nudista-web";
       font-weight: 300;
       -webkit-font-smoothing: antialiased;
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       margin-right: -500px;
       margin-bottom: 30px; }
       .m-schema .m-schema--label .m-item--description.fnt-white {
         font-weight: 300; }
-      @media only screen and (min-width:781px) {
-        .m-schema .m-schema--label .m-item--description {
-          font-size: 1.6rem; } }
       @media only screen and (min-width:1411px) {
         .m-schema .m-schema--label .m-item--description {
           margin-right: -100px;
@@ -4074,14 +4056,11 @@ th.hide-for-touch {
           font-family: "nudista-web";
           font-weight: 600;
           -webkit-font-smoothing: antialiased;
-          font-size: 0.93333rem;
+          font-size: 1.06667rem;
           text-transform: uppercase;
           text-decoration: underline;
           margin-bottom: 0.6em;
           position: relative; }
-          @media only screen and (min-width:781px) {
-            .m-schema .m-schema--label ul li h3, .m-schema .m-schema--label ol li h3 {
-              font-size: 1.06667rem; } }
           .m-schema .m-schema--label ul li h3 span, .m-schema .m-schema--label ol li h3 span {
             position: absolute;
             width: 20px;
@@ -4147,13 +4126,10 @@ th.hide-for-touch {
   font-family: "nudista-web";
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-size: 2.4rem; }
   .m-section_pavilon h1.fnt-white, .m-section_pavilon h2.fnt-white {
     font-weight: 300; }
-  @media only screen and (min-width:781px) {
-    .m-section_pavilon h1, .m-section_pavilon h2 {
-      font-size: 1.6rem; } }
 .m-section_pavilon h2 {
   font-size: 1.6rem;
   line-height: 33px; }
@@ -4161,11 +4137,8 @@ th.hide-for-touch {
   font-family: "nudista-web";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
-  font-size: 0.93333rem;
+  font-size: 1.06667rem;
   text-transform: uppercase; }
-  @media only screen and (min-width:781px) {
-    .m-section_pavilon h3 {
-      font-size: 1.06667rem; } }
 
 .l-section.mm-dark {
   background: #D8D8D8; }
@@ -4203,13 +4176,10 @@ th.hide-for-touch {
   font-family: "nudista-web";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
-  font-size: 0.93333rem;
+  font-size: 1.06667rem;
   text-transform: uppercase;
   text-align: center;
   text-transform: none; }
-  @media only screen and (min-width:781px) {
-    .m-data-table {
-      font-size: 1.06667rem; } }
   .m-data-table li {
     margin-top: 30px;
     -webkit-box-sizing: border-box;
@@ -4240,16 +4210,13 @@ th.hide-for-touch {
     font-family: "purista-web";
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.86667rem;
+    font-size: 2.66667rem;
     font-size: 2.66667rem;
     color: white;
     line-height: 1em;
     margin: 0;
     padding: 0;
     margin-bottom: 50px; }
-    @media only screen and (min-width:781px) {
-      .m-progress-bar h2 {
-        font-size: 2.66667rem; } }
   .m-progress-bar .m-progress-bar--container {
     width: 100%;
     overflow: hidden !important; }
@@ -4307,20 +4274,14 @@ th.hide-for-touch {
   font-family: "purista-web";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.86667rem;
+  font-size: 2.66667rem;
   font-size: 1.06667rem;
   color: white; }
-  @media only screen and (min-width:781px) {
-    .m-page-footer {
-      font-size: 2.66667rem; } }
   .m-page-footer .m-page-footer--content strong {
     font-family: "purista-web";
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.86667rem; }
-    @media only screen and (min-width:781px) {
-      .m-page-footer .m-page-footer--content strong {
-        font-size: 2.66667rem; } }
+    font-size: 2.66667rem; }
   .m-page-footer h5 {
     color: white;
     border-bottom: 1px dotted white;
@@ -4454,112 +4415,6 @@ th.hide-for-touch {
 a:hover .svg-button #button {
   opacity: 1; }
 
-.m-blog-item {
-  margin-bottom: 25px;
-  position: relative; }
-  .m-blog-item .m-item--hed {
-    font-family: "purista-web";
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    font-size: 1.2rem;
-    padding: 8px 16px;
-    padding-bottom: 12px;
-    background: #FBFBFB;
-    margin: 0; }
-    .m-blog-item .m-item--hed a {
-      display: block;
-      width: 100%; }
-  .m-blog-item .m-item--image {
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%; }
-    .m-blog-item .m-item--image img {
-      width: 100%; }
-  .m-blog-item .m-item--section {
-    position: absolute;
-    top: 14px;
-    left: 14px;
-    font-size: 0.8rem;
-    display: block;
-    background-color: #000;
-    color: white;
-    text-transform: uppercase;
-    padding: 4px 8px; }
-    .m-blog-item .m-item--section:hover {
-      background-color: #c20e1a; }
-  .m-blog-item:hover a {
-    color: white; }
-  .m-blog-item:hover .m-item--hed {
-    background-color: #c20e1a;
-    color: white; }
-  .m-blog-item.mm-subhero .m-item--hed {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    font-size: 1.33333rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.56); }
-    .m-blog-item.mm-subhero .m-item--hed a {
-      color: white; }
-  .m-blog-item.mm-subhero .m-item--section {
-    font-size: 1rem; }
-  .m-blog-item.mm-subhero:hover .m-item--hed {
-    background-color: #c20e1a;
-    text-decoration: underline; }
-  .m-blog-item.mm-featured .m-item--section {
-    background-color: #c20e1a;
-    color: white; }
-    .m-blog-item.mm-featured .m-item--section:hover {
-      background-color: #000000; }
-
-.m-list header > h2 {
-  font-size: 1.06667rem;
-  text-decoration: underline;
-  margin-bottom: 25px; }
-.m-list .m-item {
-  font-size: 1.06667rem;
-  border-bottom: 1px solid #eee;
-  padding: 10px 0;
-  padding-bottom: 8px; }
-  .m-list .m-item * {
-    display: inline; }
-  .m-list .m-item .m-item--hed {
-    line-height: 1.2em;
-    font-size: 1.06667rem; }
-    .m-list .m-item .m-item--hed a {
-      color: #4A4A4A; }
-      .m-list .m-item .m-item--hed a:hover {
-        color: #c20e1a; }
-  .m-list .m-item .m-item--meta {
-    font-family: "purista-web";
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    font-size: 1.86667rem;
-    line-height: 1.2em;
-    font-size: 1.06667rem;
-    display: inline;
-    color: #777; }
-    @media only screen and (min-width:781px) {
-      .m-list .m-item .m-item--meta {
-        font-size: 2.66667rem; } }
-    .m-list .m-item .m-item--meta > *:before {
-      display: inline;
-      content: "/";
-      padding-right: 0.22em; }
-  .m-list .m-item:last-of-type {
-    border-bottom: none;
-    margin-bottom: 50px; }
-
-.m-theme {
-  background-image: url("/assets/file-a.jpg");
-  background-position: center center;
-  background-size: cover;
-  height: 472px; }
-
 .m-partner {
   text-align: center; }
   .m-partner .m-item--image {
@@ -4579,10 +4434,7 @@ a:hover .svg-button #button {
   font-family: "purista-web";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.86667rem; }
-  @media only screen and (min-width:781px) {
-    .l-partner_large .m-partner .m-item--hed {
-      font-size: 2.66667rem; } }
+  font-size: 2.66667rem; }
 .l-partner_large .m-partner .m-item--description {
   padding: 0 25%; }
 
@@ -4687,12 +4539,9 @@ aside h2 {
   font-family: "purista-web";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.86667rem;
+  font-size: 2.66667rem;
   font-size: 1.06667rem;
   font-weight: 400; }
-  @media only screen and (min-width:781px) {
-    aside h2 {
-      font-size: 2.66667rem; } }
 
 .l-page_single .m-story {
   margin-top: 50px; }
@@ -4731,40 +4580,14 @@ aside h2 {
   .m-light-nav.mm-big .m-icon.mm-prev {
     background-image: url("/assets/ikony/nav-prev.png"); }
 
-.l-page_blog .pagination {
-  padding: 0 50px; }
-
-.tmp-bigimage {
-  background-color: darkgray;
-  height: 600px; }
-
-.tmp-header {
-  height: 800px;
-  width: 100%; }
-  @media only screen {
-    .tmp-header {
-      background-color: darkblue; } }
-  @media only screen and (min-width:641px) {
-    .tmp-header {
-      background-color: pink; } }
-  @media only screen and (min-width:781px) {
-    .tmp-header {
-      background-color: greenyellow; } }
-  @media only screen and (min-width:1411px) {
-    .tmp-header {
-      background-color: orange; } }
-  @media only screen and (min-width:1601px) {
-    .tmp-header {
-      background-color: #800080; } }
-
 @media only screen {
   body .row {
     width: 98%;
     overflow: hidden; } }
-@media only screen and (min-width:781px) {
+@media only screen and (min-width:641px) {
   body .row {
     width: 96%; } }
-@media only screen and (min-width:1601px) {
+@media only screen and (min-width:1411px) {
   body .row {
     width: 100%; } }
 

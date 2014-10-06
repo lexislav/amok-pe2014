@@ -1,0 +1,58 @@
+.svg-button {
+
+    width: 54px;
+    height: 54px;
+
+    #button {
+        opacity: .5;
+    }
+
+    &.mm-white {
+        #button {
+            stroke: #fff;
+        }
+    }
+}
+
+.icon-outside {
+    position: relative;
+    &:before {
+        content: " ";
+        width: 70px;
+        height: 70px;
+        //float: right;
+        position: relative;
+        display: block;
+        //position: absolute;
+        //left: -90px;
+        margin-bottom: $base-spacing / 3;
+        background-position: 0% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
+
+.i-bulb {
+    &:before {
+        background-image: url("/assets/ikony/zarovka.svg");
+    }
+}
+
+.i-clock {
+    &:before {
+        background-image: url("/assets/ikony/stopky.svg");
+    }
+}
+
+.i-elegant {
+    &:before {
+        background-image: url("/assets/ikony/elegantne.svg");
+    }
+}
+
+a:hover {
+    .svg-button #button {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,21 @@
+
+body {
+    @media #{size(A)} {
+        .row {
+            width: 98%;
+            overflow: hidden;
+        }
+    }
+    @media #{size(B)} {
+        .row {
+            width: 96%;
+        }
+    }
+    @media #{size(D)} {
+
+        .row {
+            width: 100%;
+        }
+    }
+
+}
