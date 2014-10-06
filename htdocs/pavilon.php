@@ -140,21 +140,51 @@
             <img src="/assets/photos/pavilon/s32.jpg" alt="slide 1" />
 
             <div class="orbit-caption">
-                Caption One.
+                <div>Prohlédněte si český pavilon</div>
+                <div class="fnt-primary-body-m" style="margin-top: 200px;">
+                    Český pavilon reprezentuje český sen o moři,
+                    česko jako střechu Evropy.
+                    Umístěn je hned u hlavního vchodu
+                    a bude sloužit jako relax pro všechny návštěvníky světové výstavy.
+                </div>
+
+            </div>
+            <div class="m-carousel--arrow-down">
+                <img src="/assets/ikony/arrow-down.png" alt="" />
             </div>
         </div>
         <div class="item">
             <img src="/assets/photos/pavilon/s33.jpg" alt="slide 1" />
 
             <div class="orbit-caption">
-                Caption Two.
+                <div>Prohlédněte si český pavilon</div>
+                <div class="fnt-primary-body-m" style="margin-top: 200px;">
+                    Český pavilon reprezentuje český sen o moři,
+                    česko jako střechu Evropy.
+                    Umístěn je hned u hlavního vchodu
+                    a bude sloužit jako relax pro všechny návštěvníky světové výstavy.
+                </div>
+
+            </div>
+            <div class="m-carousel--arrow-down">
+                <img src="/assets/ikony/arrow-down.png" alt="" />
             </div>
         </div>
         <div class="item">
             <img src="/assets/photos/pavilon/s34.jpg" alt="slide 1" />
 
             <div class="orbit-caption">
-                Caption Three.
+                <div>Prohlédněte si český pavilon</div>
+                <div class="fnt-primary-body-m" style="margin-top: 200px;">
+                    Český pavilon reprezentuje český sen o moři,
+                    česko jako střechu Evropy.
+                    Umístěn je hned u hlavního vchodu
+                    a bude sloužit jako relax pro všechny návštěvníky světové výstavy.
+                </div>
+
+            </div>
+            <div class="m-carousel--arrow-down">
+                <img src="/assets/ikony/arrow-down.png" alt="" />
             </div>
         </div>
     </div>
@@ -176,22 +206,36 @@
 
     <div class="skrollr-wrap">
 
-        <div style="background-image: url('/assets/file-a.jpg');height: 600px;">
-            <div class="row">
+        <div class="l-section mm-dark" style="background-image: url('/assets/photos/pavilon/cze-expozice.jpg');">
+            <article>
+                <div class="row">
+                    <header class="medium-5 columns" style="position: relative; height: 400px;">
+                        <h1 class="m-item--hed fnt-white">Prohlédněte si české expozice</h1>
 
-                <article>
-                    <header>
-                        <h1 class="m-item--hed">Prohlédněte si české expozice</h1>
-
-                        <div class="m-item--description">
+                        <div class="fnt-secondary-headline fnt-white fnt-shadow" style="position: absolute; bottom: 20px;">
                             UPOZORNĚNÍ:<br />
                             Prohlížení fotogalerie z expozic bude možné až po oficiálním otevření pavilonu 1. ledna 2015.
                         </div>
-
                     </header>
-                </article>
+                    <footer class="medium-2 columns">
+                        <a href="/pavilon.php" title="Pavilon">
+                            <div class="svg-button mm-white">
+                                <svg width="54px" height="54px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                                    <g id="button" sketch:type="MSArtboardGroup" stroke="#000000" stroke-width="4">
+                                        <g sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+                                            <circle id="Oval-10" sketch:type="MSShapeGroup" cx="25" cy="25" r="25" fill="none"></circle>
+                                            <path d="M10.7253085,25.5555554 L39.2851168,25.5555554" id="Line" fill="none"></path>
+                                            <path d="M26.5941654,10.8213824 L40.5320305,24.7102713 L26.5941654,38.6481364" fill="none"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                    </footer >
 
-            </div>
+
+                </div>
+            </article>
         </div>
 
 
