@@ -3975,6 +3975,12 @@ th.hide-for-touch {
         .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
           font-size: 0.8rem;
           margin: 0; }
+          @media only screen and (min-width:781px) {
+            .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
+              font-size: 0.86667rem; } }
+          @media only screen and (min-width:1411px) {
+            .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
+              font-size: 1rem; } }
         .m-schema .m-schema--label ul li h3, .m-schema .m-schema--label ol li h3 {
           font-family: "Proxima Nova";
           font-weight: 600;

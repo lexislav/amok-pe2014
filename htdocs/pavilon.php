@@ -168,6 +168,13 @@
     <div class="m-schema-spacer" style="height: 384px;"></div>
     <div class="m-schema-spacer" style="height: 384px;"></div>
 
+
+    <div>
+        only xsmall
+    </div>
+
+
+
     <div class="skrollr-wrap">
         <div class="row">
             <div class="medium-4 columns">

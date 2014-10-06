@@ -164,6 +164,15 @@
                 p {
                     font-size: rem-calc(12);
                     margin: 0;
+
+                    @media #{$large-up} {
+                        font-size: rem-calc(13);
+
+                    }
+
+                    @media #{$xlarge-up} {
+                        font-size: rem-calc(15);
+                    }
                 }
 
                 h3 {
