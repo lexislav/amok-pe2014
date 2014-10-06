@@ -175,66 +175,80 @@
 
 
     <div class="skrollr-wrap">
+
+        <div style="background-image: url('/assets/file-a.jpg');height: 600px;">
             <div class="row">
-        <div class="mgr-full">
-                <div class="medium-4 columns">
-                    <h2>title 1</h2>
 
-                    <p>Unikátní koncept architektonického řešení umož- ňují principy modulární výstavby. Právě její využití umožní recyklaci pavilonu v budoucnosti. </p>
-                </div>
-                <div class="medium-4 columns">
-                    <h2>title 1</h2>
+                <article>
+                    <header>
+                        <h1 class="m-item--hed">Prohlédněte si české expozice</h1>
 
-                    <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                </div>
-                <div class="medium-4 columns">
-                    <h2>title 1</h2>
+                        <div class="m-item--description">
+                            UPOZORNĚNÍ:<br />
+                            Prohlížení fotogalerie z expozic bude možné až po oficiálním otevření pavilonu 1. ledna 2015.
+                        </div>
 
-                    <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-                </div>
+                    </header>
+                </article>
+
             </div>
         </div>
 
 
-        <div class="row">
+        <div class="row l-section">
             <div class="medium-6 columns">
-                <h2>O výstavách</h2>
+                <article>
+                    <header>
+                        <div class="small-12 columns">
+                            <h1 id="m-item--hed">Budoucnost pavilonu</h1>
+                        </div>
+                        <div class="small-4 columns">
+                            <div class="m-item--image">
+                                <img src="/assets/modul.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <div class="m-item--description">
+                                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
+                            </div>
+                        </div>
+                    </header>
+                </article>
             </div>
 
             <div class="medium-6 columns">
-                <ul class="medium-block-grid-2">
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                    <li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/satelite.jpg"></li>
-                </ul>
+
+                <article>
+                    <header>
+                        <div class="small-12 columns">
+                            <h1 id="m-item--hed">Historie českých EXPO pavilonů</h1>
+                        </div>
+                        <div class="small-4 columns">
+                            <div class="m-item--image">
+                                <img src="/assets/modul.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="small-8 columns">
+                            <div class="m-item--description">
+                                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
+                            </div>
+                        </div>
+                    </header>
+                </article>
+
             </div>
         </div>
 
+        <div class="l-section mm-dark">
+            <div class="row ">
+                <div class="medium-12 columns"><h2>Za konceptem</h2></div>
+                <div class="medium-6 columns">
+                    <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
+                </div>
 
-        <div class="row">
-            <div class="medium-6 columns">
-                <h2>budoucnost pavilonu</h2>
-
-                <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
-            </div>
-
-            <div class="medium-6 columns">
-                <h2>Historie Českých pavilonů</h2>
-
-                <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="medium-12 columns"><h2>Za konceptem</h2></div>
-            <div class="medium-6 columns">
-                <p>Pavilonu stojí přední výrobce modulární výstavby KOMA a jejich dvorní architekti.</p>
-            </div>
-
-            <div class="medium-6 columns">
-                <p>text</p>
+                <div class="medium-6 columns">
+                    <p>text</p>
+                </div>
             </div>
         </div>
 
@@ -262,7 +276,7 @@
             cssEase: 'linear'
         });
 
-        $(".m-schema-spacer").each(function() {
+        $(".m-schema-spacer").each(function () {
             var el = $(this);
             el.css('height', $(window).height());
         })
