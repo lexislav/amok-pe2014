@@ -9,7 +9,7 @@
         <div class="m-schema--left">
 
 
-            <div class="m-schema--label label1" data-anchor-target="#animAnchor2" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
+            <div class="m-schema--label label1" data-anchor-target="#animAnchor2" data-bottom="opacity:0;display:none" data-center="opacity:1;display:block" data-top="opacity:0;display:none">
                 <h2 class="m-item--hed"><strong>Přízemí:</strong> Země – Voda</h2>
 
                 <div class="m-item--description">
@@ -17,7 +17,7 @@
                 </div>
                 <ul class="mm-red">
                     <li>
-                        <h3><span>1.</span>URBÁNNÍ BAZÉN</h3>
+                        <h3><span>1.</span>URBÁNNÍ BAZÉN<a href="" class="m-icon" data-reveal-id="myModal"><span>moreinfo</span></a></h3>
 
                         <p>Český sen o moři symbolizuje urbánní bazén pavilonu. Mělký bazén zároveň splní úlohu relaxační plochy.</p>
                     </li>
@@ -298,9 +298,19 @@
     </div>
 </div>
 
+<section class="modals">
+    <div class="modal" id="myModal">modal xy</div>
+</section>
 
+
+
+<script type="text/javascript" src="components/foundation/js/foundation/foundation.js"></script>
+<script type="text/javascript" src="components/foundation/js/foundation/foundation.reveal.js"></script>
 <script type="text/javascript" src="components/slick/slick/slick.min.js"></script>
 <script type="text/javascript">
+
+    $(document).foundation();
+
     var s = skrollr.init({
         smoothScrolling: false,
         mobileDeceleration: 0.01
@@ -325,6 +335,8 @@
         });
 
     });
+
+
 
 
 </script>

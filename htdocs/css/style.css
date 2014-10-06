@@ -2728,6 +2728,229 @@ textarea {
 select {
   width: 100%; }
 
+.reveal-modal-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1004;
+  display: none;
+  left: 0; }
+
+.reveal-modal, dialog {
+  visibility: hidden;
+  display: none;
+  position: absolute;
+  z-index: 1005;
+  width: 100vw;
+  top: 0;
+  border-radius: 3px;
+  left: 0;
+  background-color: #FFFFFF;
+  padding: 1.33333rem;
+  border: solid 1px #666666;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 2rem; }
+  @media only screen and (max-width: 640px) {
+    .reveal-modal {
+      min-height: 100vh; } }
+  .reveal-modal .column, .reveal-modal dialog, .reveal-modal .columns, .reveal-modal dialog {
+    min-width: 0; }
+  .reveal-modal > :first-child, .reveal-modal > dialog {
+    margin-top: 0; }
+  .reveal-modal > :last-child, .reveal-modal > dialog {
+    margin-bottom: 0; }
+  @media only screen and (min-width:641px) {
+    .reveal-modal {
+      width: 80%;
+      max-width: 85.33333rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+  @media only screen and (min-width:641px) {
+    .reveal-modal {
+      top: 6.66667rem; } }
+  .reveal-modal.radius, dialog.radius {
+    border-radius: 3px; }
+  .reveal-modal.round, dialog.round {
+    border-radius: 1000px; }
+  .reveal-modal.collapse, dialog.collapse {
+    padding: 0; }
+  @media only screen and (min-width:641px) {
+    .reveal-modal.tiny {
+      width: 30%;
+      max-width: 85.33333rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+  @media only screen and (min-width:641px) {
+    .reveal-modal.small {
+      width: 40%;
+      max-width: 85.33333rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+  @media only screen and (min-width:641px) {
+    .reveal-modal.medium {
+      width: 60%;
+      max-width: 85.33333rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+  @media only screen and (min-width:641px) {
+    .reveal-modal.large {
+      width: 70%;
+      max-width: 85.33333rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+  @media only screen and (min-width:641px) {
+    .reveal-modal.xlarge {
+      width: 95%;
+      max-width: 85.33333rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; } }
+  .reveal-modal.full, dialog.full {
+    top: 0;
+    left: 0;
+    height: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    margin-left: 0 !important; }
+    @media only screen and (min-width:641px) {
+      .reveal-modal.full {
+        width: 100vw;
+        max-width: 85.33333rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto; } }
+  .reveal-modal .close-reveal-modal, .reveal-modal dialog {
+    font-size: 2.66667rem;
+    line-height: 1;
+    position: absolute;
+    top: 0.53333rem;
+    right: 0.73333rem;
+    color: #AAAAAA;
+    font-weight: bold;
+    cursor: pointer; }
+
+dialog {
+  display: none; }
+  dialog::backdrop, dialog + .backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: null;
+    display: none;
+    left: 0; }
+  dialog[open] {
+    display: block; }
+
+@media print {
+  dialog, .reveal-modal, dialog {
+    display: none;
+    background: #FFFFFF !important; } }
+
+meta.foundation-version {
+  font-family: "/{{VERSION}}/"; }
+
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0px; }
+
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:641px)/";
+  width: 641px; }
+
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:781px)/";
+  width: 781px; }
+
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:1411px)/";
+  width: 1411px; }
+
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:1601px)/";
+  width: 1601px; }
+
+meta.foundation-data-attribute-namespace {
+  font-family: false; }
+
+html, body {
+  height: 100%; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 15px; }
+
+body {
+  background: #fff;
+  color: #4A4A4A;
+  padding: 0;
+  margin: 0;
+  font-family: "purista-web", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto; }
+
+a:hover {
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
+  max-width: none !important; }
+
+.left {
+  float: left !important; }
+
+.right {
+  float: right !important; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
+.hide {
+  display: none; }
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+img {
+  display: inline-block;
+  vertical-align: middle; }
+
+textarea {
+  height: auto;
+  min-height: 50px; }
+
+select {
+  width: 100%; }
+
 /* Image Thumbnails */
 .th {
   line-height: 0;
@@ -4092,6 +4315,7 @@ th.hide-for-touch {
     background-image: linear-gradient(to top,rgba(255, 255, 255, 0), #ffffff); }
 
 .m-schema-control {
+  pointer-events: none;
   text-align: center;
   width: 100%;
   height: 20px; }
@@ -4099,6 +4323,7 @@ th.hide-for-touch {
     visibility: hidden; }
 
 .m-schema-spacer {
+  pointer-events: none;
   width: 100%;
   height: 600px; }
 
@@ -4510,6 +4735,16 @@ th.hide-for-touch {
     background-repeat: no-repeat;
     background-size: contain; }
 
+.m-icon {
+  background-color: red;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin-left: 8px;
+  cursor: pointer; }
+  .m-icon span {
+    display: none; }
+
 .i-bulb:before {
   background-image: url("/assets/ikony/zarovka.svg"); }
 
@@ -4697,5 +4932,8 @@ aside h2 {
 @media only screen and (min-width:1411px) {
   body .row {
     width: 100%; } }
+
+#skrollr-body {
+  pointer-events: none; }
 
 /*# sourceMappingURL=style.map */

@@ -33,6 +33,20 @@
 
 }
 
+.m-icon {
+    span {
+        display: none;
+    }
+    background-color: red;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin-left: 8px;
+
+    cursor: pointer;
+
+}
+
 .i-bulb {
     &:before {
         background-image: url("/assets/ikony/zarovka.svg");

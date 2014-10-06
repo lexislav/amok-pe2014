@@ -79,3 +79,8 @@ $navbar-height: $navbar-height_AB;
 
 
 @import "modules/override-row";
+
+
+#skrollr-body {
+    pointer-events: none;
+}
