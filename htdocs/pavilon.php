@@ -134,6 +134,7 @@
 
 
 <div id="skrollr-body">
+
     <div class="m-carousel">
         <div class="m-carousel--item">
             <img src="/assets/photos/pavilon/s32.jpg" alt="slide 1" />
@@ -321,7 +322,7 @@
         $(".m-schema-spacer").each(function () {
             var el = $(this);
             el.css('height', $(window).height());
-        })
+        });
 
     });
 
