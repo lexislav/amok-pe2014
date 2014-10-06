@@ -137,21 +137,21 @@
 <div id="skrollr-body">
     <div class="m-carousel">
         <div class="item">
-            <img src="/assets/sky.jpg" alt="slide 1" />
+            <img src="/assets/photos/pavilon/s32.jpg" alt="slide 1" />
 
             <div class="orbit-caption">
                 Caption One.
             </div>
         </div>
         <div class="item">
-            <img src="/assets/pavilon-theme.png" alt="slide 1" />
+            <img src="/assets/photos/pavilon/s33.jpg" alt="slide 1" />
 
             <div class="orbit-caption">
                 Caption Two.
             </div>
         </div>
         <div class="item">
-            <img src="/assets/file-a.jpg" alt="slide 1" />
+            <img src="/assets/photos/pavilon/s34.jpg" alt="slide 1" />
 
             <div class="orbit-caption">
                 Caption Three.
