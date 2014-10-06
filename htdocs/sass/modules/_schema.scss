@@ -51,22 +51,39 @@
 
     overflow: hidden;
 
-    .m-schema--frame {
-    //    border: 1px solid red;
-        position: absolute;
-        margin:  auto;
+    .m-schema--decoration {
+        height: 10%;
+        background-color: #fcfcfc;
+        width: 100%;
+        position: fixed;
+        left: 0;
 
+        &.mm-top {
+            top: 0;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        &.mm-bottom {
+            border-top: 1px dashed #ccc;
+            bottom: 0;
+        }
+    }
+
+    .m-schema--frame {
+        //    border: 1px solid red;
+        position: absolute;
+        margin: auto;
 
         left: 4%;
         right: 4%;
-        top:4%;
+        top: 4%;
         bottom: 4%;
         height: 92%;
 
         @media #{$medium-up} {
             left: 4%;
             right: 4%;
-            top:4%;
+            top: 4%;
             bottom: 4%;
             height: 92%;
         }
@@ -74,7 +91,7 @@
         @media #{$xlarge-up} {
             width: 96%;
             left: 2%;
-            top:2%;
+            top: 2%;
             bottom: 2%;
             height: 96%;
 
@@ -122,7 +139,7 @@
         width: 100%;
         background-repeat: no-repeat;
         background-position: bottom right;
-       // background-size: 70% auto;
+        // background-size: 70% auto;
 
         //border: 1px solid red;
         position: absolute;
@@ -234,9 +251,12 @@
 
 .m-schema-control {
     text-align: center;
-   // background-color: rgba(200, 200, 200, .5);
+    // background-color: rgba(200, 200, 200, .5);
     width: 100%;
     height: 20px;
+    > span {
+        visibility: hidden;
+    }
 }
 
 .m-schema-spacer {

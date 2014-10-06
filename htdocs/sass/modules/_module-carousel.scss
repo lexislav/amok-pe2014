@@ -3,22 +3,13 @@
     width: 100%;
     height: 800px;
     overflow: hidden;
-    .item {
-        //max-height: 800px;
-        overflow: hidden;
-
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
 
     .orbit-caption {
         position: absolute;
         left: 0;
         right: 0;
-        top: 230px;
-        width: 600px;
+        top: 0;
+        bottom: 0;
         margin: auto;
 
         color: white;
@@ -27,6 +18,30 @@
         font-size: rem-calc(60);
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     }
+
+    .m-carousel--item {
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .m-item--hed {
+            width: 600px;
+            margin: 0 auto;
+            margin-top: 200px;
+            line-height: 1.3em;
+        }
+
+        .m-item--description {
+            position: absolute;
+            bottom: 120px;
+            width: 400px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
 
     .m-carousel--arrow-down {
 
