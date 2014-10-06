@@ -2,10 +2,9 @@
 <body class="l-page l-page_home">
 
 <?php include "templates/inc-topbar.php"; ?>
-
 <?php include("templates/inc-angle-slider.php"); ?>
 
-<div class="row l-section">
+<div class="row l-section" id="menuSwitcher">
     <div class="m-section_pavilon">
         <div class="small-12 large-6 columns">
             <h1>Vítejte na stránkách věnovaných českému pavilonu EXPO2015</h1>
@@ -252,6 +251,8 @@
 <script src="/components/ags-slider/ags-slider.js"></script>
 <script src="/js/progress-bar-scroll.js"></script>
 <script src="/js/app.js"></script>
+
+
 
 </body>
 <?php include "templates/html-footer.php"; ?>

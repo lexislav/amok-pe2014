@@ -5,7 +5,7 @@
 $color-koma-red: #c20e1a;
 $color-koma-red-slider: #A0000B;
 $base-spacing: 50px;
-$navbar-height: 80px;
+$navbar-height: 48px;
 
 @import "settings";
 @import "foundation";
@@ -575,8 +575,13 @@ aside h2 {
 body {
     @media #{$small-up} {
         .row {
-            width: 90%;
+            width: 98%;
             overflow: hidden;
+        }
+    }
+    @media #{$large-up} {
+        .row {
+            width: 96%;
         }
     }
     @media #{$xxlarge-up} {
