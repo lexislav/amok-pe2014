@@ -159,16 +159,14 @@
         </div>
     </div>
 
-    <div class="m-schema-spacer" style="height: 384px;"></div>
+    <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor2">a2</div>
     <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor3">a3</div>
     <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor4">a4</div>
     <div class="m-schema-spacer"></div>
-    <div class="m-schema-control" id="animAnchor5">a4</div>
-    <div class="m-schema-spacer" style="height: 384px;"></div>
-    <div class="m-schema-spacer" style="height: 384px;"></div>
+    <div class="m-schema-control" id="animAnchor5">a5</div>
 
 
     <div>
@@ -263,6 +261,11 @@
             fade: true,
             cssEase: 'linear'
         });
+
+        $(".m-schema-spacer").each(function() {
+            var el = $(this);
+            el.css('height', $(window).height());
+        })
 
     });
 
