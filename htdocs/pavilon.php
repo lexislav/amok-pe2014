@@ -93,7 +93,7 @@
 
 
 
-                    <div class="m-schema--label label4" data-anchor-target="#animAnchor5" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
+                    <div class="m-schema--label label4" data-anchor-target="#animAnchor5" data-bottom="opacity:0;" data-center="opacity:1;">
                         <h2 class="m-item--hed">Střecha: Zahrada & relax</h2>
                         <div class="m-item--description">
                             Střechu pavilonu pokrývá zeleň. Poskytuje výhled do areálu, místo k nadechnutí, zklidnění i relaxaci. Poskytuje prostor pro společenské akce partnerů.

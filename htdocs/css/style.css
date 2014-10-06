@@ -3856,10 +3856,12 @@ th.hide-for-touch {
   position: fixed;
   z-index: 1;
   transform-origin: 0 0;
-  top: 5%;
-  bottom: 5%;
+  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
+  max-height: 768px;
+  max-width: 1024px;
   margin: auto; }
   .l-schema:before, .l-schema:after {
     content: " ";
@@ -3888,10 +3890,27 @@ th.hide-for-touch {
   .m-schema .np7 {
     background-image: url("/assets/pavilon-sm/p3-1.png"); }
   .m-schema .m-schema--frame {
-    width: 96%;
-    height: 100%;
-    position: relative;
-    margin: 0 auto; }
+    position: absolute;
+    margin: auto;
+    left: 4%;
+    right: 4%;
+    top: 4%;
+    bottom: 4%;
+    height: 92%; }
+    @media only screen and (min-width:641px) {
+      .m-schema .m-schema--frame {
+        left: 4%;
+        right: 4%;
+        top: 4%;
+        bottom: 4%;
+        height: 92%; } }
+    @media only screen and (min-width:1411px) {
+      .m-schema .m-schema--frame {
+        width: 96%;
+        left: 2%;
+        top: 2%;
+        bottom: 2%;
+        height: 96%; } }
   .m-schema .m-schema--left, .m-schema .m-schema--right {
     position: relative;
     height: 100%;
@@ -3928,6 +3947,9 @@ th.hide-for-touch {
     z-index: 200; }
     .m-schema .m-schema--label .m-item--hed {
       margin-right: -300px; }
+      @media only screen and (min-width:1411px) {
+        .m-schema .m-schema--label .m-item--hed {
+          margin-bottom: 25px; } }
     .m-schema .m-schema--label .m-item--description {
       font-family: "Proxima Nova";
       font-weight: 200;
@@ -3937,6 +3959,10 @@ th.hide-for-touch {
       margin-bottom: 30px; }
       .m-schema .m-schema--label .m-item--description.fnt-white {
         font-weight: 400; }
+      @media only screen and (min-width:1411px) {
+        .m-schema .m-schema--label .m-item--description {
+          margin-right: -100px;
+          margin-bottom: 60px; } }
     .m-schema .m-schema--label ul, .m-schema .m-schema--label ol {
       margin: 0 30px;
       padding: 0;
@@ -3989,7 +4015,6 @@ th.hide-for-touch {
 
 .m-schema-control {
   text-align: center;
-  background-color: rgba(200, 200, 200, 0.5);
   width: 100%;
   height: 20px; }
 
