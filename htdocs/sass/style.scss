@@ -5,7 +5,9 @@
 $color-koma-red: #c20e1a;
 $color-koma-red-slider: #A0000B;
 $base-spacing: 50px;
-$navbar-height: 48px;
+$navbar-height_AB: 48px;
+$navbar-height_CD: 74px;
+$navbar-height: $navbar-height_AB;
 
 @import "settings";
 @import "foundation";

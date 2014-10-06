@@ -3652,17 +3652,18 @@ th.hide-for-touch {
     padding: 0;
     margin: 0; }
   .m-nav .m-nav--button {
-    line-height: 48px;
     text-align: center;
-    width: 48px;
-    height: 48px;
     float: left;
     cursor: pointer;
     background-image: url("/assets/ikony/menu-button.png");
     background-repeat: no-repeat;
-    background-position: center center; }
+    background-position: center center;
+    line-height: 48px;
+    width: 48px;
+    height: 48px; }
     @media only screen and (min-width:781px) {
       .m-nav .m-nav--button {
+        line-height: 74px;
         width: 74px;
         height: 74px; } }
   .m-nav .m-nav--logo {
@@ -3671,8 +3672,8 @@ th.hide-for-touch {
     -webkit-font-smoothing: antialiased;
     font-size: 1.2rem;
     font-size: 1.06667rem;
-    line-height: 48px;
-    float: left; }
+    float: left;
+    line-height: 48px; }
     .m-nav .m-nav--logo strong {
       font-weight: 400; }
     @media only screen and (min-width:641px) {
@@ -3684,10 +3685,10 @@ th.hide-for-touch {
         line-height: 74px; } }
   .m-nav .m-nav--lang {
     text-align: right;
-    line-height: 48px;
-    height: 48px;
     font-size: 1.06667rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    line-height: 48px;
+    height: 48px; }
     .m-nav .m-nav--lang a {
       display: inline-block;
       padding: 0 0.5em; }
@@ -4367,7 +4368,7 @@ th.hide-for-touch {
   margin-bottom: 25px; }
 
 .l-page {
-  padding-top: 48px; }
+  padding-top: 74px; }
   .l-page.l-page_home, .l-page.l-page_pavilon, .l-page.l-page_blog {
     padding-top: 0; }
 

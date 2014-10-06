@@ -15,57 +15,49 @@
         margin: 0;
     }
 
-
     .m-nav--button {
-        line-height: $navbar-height;
         text-align: center;
-        width: $navbar-height;
-        height: $navbar-height;
         float: left;
         cursor: pointer;
-        //margin-right: $base-spacing / 2;
 
         background-image: url("/assets/ikony/menu-button.png");
         background-repeat: no-repeat;
         background-position: center center;
 
-        @media #{$large-up} {
-            width: 74px;
-            height: 74px;
+        line-height: $navbar-height_AB;
+        width: $navbar-height_AB;
+        height: $navbar-height_AB;
+
+        @media #{size(C)} {
+            line-height: $navbar-height_CD;
+            width: $navbar-height_CD;
+            height: $navbar-height_CD;
         }
     }
 
     .m-nav--logo {
         @include fnt-primary-body-m();
         font-size: rem-calc(16);
-
-        line-height: $navbar-height;
-        //line-height: 74px; // fix for Purista
-      //  width: auto;
         float: left;
+        line-height: $navbar-height_AB;
 
         strong {
             font-weight: 400;
         }
-        @media #{$medium-up} {
+
+        @media #{size(B)} {
             font-size: rem-calc(18);
         }
-        @media #{$large-up} {
+
+        @media #{size(C)} {
             font-size: rem-calc(30);
-            line-height: 74px;
+            line-height: $navbar-height_CD;
         }
     }
 
     .m-nav--lang {
 
-        //position: fixed;
-        //right: 30px;
-        //top: 0;
         text-align: right;
-
-        line-height: $navbar-height;
-        height: $navbar-height;
-
         font-size: rem-calc(16);
         text-transform: uppercase;
 
@@ -77,10 +69,14 @@
             }
         }
 
-        @media #{$large-up} {
-            line-height: 74px;
-            height: 74px;
+        line-height: $navbar-height_AB;
+        height: $navbar-height_AB;
+
+        @media #{size(C)} {
+            line-height: $navbar-height_CD;
+            height: $navbar-height_CD;
         }
+
     }
 
     .m-nav--overlay {
@@ -116,11 +112,10 @@
         bottom: 0;
         right: 0;
 
-        @media #{$medium-up} {
+        @media #{size(B)} {
             width: 80%;
         }
-
-        @media #{$large-up} {
+        @media #{size(C)} {
             width: 600px;
         }
 
@@ -150,7 +145,7 @@
         a {
             color: scale_color($koma, $lightness: 10%);
             &:hover {
-                color:$color-koma-red;
+                color: $color-koma-red;
                 text-decoration: underline;
             }
         }
@@ -197,14 +192,14 @@
     // white version
 
     &.mm-white,
-    &[color="mm-white"]{
+    &[color="mm-white"] {
 
         .m-nav--panel {
             border-bottom: 1px solid $koma;
             background-color: white;
             color: $body-font-color;
 
-          //  @include transition(all 0.3s);
+            //  @include transition(all 0.3s);
 
             .m-nav--button {
                 background-image: url("/assets/ikony/menu-button-black.png");
