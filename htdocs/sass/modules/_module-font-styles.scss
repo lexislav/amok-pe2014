@@ -18,11 +18,10 @@
     @include fnt-primary-medium();
     font-size: rem-calc(20);
 }
+
 .fnt-primary-headline-small {
     @include fnt-primary-headline-small();
 }
-
-
 
 
 @mixin fnt-secondary-headline() {
