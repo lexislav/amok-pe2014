@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: top center;
 
-    @include fnt-purista-light();
+    @include fnt-primary-headline();
     font-size: rem-calc(16);
 
 
@@ -14,7 +14,7 @@
 
     .m-page-footer--content {
         strong {
-            @include fnt-purista();
+            @include fnt-primary-headline();
         }
     }
 

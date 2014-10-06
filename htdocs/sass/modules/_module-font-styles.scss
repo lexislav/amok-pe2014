@@ -5,7 +5,7 @@
 
 @mixin fnt-primary-headline() {
     // section headline
-    @include fnt-purista-light();
+    @include fnt-primary-medium();
     font-size: rem-calc(40);
 }
 .fnt-primary-headline {
@@ -15,7 +15,7 @@
 
 
 @mixin fnt-primary-headline-small() {
-    @include fnt-purista-light();
+    @include fnt-primary-medium();
     font-size: rem-calc(20);
 }
 .fnt-primary-headline-small {
@@ -26,11 +26,11 @@
 
 
 @mixin fnt-secondary-headline() {
-    @include fnt-avenir-light();
+    @include fnt-secondary-light();
     font-size: rem-calc(24);
 
     &.fnt-white {
-        font-weight: 400;
+        font-weight: 300; // bolder for white
     }
 }
 .fnt-secondary-headline {
@@ -40,7 +40,7 @@
 
 
 @mixin fnt-secondary-headline-mid () {
-    @include fnt-avenir-demi-bold();
+    @include fnt-secondary-regular();
     font-size: rem-calc(16);
     text-transform: uppercase;
 }
@@ -54,7 +54,7 @@
 // body
 
 @mixin fnt-primary-body-m() {
-    @include fnt-purista();
+    @include fnt-primary-medium();
     font-size: rem-calc(18);
 }
 .fnt-primary-body-m {
@@ -81,7 +81,7 @@
 
 .fnt-boxed-white,
 .fnt-boxed-black {
-    @include fnt-purista();
+    @include fnt-primary-medium();
     font-size: rem-calc(24);
     line-height: 1em;
     display: inline-block;

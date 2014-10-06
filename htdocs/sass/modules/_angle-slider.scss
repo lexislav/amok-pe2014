@@ -144,7 +144,7 @@ $ags-height:860px;
 
 .infobox,
 .infobox2 {
-    @include fnt-purista-light();
+    @include fnt-primary-light();
     font-size: rem-calc(90);
     color: white;
 

@@ -1,29 +1,31 @@
-@mixin fnt-avenir() {
-    font-family: "Proxima Nova";
-    font-weight: normal;
+// typekit
+
+@mixin fnt-primary-medium() {
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
 
-@mixin fnt-avenir-light() {
-    font-family: "Proxima Nova";
-    font-weight: 200;
+@mixin fnt-primary-light() {
+    font-family: "purista-web";
+    font-weight: 300;
     -webkit-font-smoothing: antialiased;
 }
 
-@mixin fnt-avenir-demi-bold() {
-    font-family: "Proxima Nova";
+@mixin fnt-secondary-light() {
+    font-family: "nudista-web";
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fnt-secondary-medium() {
+    font-family: "nudista-web";
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fnt-secondary-regular() {
+    font-family: "nudista-web";
     font-weight: 600;
-    -webkit-font-smoothing: antialiased;
-}
-
-@mixin fnt-purista() {
-    font-family: "Purista";
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-}
-
-@mixin fnt-purista-light() {
-    font-family: "Purista";
-    font-weight: 100;
     -webkit-font-smoothing: antialiased;
 }

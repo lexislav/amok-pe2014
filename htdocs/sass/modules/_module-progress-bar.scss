@@ -10,7 +10,7 @@
 
 
     h2 {
-        @include fnt-purista-light();
+        @include fnt-primary-headline();
         font-size: rem-calc(40);
         color: white;
         line-height: 1em;
@@ -21,7 +21,7 @@
 
     .m-progress-bar--container {
         width: 100%;
-        overflow: hidden;
+        overflow: hidden !important;
     }
 
     .m-progress-bar--bar-bg {

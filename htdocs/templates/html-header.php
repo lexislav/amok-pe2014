@@ -48,10 +48,8 @@
     <script src="http://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
     <script type="text/javascript" src="/components/skrollr/skrollr.min.js"></script>
 
-<!--
 <script src="//use.typekit.net/lvu2xcm.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
--->
 
 
     <link rel="stylesheet" href="css/style.css" />

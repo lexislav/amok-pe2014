@@ -11,6 +11,7 @@
 
                     <div class="m-schema--label label1" data-anchor-target="#animAnchor2" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
                         <h2 class="m-item--hed"><strong>Přízemí:</strong> Země – Voda</h2>
+
                         <div class="m-item--description">
                             Relaxační vodní plocha, pohodlná lehátka i výtečná restaurace připomenou návštěvníkům českou pohostinnost hned po vstupu do areálu.
                         </div>
@@ -41,6 +42,7 @@
 
                     <div class="m-schema--label label2" data-anchor-target="#animAnchor3" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
                         <h2 class="m-item--hed">1. patro: Země příběhů a fantazie</h2>
+
                         <div class="m-item--description">
                             V první části expozice se každý měsíc představí jeden kraj České republiky vlastní výstavou. Dominantu prostoru tvoří Český les.
                         </div>
@@ -65,9 +67,9 @@
                     </div>
 
 
-
                     <div class="m-schema--label label3" data-anchor-target="#animAnchor4" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
                         <h2 class="m-item--hed">2. patro: Laboratoř života</h2>
+
                         <div class="m-item--description">
                             Patru dominuje originální stálá expozice z dílen studentů ČVUT, umělců a tak dále, a tak dále.
                         </div>
@@ -92,9 +94,9 @@
                     </div>
 
 
-
                     <div class="m-schema--label label4" data-anchor-target="#animAnchor5" data-bottom="opacity:0;" data-center="opacity:1;">
                         <h2 class="m-item--hed">Střecha: Zahrada & relax</h2>
+
                         <div class="m-item--description">
                             Střechu pavilonu pokrývá zeleň. Poskytuje výhled do areálu, místo k nadechnutí, zklidnění i relaxaci. Poskytuje prostor pro společenské akce partnerů.
                         </div>
@@ -174,28 +176,25 @@
     </div>
 
 
-
     <div class="skrollr-wrap">
-        <div class="row">
-            <div class="medium-4 columns">
-                <h2>title 1</h2>
+            <div class="row">
+        <div class="mgr-full">
+                <div class="medium-4 columns">
+                    <h2>title 1</h2>
 
-                <p>Unikátní koncept architektonického řešení umož- ňují principy modulární výstavby. Právě její využití umožní recyklaci pavilonu v budoucnosti. </p>
+                    <p>Unikátní koncept architektonického řešení umož- ňují principy modulární výstavby. Právě její využití umožní recyklaci pavilonu v budoucnosti. </p>
+                </div>
+                <div class="medium-4 columns">
+                    <h2>title 1</h2>
+
+                    <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
+                </div>
+                <div class="medium-4 columns">
+                    <h2>title 1</h2>
+
+                    <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
+                </div>
             </div>
-            <div class="medium-4 columns">
-                <h2>title 1</h2>
-
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>
-            <div class="medium-4 columns">
-                <h2>title 1</h2>
-
-                <p>Lorem ipsum základní výhody modulární výstavby lorem ipsum Hendis alition secus. Ebitem fugitectu- sda dolupta volorei untissi ra sum venda consedi sedist, volorehenes autem ut que volore veles.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            transition
         </div>
 
 

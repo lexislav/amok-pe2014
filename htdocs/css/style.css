@@ -371,7 +371,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -1562,7 +1562,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -1927,7 +1927,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2071,7 +2071,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2325,7 +2325,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2435,7 +2435,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2542,7 +2542,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2678,7 +2678,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2783,7 +2783,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -2978,8 +2978,8 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Purista";
-  font-weight: 600;
+  font-family: "purista-web";
+  font-weight: 400;
   font-style: 400;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -3255,7 +3255,7 @@ body {
   color: #4A4A4A;
   padding: 0;
   margin: 0;
-  font-family: "Avenir Next", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-alt", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -3577,35 +3577,35 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 .fnt-primary-headline {
-  font-family: "Purista";
-  font-weight: 100;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 2.66667rem; }
 
 .fnt-primary-headline-small {
-  font-family: "Purista";
-  font-weight: 100;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 1.33333rem; }
 
 .fnt-secondary-headline {
-  font-family: "Proxima Nova";
-  font-weight: 200;
+  font-family: "nudista-web";
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   font-size: 1.6rem; }
   .fnt-secondary-headline.fnt-white {
-    font-weight: 400; }
+    font-weight: 300; }
 
 .fnt-secondary-headline-mid {
-  font-family: "Proxima Nova";
+  font-family: "nudista-web";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   font-size: 1.06667rem;
   text-transform: uppercase; }
 
 .fnt-primary-body-m {
-  font-family: "Purista";
-  font-weight: normal;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 1.2rem; }
 
@@ -3620,8 +3620,8 @@ th.hide-for-touch {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
 
 .fnt-boxed-white, .fnt-boxed-black {
-  font-family: "Purista";
-  font-weight: normal;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 1.6rem;
   line-height: 1em;
@@ -3645,9 +3645,10 @@ th.hide-for-touch {
   margin: auto;
   border-bottom: 1px solid #4A4A4A;
   background-color: white;
-  font-family: "Purista";
-  font-weight: normal;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
+  font-size: 2.66667rem;
   color: #4A4A4A; }
   .m-nav a {
     color: #4A4A4A; }
@@ -3662,9 +3663,10 @@ th.hide-for-touch {
     cursor: pointer;
     margin-right: 25px; }
   .m-nav .m-nav--logo {
-    font-family: "Purista";
-    font-weight: 100;
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    font-size: 1.2rem;
     font-size: 2.13333rem;
     line-height: 80px;
     line-height: 74px;
@@ -3834,8 +3836,8 @@ th.hide-for-touch {
       margin: auto; }
 
 .infobox, .infobox2 {
-  font-family: "Purista";
-  font-weight: 100;
+  font-family: "purista-web";
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   font-size: 6rem;
   color: white;
@@ -3951,14 +3953,14 @@ th.hide-for-touch {
         .m-schema .m-schema--label .m-item--hed {
           margin-bottom: 25px; } }
     .m-schema .m-schema--label .m-item--description {
-      font-family: "Proxima Nova";
-      font-weight: 200;
+      font-family: "nudista-web";
+      font-weight: 300;
       -webkit-font-smoothing: antialiased;
       font-size: 1.6rem;
       margin-right: -500px;
       margin-bottom: 30px; }
       .m-schema .m-schema--label .m-item--description.fnt-white {
-        font-weight: 400; }
+        font-weight: 300; }
       @media only screen and (min-width:1411px) {
         .m-schema .m-schema--label .m-item--description {
           margin-right: -100px;
@@ -3982,7 +3984,7 @@ th.hide-for-touch {
             .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
               font-size: 1rem; } }
         .m-schema .m-schema--label ul li h3, .m-schema .m-schema--label ol li h3 {
-          font-family: "Proxima Nova";
+          font-family: "nudista-web";
           font-weight: 600;
           -webkit-font-smoothing: antialiased;
           font-size: 1.06667rem;
@@ -4050,15 +4052,18 @@ th.hide-for-touch {
 .m-section_pavilon .padded {
   padding-right: 60px; }
 .m-section_pavilon h1, .m-section_pavilon h2 {
-  font-family: "Proxima Nova";
-  font-weight: 200;
+  font-family: "nudista-web";
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  font-size: 1.6rem;
   font-size: 2.4rem; }
+  .m-section_pavilon h1.fnt-white, .m-section_pavilon h2.fnt-white {
+    font-weight: 300; }
 .m-section_pavilon h2 {
   font-size: 1.6rem;
   line-height: 33px; }
 .m-section_pavilon h3 {
-  font-family: "Proxima Nova";
+  font-family: "nudista-web";
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   font-size: 1.06667rem;
@@ -4097,10 +4102,13 @@ th.hide-for-touch {
       margin-right: 10px; } }
 
 .m-data-table {
+  font-family: "nudista-web";
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.06667rem;
+  text-transform: uppercase;
   text-align: center;
-  font-family: "Purista";
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased; }
+  text-transform: none; }
   .m-data-table li {
     margin-top: 30px;
     -webkit-box-sizing: border-box;
@@ -4128,9 +4136,10 @@ th.hide-for-touch {
   background: #22D3D3;
   height: 470px; }
   .m-progress-bar h2 {
-    font-family: "Purista";
-    font-weight: 100;
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    font-size: 2.66667rem;
     font-size: 2.66667rem;
     color: white;
     line-height: 1em;
@@ -4139,7 +4148,7 @@ th.hide-for-touch {
     margin-bottom: 50px; }
   .m-progress-bar .m-progress-bar--container {
     width: 100%;
-    overflow: hidden; }
+    overflow: hidden !important; }
   .m-progress-bar .m-progress-bar--bar-bg {
     height: 20px;
     width: 2400px;
@@ -4191,15 +4200,17 @@ th.hide-for-touch {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  font-family: "Purista";
-  font-weight: 100;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
+  font-size: 2.66667rem;
   font-size: 1.06667rem;
   color: white; }
   .m-page-footer .m-page-footer--content strong {
-    font-family: "Purista";
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased; }
+    font-family: "purista-web";
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.66667rem; }
   .m-page-footer h5 {
     color: white;
     border-bottom: 1px dotted white;
@@ -4328,8 +4339,8 @@ a:hover .svg-button #button {
   margin-bottom: 25px;
   position: relative; }
   .m-blog-item .m-item--hed {
-    font-family: "Purista";
-    font-weight: normal;
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     font-size: 1.2rem;
     padding: 8px 16px;
@@ -4405,8 +4416,8 @@ a:hover .svg-button #button {
       .m-list .m-item .m-item--hed a:hover {
         color: #c20e1a; }
   .m-list .m-item .m-item--meta {
-    font-family: "Purista";
-    font-weight: 100;
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     font-size: 2.66667rem;
     line-height: 1.2em;
@@ -4432,8 +4443,8 @@ a:hover .svg-button #button {
   .m-partner .m-item--image {
     margin-bottom: 16.66667px; }
   .m-partner .m-item--hed {
-    font-family: "Purista";
-    font-weight: normal;
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     font-size: 1.2rem;
     font-weight: bold; }
@@ -4443,8 +4454,8 @@ a:hover .svg-button #button {
 .l-partner_large .m-partner .m-item--image {
   margin-bottom: 25px; }
 .l-partner_large .m-partner .m-item--hed {
-  font-family: "Purista";
-  font-weight: 100;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 2.66667rem; }
 .l-partner_large .m-partner .m-item--description {
@@ -4476,8 +4487,8 @@ a:hover .svg-button #button {
     width: 100%;
     height: auto; }
 .m-story h5 {
-  font-family: "Purista";
-  font-weight: normal;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 1.2rem;
   text-decoration: underline;
@@ -4535,8 +4546,8 @@ aside .m-story {
   margin-top: 0 !important;
   margin-bottom: 16.66667px; }
   aside .m-story .m-item--hed {
-    font-family: "Purista";
-    font-weight: normal;
+    font-family: "purista-web";
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     font-size: 1.2rem;
     font-size: 1.06667rem;
@@ -4548,8 +4559,8 @@ aside .m-story {
         color: #c20e1a; }
 
 aside h2 {
-  font-family: "Purista";
-  font-weight: 100;
+  font-family: "purista-web";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 2.66667rem;
   font-size: 1.06667rem;
