@@ -84,3 +84,15 @@ $navbar-height: $navbar-height_AB;
 #skrollr-body {
     pointer-events: none;
 }
+
+
+// modal
+
+.reveal-modal {
+    &.fixed {
+    position: fixed;
+    top: 10% !important;
+    bottom: 10%;
+    margin: auto;
+    }
+}

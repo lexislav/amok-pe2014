@@ -9,7 +9,7 @@
         <div class="m-schema--left">
 
 
-            <div class="m-schema--label label1" data-anchor-target="#animAnchor2" data-bottom="opacity:0;display:none" data-center="opacity:1;display:block" data-top="opacity:0;display:none">
+            <div class="m-schema--label label1" data-anchor-target="#animAnchor2" data-bottom="opacity:0;z-index:1" data-center="opacity:1;z-index:100" data-top="opacity:0;z-index:0">
                 <h2 class="m-item--hed"><strong>Přízemí:</strong> Země – Voda</h2>
 
                 <div class="m-item--description">
@@ -17,7 +17,7 @@
                 </div>
                 <ul class="mm-red">
                     <li>
-                        <h3><span>1.</span>URBÁNNÍ BAZÉN<a href="" class="m-icon" data-reveal-id="myModal"><span>moreinfo</span></a></h3>
+                        <h3><span>1.</span>URBÁNNÍ BAZÉN<i href="" class="m-icon" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Český sen o moři symbolizuje urbánní bazén pavilonu. Mělký bazén zároveň splní úlohu relaxační plochy.</p>
                     </li>
@@ -40,7 +40,7 @@
             </div>
 
 
-            <div class="m-schema--label label2" data-anchor-target="#animAnchor3" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
+            <div class="m-schema--label label2" data-anchor-target="#animAnchor3" data-bottom="opacity:0;z-index:1" data-center="opacity:1;z-index:100" data-top="opacity:0;z-index:1">
                 <h2 class="m-item--hed">1. patro: Země příběhů a fantazie</h2>
 
                 <div class="m-item--description">
@@ -67,7 +67,7 @@
             </div>
 
 
-            <div class="m-schema--label label3" data-anchor-target="#animAnchor4" data-bottom="opacity:0;" data-center="opacity:1;" data-top="opacity:0;">
+            <div class="m-schema--label label3" data-anchor-target="#animAnchor4" data-bottom="opacity:0;z-index:1" data-center="opacity:1;z-index:100" data-top="opacity:0;z-index:1">
                 <h2 class="m-item--hed">2. patro: Laboratoř života</h2>
 
                 <div class="m-item--description">
@@ -94,7 +94,7 @@
             </div>
 
 
-            <div class="m-schema--label label4" data-anchor-target="#animAnchor5" data-bottom="opacity:0;" data-center="opacity:1;">
+            <div class="m-schema--label label4" data-anchor-target="#animAnchor5" data-bottom="opacity:0;z-index:1" data-center="opacity:1;z-index:100">
                 <h2 class="m-item--hed">Střecha: Zahrada & relax</h2>
 
                 <div class="m-item--description">
@@ -299,14 +299,22 @@
 </div>
 
 <section class="modals">
-    <div class="modal" id="myModal">modal xy</div>
+
+    <div id="myModal" class="reveal-modal fixed xlarge" data-reveal>
+        <h2>Awesome. I have it.</h2>
+        <p class="lead">Your couch.  It is mine.</p>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+
 </section>
 
 
 
+
+<script type="text/javascript" src="components/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="components/foundation/js/foundation/foundation.js"></script>
 <script type="text/javascript" src="components/foundation/js/foundation/foundation.reveal.js"></script>
-<script type="text/javascript" src="components/slick/slick/slick.min.js"></script>
 <script type="text/javascript">
 
     $(document).foundation();

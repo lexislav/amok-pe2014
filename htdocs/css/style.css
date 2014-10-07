@@ -4936,4 +4936,10 @@ aside h2 {
 #skrollr-body {
   pointer-events: none; }
 
+.reveal-modal.fixed, dialog.fixed {
+  position: fixed;
+  top: 10% !important;
+  bottom: 10%;
+  margin: auto; }
+
 /*# sourceMappingURL=style.map */
