@@ -37,7 +37,6 @@
     span {
         display: none;
     }
-    background-color: red;
     width: 1em;
     height: 1em;
     display: inline-block;
@@ -45,6 +44,34 @@
 
     cursor: pointer;
 
+    &:before {
+        content: " ";
+        width: 20px;
+        height: 20px;
+        //float: right;
+        position: relative;
+        display: block;
+        background-position: 0% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    &.mm-hover {
+        opacity: .5;
+        &:hover {
+            @include transition(opacity 0.3s);
+            opacity: 1;
+
+        }
+    }
+
+}
+
+.i-info {
+    &:before {
+        background-image: url("/assets/ikony/info.svg");
+    }
 }
 
 .i-bulb {

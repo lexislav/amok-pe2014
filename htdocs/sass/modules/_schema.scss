@@ -52,11 +52,18 @@
     overflow: hidden;
 
     .m-schema--decoration {
+
+        display: none;
+
         height: 10%;
         background-color: #fcfcfc;
         width: 100%;
         position: fixed;
         left: 0;
+
+        @media #{size(D)} {
+            display: block;
+            }
 
         &.mm-top {
             top: 0;
@@ -66,6 +73,24 @@
         &.mm-bottom {
             border-top: 1px dashed #ccc;
             bottom: 0;
+            padding-top: 20px;
+
+            color: #ccc;
+            text-align: center;
+            i {
+                font-style: normal;
+                font-size: rem-calc(12);
+                &:before {
+                    display: block;
+                    content: "";
+                    background-image: url("/assets/ikony/arrow-down.png");
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 100px;
+                    height: 20px;
+                    margin: 0 auto;
+                }
+            }
         }
     }
 

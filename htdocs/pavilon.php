@@ -4,7 +4,7 @@
 
 <div class="l-schema m-schema">
     <div class="m-schema--decoration mm-top"></div>
-    <div class="m-schema--decoration mm-bottom"></div>
+    <div class="m-schema--decoration mm-bottom"><i>scroll down</i></div>
     <div class="m-schema--frame">
         <div class="m-schema--left">
 
@@ -17,22 +17,22 @@
                 </div>
                 <ul class="mm-red">
                     <li>
-                        <h3><span>1.</span>URBÁNNÍ BAZÉN<i href="" class="m-icon" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3><span>1.</span>URBÁNNÍ BAZÉN<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Český sen o moři symbolizuje urbánní bazén pavilonu. Mělký bazén zároveň splní úlohu relaxační plochy.</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>BUFET</h3>
+                        <h3><span>2.</span>BUFET<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Občerstvení pro všechny kteří chtějí skočit do vody i všem ostatním, kteří relaxují u bazénu.</p>
                     </li>
                     <li>
-                        <h3><span>3.</span>RESTAURACE</h3>
+                        <h3><span>3.</span>RESTAURACE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>O pohodlí a knedlíky nebude v pavilonu nouze. Zázemí restaurace vyhovuje nejpřísnějším hygienickým předpisům i dostatečným pohodlím.</p>
                     </li>
                     <li>
-                        <h3><span>4.</span>AMFITEÁTR</h3>
+                        <h3><span>4.</span>AMFITEÁTR<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Schody vedoucí do prvního patra nejsou obyčejné schody. Slouží také k odpočinku ve stínku i jako přednáškový sál!</p>
                     </li>
@@ -48,17 +48,17 @@
                 </div>
                 <ul class="mm-green">
                     <li>
-                        <h3><span>1.</span>NÁRODNÍ EXPOZICE</h3>
+                        <h3><span>1.</span>NÁRODNÍ EXPOZICE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>V národní expozici s názvem “Země příběhů a fantazie” se v průběhu konání výstavy vystřídají expozice z 8 vybraných krajů České republiky</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>LABORATŘ TICHA / ČESKÝ LES</h3>
+                        <h3><span>2.</span>LABORATŘ TICHA / ČESKÝ LES<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Speciální umělecký objekt reprezentující české umění</p>
                     </li>
                     <li>
-                        <h3><span>3.</span>ZÁZEMÍ</h3>
+                        <h3><span>3.</span>ZÁZEMÍ<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>První patro ukrývá zázemí pro personál i návštěvy.</p>
                     </li>
@@ -75,17 +75,17 @@
                 </div>
                 <ul class="mm-blue">
                     <li>
-                        <h3><span>1.</span>TRVALÁ EXPOZICE</h3>
+                        <h3><span>1.</span>TRVALÁ EXPOZICE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Stálá expozice bude prezentovat výsledky vědy doplněné uměleckými předměty předních českých umělců.</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>UMĚLECKÝ OBJEKT</h3>
+                        <h3><span>2.</span>UMĚLECKÝ OBJEKT<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Kinetická plastika společnosti Lasvit, která byla premiérově představena na výstavě v Miláně 2014 Salone Internazionale del Mobile.</p>
                     </li>
                     <li>
-                        <h3><span>3.</span>V.I.P. SALONEK</h3>
+                        <h3><span>3.</span>V.I.P. SALONEK<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>VIP salonek, který bude sloužit partnerům k prezentacím, konferencím a schůzkám.</p>
                     </li>
@@ -102,12 +102,12 @@
                 </div>
                 <ul class="mm-yellow">
                     <li>
-                        <h3><span>1.</span>STŘEŠNÍ ZAHRADA</h3>
+                        <h3><span>1.</span>STŘEŠNÍ ZAHRADA<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Relaxační plocha plná zeleně poskytne návštěvníkům přehled o celém areálu EXPO2015 v Miláně i příjemný posez a tak dále.</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>UMĚLECKÝ OBJEKT</h3>
+                        <h3><span>2.</span>UMĚLECKÝ OBJEKT<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
 
                         <p>Zatím tajemstvím opředená expozice (Diaz) reprezentující stav umění v Česku.</p>
                     </li>
@@ -197,6 +197,7 @@
     <div class="m-schema-control" id="animAnchor4"><span>a4</span></div>
     <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor5"><span>a5</span></div>
+    <div class="m-schema-spacer-half"></div>
 
 
     <div class="skrollr-wrap">
@@ -298,15 +299,16 @@
     </div>
 </div>
 
-<section class="modals">
 
+<!-- modals -->
+
+<section class="modals">
     <div id="myModal" class="reveal-modal fixed xlarge" data-reveal>
         <h2>Awesome. I have it.</h2>
         <p class="lead">Your couch.  It is mine.</p>
         <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
         <a class="close-reveal-modal">&#215;</a>
     </div>
-
 </section>
 
 
@@ -340,6 +342,10 @@
         $(".m-schema-spacer").each(function () {
             var el = $(this);
             el.css('height', $(window).height() * 0.76);
+        });
+        $(".m-schema-spacer-half").each(function () {
+            var el = $(this);
+            el.css('height', ($(window).height() * 0.76) * 0.5);
         });
 
     });

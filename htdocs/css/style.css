@@ -4173,17 +4173,36 @@ th.hide-for-touch {
   .m-schema .np7 {
     background-image: url("/assets/pavilon-sm/p3-1.png"); }
   .m-schema .m-schema--decoration {
+    display: none;
     height: 10%;
     background-color: #fcfcfc;
     width: 100%;
     position: fixed;
     left: 0; }
+    @media only screen and (min-width:1411px) {
+      .m-schema .m-schema--decoration {
+        display: block; } }
     .m-schema .m-schema--decoration.mm-top {
       top: 0;
       border-bottom: 1px dashed #ccc; }
     .m-schema .m-schema--decoration.mm-bottom {
       border-top: 1px dashed #ccc;
-      bottom: 0; }
+      bottom: 0;
+      padding-top: 20px;
+      color: #ccc;
+      text-align: center; }
+      .m-schema .m-schema--decoration.mm-bottom i {
+        font-style: normal;
+        font-size: 0.8rem; }
+        .m-schema .m-schema--decoration.mm-bottom i:before {
+          display: block;
+          content: "";
+          background-image: url("/assets/ikony/arrow-down.png");
+          background-repeat: no-repeat;
+          background-position: center center;
+          width: 100px;
+          height: 20px;
+          margin: 0 auto; }
   .m-schema .m-schema--frame {
     position: absolute;
     margin: auto;
@@ -4736,7 +4755,6 @@ th.hide-for-touch {
     background-size: contain; }
 
 .m-icon {
-  background-color: red;
   width: 1em;
   height: 1em;
   display: inline-block;
@@ -4744,6 +4762,25 @@ th.hide-for-touch {
   cursor: pointer; }
   .m-icon span {
     display: none; }
+  .m-icon:before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: block;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .m-icon.mm-hover {
+    opacity: 0.5; }
+    .m-icon.mm-hover:hover {
+      -webkit-transition: opacity 0.3s;
+      -moz-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+      opacity: 1; }
+
+.i-info:before {
+  background-image: url("/assets/ikony/info.svg"); }
 
 .i-bulb:before {
   background-image: url("/assets/ikony/zarovka.svg"); }
