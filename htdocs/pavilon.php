@@ -285,6 +285,7 @@
             </div>
         </div>
 
+
         <?php include "templates/inc-footer-partner.php"; ?>
         <?php include "templates/inc-footer.php"; ?>
 
@@ -315,14 +316,11 @@
 
     $(document).foundation();
 
-    var s = skrollr.init({
-        smoothScrolling: false,
-        mobileDeceleration: 0.01
-    });
+
 
 
     $(document).ready(function () {
-          $(".m-carousel > .m-carousel--item").css('height', $(window).height());
+        $(".m-carousel > .m-carousel--item").css('height', $(window).height() - 100);
         // $(".m-carousel-holder").css('height', $(window).height());
 
         /* $('.m-carousel').slick({
@@ -367,6 +365,11 @@
                 $(".m-nav").removeClass("mm-white");
             }
         });*/
+
+        var s = skrollr.init({
+            smoothScrolling: false,
+            mobileDeceleration: 0.01
+        });
 
     });
 
