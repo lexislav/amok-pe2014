@@ -128,6 +128,7 @@
 
     .m-schema--left,
     .m-schema--right {
+        @include clearfix();
         position: relative;
         height: 100%;
         float: left;
@@ -286,6 +287,7 @@
     > span {
         visibility: hidden;
     }
+    @include clearfix();
 }
 
 .m-schema-spacer {
@@ -293,6 +295,7 @@
     pointer-events: none;
     width: 100%;
     height: 600px;
+    @include clearfix();
 }
 
 #skrollr-body {
@@ -302,12 +305,11 @@
 
 .skrollr-wrap {
     background-color: white;
-
+    @include clearfix();
 }
 
 .to-fix {
     height: 900px;
-    border: 2px solid orange;
 }
 
 .fixed {

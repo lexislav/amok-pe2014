@@ -285,16 +285,16 @@
             </div>
         </div>
 
-
         <?php include "templates/inc-footer-partner.php"; ?>
         <?php include "templates/inc-footer.php"; ?>
 
+
     </div>
+
 </div>
 
 
 <!-- modals -->
-
 <section class="modals">
     <div id="myModal" class="reveal-modal fixed xlarge" data-reveal>
         <h2>Awesome. I have it.</h2>
@@ -305,6 +305,7 @@
         <a class="close-reveal-modal">&#215;</a>
     </div>
 </section>
+
 
 
 <script type="text/javascript" src="components/slick/slick/slick.min.js"></script>

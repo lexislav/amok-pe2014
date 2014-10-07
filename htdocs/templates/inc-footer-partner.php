@@ -34,7 +34,7 @@
 </div>
 
 <!-- partners gold -->
-<div class="l-section ">
+<div class="l-section">
     <article>
         <header class="clearfix mgr-full row">
             <div class="small-12 columns">
