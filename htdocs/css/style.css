@@ -4555,8 +4555,9 @@ th.hide-for-touch {
 
 .m-carousel {
   width: 100%;
-  height: 800px;
-  overflow: hidden; }
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
   .m-carousel .orbit-caption {
     position: absolute;
     left: 0;
@@ -4568,21 +4569,26 @@ th.hide-for-touch {
     text-align: center;
     font-size: 4rem;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
-  .m-carousel .m-carousel--item img {
-    width: 100%;
-    height: auto; }
-  .m-carousel .m-carousel--item .m-item--hed {
-    width: 600px;
-    margin: 0 auto;
-    margin-top: 200px;
-    line-height: 1.3em; }
-  .m-carousel .m-carousel--item .m-item--description {
-    position: absolute;
-    bottom: 120px;
-    width: 400px;
-    left: 0;
-    right: 0;
-    margin: auto; }
+  .m-carousel .m-carousel--item {
+    background-color: #000; }
+    .m-carousel .m-carousel--item .m-item--image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover; }
+    .m-carousel .m-carousel--item .m-item--hed {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 200px;
+      line-height: 1.3em; }
+    .m-carousel .m-carousel--item .m-item--description {
+      position: absolute;
+      bottom: 120px;
+      width: 400px;
+      left: 0;
+      right: 0;
+      margin: auto; }
   .m-carousel .m-carousel--arrow-down {
     position: absolute;
     bottom: 0;

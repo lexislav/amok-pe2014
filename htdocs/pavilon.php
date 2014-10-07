@@ -137,7 +137,7 @@
 
     <div class="m-carousel">
         <div class="m-carousel--item">
-            <img src="/assets/photos/pavilon/s32.jpg" alt="slide 1" />
+            <div class="m-item--image" style="background-image: url('/assets/photos/pavilon/s32.jpg');"></div>
 
             <div class="orbit-caption">
                 <div class="m-item--hed">Prohlédněte si český pavilon</div>
@@ -154,7 +154,7 @@
             </div>
         </div>
         <div class="m-carousel--item">
-            <img src="/assets/photos/pavilon/s33.jpg" alt="slide 1" />
+            <div class="m-item--image" style="background-image: url('/assets/photos/pavilon/s33.jpg');"></div>
 
             <div class="orbit-caption">
                 <div class="m-item--hed">Prohlédněte si český pavilon</div>
@@ -171,7 +171,7 @@
             </div>
         </div>
         <div class="m-carousel--item">
-            <img src="/assets/photos/pavilon/s34.jpg" alt="slide 1" />
+            <div class="m-item--image" style="background-image: url('/assets/photos/pavilon/s34.jpg');"></div>
 
             <div class="orbit-caption">
                 <div class="m-item--hed">Prohlédněte si český pavilon</div>
@@ -328,12 +328,12 @@
 
 
     $(document).ready(function () {
-        $(".m-carousel > .m-carousel--item").css('max-height', $(window).height());
-        $(".m-carousel").css('max-height', $(window).height());
+        $(".m-carousel > .m-carousel--item").css('height', $(window).height());
+        //$(".m-carousel").css('max-height', $(window).height());
         $(".m-carousel").css('height', $(window).height());
 
         $('.m-carousel').slick({
-            autoplay: false,
+            autoplay: true,
             speed: 500,
             fade: true,
             cssEase: 'linear'
@@ -347,6 +347,12 @@
             var el = $(this);
             el.css('height', ($(window).height() * 0.76) * 0.5);
         });
+
+        /*$(window).resize(function() {
+            $(".m-carousel > .m-carousel--item").css('max-height', $(window).height());
+            $(".m-carousel").css('max-height', $(window).height());
+            $(".m-carousel").css('height', $(window).height());
+        });*/
 
     });
 
