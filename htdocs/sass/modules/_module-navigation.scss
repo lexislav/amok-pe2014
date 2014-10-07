@@ -228,6 +228,23 @@
 
 //
 
+.touch {
+    .m-nav {
+        .m-nav--panel {
+        background-color: white !important;
+            height: $navbar-height_AB;
+            font-size: 16px !important;
+            .m-nav--lang,
+            .m-nav--logo,
+            .m-nav--button{
+                max-height: $navbar-height_AB;
+            font-size: 16px !important;
+                line-height: $navbar-height_AB !important;
+            }
+        }
+    }
+}
+
 .m-nav .m-item {
 
     .m-item--hed {

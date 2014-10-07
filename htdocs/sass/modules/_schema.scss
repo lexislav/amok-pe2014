@@ -203,11 +203,11 @@
                 padding-top: 0;
 
                 p {
-                    font-size: rem-calc(12);
+                    font-size: rem-calc(10);
                     margin: 0;
 
                     @media #{$large-up} {
-                        font-size: rem-calc(13);
+                        font-size: rem-calc(12);
 
                     }
 

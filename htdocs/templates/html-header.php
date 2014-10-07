@@ -34,6 +34,7 @@
 
     <title>Koma micro</title>
 
+    <script src="/js/cust-modernizr.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 

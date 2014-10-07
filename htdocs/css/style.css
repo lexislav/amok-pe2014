@@ -4007,6 +4007,15 @@ th.hide-for-touch {
         .m-nav.mm-white .m-nav--panel .m-nav--lang a.is-active, .m-nav[color="mm-white"] .m-nav--panel .m-nav--lang a.is-active {
           color: #4A4A4A; }
 
+.touch .m-nav .m-nav--panel {
+  background-color: white !important;
+  height: 48px;
+  font-size: 16px !important; }
+  .touch .m-nav .m-nav--panel .m-nav--lang, .touch .m-nav .m-nav--panel .m-nav--logo, .touch .m-nav .m-nav--panel .m-nav--button {
+    max-height: 48px;
+    font-size: 16px !important;
+    line-height: 48px !important; }
+
 .m-nav .m-item .m-item--hed a {
   font-weight: 800;
   font-size: 2rem;
@@ -4287,11 +4296,11 @@ th.hide-for-touch {
         margin-bottom: 16px;
         padding-top: 0; }
         .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
-          font-size: 0.8rem;
+          font-size: 0.66667rem;
           margin: 0; }
           @media only screen and (min-width:781px) {
             .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
-              font-size: 0.86667rem; } }
+              font-size: 0.8rem; } }
           @media only screen and (min-width:1411px) {
             .m-schema .m-schema--label ul li p, .m-schema .m-schema--label ol li p {
               font-size: 1rem; } }
@@ -4554,23 +4563,15 @@ th.hide-for-touch {
           text-align: center !important; } }
 
 .m-carousel {
+  position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  position: relative; }
-  .m-carousel .orbit-caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+  overflow: hidden; }
   .m-carousel .m-carousel--item {
-    background-color: #000; }
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 100%; }
     .m-carousel .m-carousel--item .m-item--image {
       display: block;
       width: 100%;
@@ -4589,6 +4590,17 @@ th.hide-for-touch {
       left: 0;
       right: 0;
       margin: auto; }
+    .m-carousel .m-carousel--item .orbit-caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-size: 4rem;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
   .m-carousel .m-carousel--arrow-down {
     position: absolute;
     bottom: 0;

@@ -17,22 +17,30 @@
                 </div>
                 <ul class="mm-red">
                     <li>
-                        <h3><span>1.</span>URBÁNNÍ BAZÉN<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>1.</span>URBÁNNÍ BAZÉN<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Český sen o moři symbolizuje urbánní bazén pavilonu. Mělký bazén zároveň splní úlohu relaxační plochy.</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>BUFET<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>2.</span>BUFET<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Občerstvení pro všechny kteří chtějí skočit do vody i všem ostatním, kteří relaxují u bazénu.</p>
                     </li>
                     <li>
-                        <h3><span>3.</span>RESTAURACE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>3.</span>RESTAURACE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>O pohodlí a knedlíky nebude v pavilonu nouze. Zázemí restaurace vyhovuje nejpřísnějším hygienickým předpisům i dostatečným pohodlím.</p>
                     </li>
                     <li>
-                        <h3><span>4.</span>AMFITEÁTR<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>4.</span>AMFITEÁTR<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Schody vedoucí do prvního patra nejsou obyčejné schody. Slouží také k odpočinku ve stínku i jako přednáškový sál!</p>
                     </li>
@@ -48,17 +56,23 @@
                 </div>
                 <ul class="mm-green">
                     <li>
-                        <h3><span>1.</span>NÁRODNÍ EXPOZICE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>1.</span>NÁRODNÍ EXPOZICE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>V národní expozici s názvem “Země příběhů a fantazie” se v průběhu konání výstavy vystřídají expozice z 8 vybraných krajů České republiky</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>LABORATŘ TICHA / ČESKÝ LES<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>2.</span>LABORATŘ TICHA / ČESKÝ LES<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Speciální umělecký objekt reprezentující české umění</p>
                     </li>
                     <li>
-                        <h3><span>3.</span>ZÁZEMÍ<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>3.</span>ZÁZEMÍ<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>První patro ukrývá zázemí pro personál i návštěvy.</p>
                     </li>
@@ -75,17 +89,23 @@
                 </div>
                 <ul class="mm-blue">
                     <li>
-                        <h3><span>1.</span>TRVALÁ EXPOZICE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>1.</span>TRVALÁ EXPOZICE<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Stálá expozice bude prezentovat výsledky vědy doplněné uměleckými předměty předních českých umělců.</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>UMĚLECKÝ OBJEKT<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>2.</span>UMĚLECKÝ OBJEKT<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Kinetická plastika společnosti Lasvit, která byla premiérově představena na výstavě v Miláně 2014 Salone Internazionale del Mobile.</p>
                     </li>
                     <li>
-                        <h3><span>3.</span>V.I.P. SALONEK<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>3.</span>V.I.P. SALONEK<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>VIP salonek, který bude sloužit partnerům k prezentacím, konferencím a schůzkám.</p>
                     </li>
@@ -102,12 +122,16 @@
                 </div>
                 <ul class="mm-yellow">
                     <li>
-                        <h3><span>1.</span>STŘEŠNÍ ZAHRADA<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>1.</span>STŘEŠNÍ ZAHRADA<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Relaxační plocha plná zeleně poskytne návštěvníkům přehled o celém areálu EXPO2015 v Miláně i příjemný posez a tak dále.</p>
                     </li>
                     <li>
-                        <h3><span>2.</span>UMĚLECKÝ OBJEKT<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i></h3>
+                        <h3>
+                            <span>2.</span>UMĚLECKÝ OBJEKT<i class="m-icon i-info mm-hover" data-reveal-id="myModal"><span>moreinfo</span></i>
+                        </h3>
 
                         <p>Zatím tajemstvím opředená expozice (Diaz) reprezentující stav umění v Česku.</p>
                     </li>
@@ -153,41 +177,8 @@
                 <img src="/assets/ikony/arrow-down.png" alt="" />
             </div>
         </div>
-        <div class="m-carousel--item">
-            <div class="m-item--image" style="background-image: url('/assets/photos/pavilon/s33.jpg');"></div>
-
-            <div class="orbit-caption">
-                <div class="m-item--hed">Prohlédněte si český pavilon</div>
-                <div class="m-item--description fnt-primary-body-m" style="margin-top: 200px;">
-                    Český pavilon reprezentuje český sen o moři,
-                    česko jako střechu Evropy.
-                    Umístěn je hned u hlavního vchodu
-                    a bude sloužit jako relax pro všechny návštěvníky světové výstavy.
-                </div>
-
-            </div>
-            <div class="m-carousel--arrow-down">
-                <img src="/assets/ikony/arrow-down.png" alt="" />
-            </div>
-        </div>
-        <div class="m-carousel--item">
-            <div class="m-item--image" style="background-image: url('/assets/photos/pavilon/s34.jpg');"></div>
-
-            <div class="orbit-caption">
-                <div class="m-item--hed">Prohlédněte si český pavilon</div>
-                <div class="m-item--description fnt-primary-body-m" style="margin-top: 200px;">
-                    Český pavilon reprezentuje český sen o moři,
-                    česko jako střechu Evropy.
-                    Umístěn je hned u hlavního vchodu
-                    a bude sloužit jako relax pro všechny návštěvníky světové výstavy.
-                </div>
-
-            </div>
-            <div class="m-carousel--arrow-down">
-                <img src="/assets/ikony/arrow-down.png" alt="" />
-            </div>
-        </div>
     </div>
+
 
     <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor2"><span>a2</span></div>
@@ -305,13 +296,13 @@
 <section class="modals">
     <div id="myModal" class="reveal-modal fixed xlarge" data-reveal>
         <h2>Awesome. I have it.</h2>
-        <p class="lead">Your couch.  It is mine.</p>
+
+        <p class="lead">Your couch. It is mine.</p>
+
         <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
         <a class="close-reveal-modal">&#215;</a>
     </div>
 </section>
-
-
 
 
 <script type="text/javascript" src="components/slick/slick/slick.min.js"></script>
@@ -328,16 +319,15 @@
 
 
     $(document).ready(function () {
-        $(".m-carousel > .m-carousel--item").css('height', $(window).height());
-        //$(".m-carousel").css('max-height', $(window).height());
-        $(".m-carousel").css('height', $(window).height());
+          $(".m-carousel > .m-carousel--item").css('height', $(window).height());
+        // $(".m-carousel-holder").css('height', $(window).height());
 
-        $('.m-carousel').slick({
-            autoplay: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
+        /* $('.m-carousel').slick({
+         autoplay: false,
+         speed: 500,
+         fade: true,
+         cssEase: 'linear'
+         });*/
 
         $(".m-schema-spacer").each(function () {
             var el = $(this);
@@ -348,15 +338,34 @@
             el.css('height', ($(window).height() * 0.76) * 0.5);
         });
 
-        /*$(window).resize(function() {
-            $(".m-carousel > .m-carousel--item").css('max-height', $(window).height());
-            $(".m-carousel").css('max-height', $(window).height());
-            $(".m-carousel").css('height', $(window).height());
+
+        var menuBreakPoint = $(window).height() * .9;
+
+        $(window).resize(function () {
+            // update menu break point
+            menuBreakPoint = $(window).height() * .9;
+
+            // resize carousel
+
+            // $(".m-carousel").css('height', $(window).height());
+            //$(".m-carousel-holder").css('height', $(window).height());
+            //$(".m-carousel > .m-carousel--item").css('height', $(window).height());
+
+        });
+
+        // menu swithching
+        /*$(window).scroll(function () {
+            console.log('st:' + $(window).scrollTop());
+            if ($(window).scrollTop() > menuBreakPoint) {
+                $(".m-nav").addClass("mm-white");
+                $(".m-nav").removeClass("mm-black");
+            } else {
+                $(".m-nav").addClass("mm-black");
+                $(".m-nav").removeClass("mm-white");
+            }
         });*/
 
     });
-
-
 
 
 </script>
