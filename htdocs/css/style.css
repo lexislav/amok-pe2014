@@ -4374,6 +4374,30 @@ th.hide-for-touch {
   bottom: 0;
   margin: auto; }
 
+.touch .l-schema {
+  top: 48px;
+  max-width: 1024px; }
+  .touch .l-schema .m-schema--frame {
+    /*.m-schema--slides {
+            border: 5px solid red;
+            //left: 50px;
+            width: 90%;
+            right: 0;
+        }*/ }
+    .touch .l-schema .m-schema--frame .m-schema--left {
+      width: 42%; }
+    .touch .l-schema .m-schema--frame .m-schema--right {
+      width: 58%; }
+    .touch .l-schema .m-schema--frame .m-schema--label .m-item--description {
+      font-family: "nudista-web";
+      font-weight: 300;
+      -webkit-font-smoothing: antialiased;
+      font-size: 1.6rem;
+      font-size: 1.46667rem;
+      line-height: 1.3em; }
+      .touch .l-schema .m-schema--frame .m-schema--label .m-item--description.fnt-white {
+        font-weight: 300; }
+
 .m-section_pavilon .padded {
   padding-right: 60px; }
 .m-section_pavilon h1, .m-section_pavilon h2 {

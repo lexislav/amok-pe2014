@@ -9,7 +9,7 @@
         <div class="m-schema--left">
 
 
-            <div class="m-schema--label label1" data-anchor-target="#animAnchor2" data-bottom="opacity:0;z-index:1" data-center="opacity:1;z-index:100" data-top="opacity:0;z-index:0">
+            <div class="m-schema--label label1" data-anchor-target="#animAnchor2"  data-center="opacity:1;z-index:100" data-top="opacity:0;z-index:0">
                 <h2 class="m-item--hed"><strong>Přízemí:</strong> Země – Voda</h2>
 
                 <div class="m-item--description">
@@ -181,6 +181,8 @@
 
 
     <div class="m-schema-spacer"></div>
+    <div class="m-schema-spacer"></div>
+
     <div class="m-schema-control" id="animAnchor2"><span>a2</span></div>
     <div class="m-schema-spacer"></div>
     <div class="m-schema-control" id="animAnchor3"><span>a3</span></div>
